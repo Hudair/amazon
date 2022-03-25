@@ -12,7 +12,7 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Dumping structure for table zcart2511.activity_log
+-- Dumping structure for table ArabCode2511.activity_log
 CREATE TABLE IF NOT EXISTS `activity_log` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `log_name` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `activity_log` (
   KEY `activity_log_log_name_index` (`log_name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.activity_log: ~38 rows (approximately)
+-- Dumping data for table ArabCode2511.activity_log: ~38 rows (approximately)
 /*!40000 ALTER TABLE `activity_log` DISABLE KEYS */;
 INSERT INTO `activity_log` (`id`, `log_name`, `description`, `subject_id`, `subject_type`, `causer_id`, `causer_type`, `properties`, `created_at`, `updated_at`) VALUES
 	(1, 'order', 'created', 1, 'App\\Models\\Order', NULL, NULL, '{"attributes":{"order_number":"#920655","shop_id":1,"customer_id":16,"ship_to":null,"shipping_zone_id":null,"shipping_rate_id":23,"packaging_id":1,"item_count":3,"quantity":3,"shipping_weight":"253.000000","taxrate":null,"total":"399.420292","discount":null,"shipping":"3.000000","packaging":null,"handling":null,"taxes":null,"grand_total":"402.420292","billing_address":"<address>23467 Satterfield Gateway Suite 202<br\\/>Kaia Road<br\\/>New Alexys, <br\\/>Z\\u0327uf\\u0101r 30274-7472<br\\/><abbr title=\\"Phone\\">P:<\\/abbr> +1 (610) 368-7072<\\/address>","shipping_address":"<address>23467 Satterfield Gateway Suite 202<br\\/>Kaia Road<br\\/>New Alexys, <br\\/>Z\\u0327uf\\u0101r 30274-7472<br\\/><abbr title=\\"Phone\\">P:<\\/abbr> +1 (610) 368-7072<\\/address>","shipping_date":null,"delivery_date":null,"tracking_id":"RR123456789CN","coupon_id":null,"carrier_id":null,"message_to_customer":null,"send_invoice_to_customer":null,"admin_note":"Quisquam in quasi eveniet illum perspiciatis sed.","buyer_note":"Aut numquam eos sunt esse.","payment_method_id":3,"payment_instruction":null,"payment_ref_id":null,"payment_date":null,"payment_status":1,"order_status_id":1,"goods_received":null,"approved":null,"feedback_id":null,"disputed":null,"email":null,"customer_phone_number":null,"fulfilment_type":"deliver","device_id":null,"razorpay_order_id":null,"razorpay_payment_id":null,"razorpay_signature":null}}', '2022-03-25 01:15:28', '2022-03-25 01:15:28'),
@@ -51,7 +51,7 @@ INSERT INTO `activity_log` (`id`, `log_name`, `description`, `subject_id`, `subj
 	(18, 'disput', 'created', 3, 'App\\Models\\Dispute', NULL, NULL, '{"attributes":{"shop_id":4,"dispute_type_id":1,"customer_id":3,"order_id":10,"product_id":null,"description":"Enim officia et dolor numquam nostrum veritatis et. Aut explicabo et qui soluta unde eum.","order_received":true,"return_goods":false,"refund_amount":null,"status":5}}', '2022-03-25 01:15:29', '2022-03-25 01:15:29'),
 	(19, 'disput', 'created', 4, 'App\\Models\\Dispute', NULL, NULL, '{"attributes":{"shop_id":1,"dispute_type_id":4,"customer_id":1,"order_id":12,"product_id":null,"description":"Expedita expedita molestiae consequuntur. Est itaque itaque accusamus natus minus inventore.","order_received":false,"return_goods":false,"refund_amount":null,"status":1}}', '2022-03-25 01:15:29', '2022-03-25 01:15:29'),
 	(20, 'disput', 'created', 5, 'App\\Models\\Dispute', NULL, NULL, '{"attributes":{"shop_id":2,"dispute_type_id":4,"customer_id":14,"order_id":9,"product_id":null,"description":"Id doloremque sint ut. Nesciunt minima ratione harum. Et fuga ad quia quia eaque ut magnam.","order_received":false,"return_goods":false,"refund_amount":null,"status":3}}', '2022-03-25 01:15:30', '2022-03-25 01:15:30'),
-	(21, 'system', 'updated', 1, 'App\\Models\\System', 1, 'App\\Models\\User', '{"attributes":{"name":"arabcode","legal_name":"arabcode"},"old":{"name":"zCart","legal_name":"Zcart Inc."}}', '2022-03-25 01:54:29', '2022-03-25 01:54:29'),
+	(21, 'system', 'updated', 1, 'App\\Models\\System', 1, 'App\\Models\\User', '{"attributes":{"name":"arabcode","legal_name":"arabcode"},"old":{"name":"ArabCode","legal_name":"ArabCode Inc."}}', '2022-03-25 01:54:29', '2022-03-25 01:54:29'),
 	(22, 'shop', 'updated', 6, 'App\\Models\\Shop', 1, 'App\\Models\\User', '{"attributes":{"legal_name":"arabcode","active":true},"old":{"legal_name":null,"active":false}}', '2022-03-25 02:11:18', '2022-03-25 02:11:18'),
 	(23, 'shop', 'updated', 1, 'App\\Models\\Shop', 1, 'App\\Models\\User', '{"attributes":{"name":"Haraj Marib","legal_name":"Haraj Marib Ltd.","email":"info@harajmarib.com","description":"market place multivendor","external_url":"https:\\/\\/harajmarib.com"},"old":{"name":"Big Shop","legal_name":"Big Shop Ltd.","email":"shop3@demo.com","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","external_url":null}}', '2022-03-25 15:09:22', '2022-03-25 15:09:22'),
 	(24, 'shop', 'updated', 2, 'App\\Models\\Shop', 1, 'App\\Models\\User', '{"attributes":{"name":"Ehsas","legal_name":"Ehsas Ltd.","email":"info@ehsas.net","description":"ehsas is drop shopping website for perfumes","external_url":"https:\\/\\/ehsas.net","timezone_id":55},"old":{"name":"Amz Mart","legal_name":"Amz Mart Ltd.","email":"shop4@demo.com","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","external_url":null,"timezone_id":73}}', '2022-03-25 15:11:41', '2022-03-25 15:11:41'),
@@ -71,7 +71,7 @@ INSERT INTO `activity_log` (`id`, `log_name`, `description`, `subject_id`, `subj
 	(38, 'order', 'updated', 9, 'App\\Models\\Order', 4, 'App\\Models\\User', '{"attributes":[],"old":[]}', '2022-03-25 17:51:11', '2022-03-25 17:51:11');
 /*!40000 ALTER TABLE `activity_log` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.addresses
+-- Dumping structure for table ArabCode2511.addresses
 CREATE TABLE IF NOT EXISTS `addresses` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `address_type` varchar(255) COLLATE utf8_unicode_ci DEFAULT 'Primary',
@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS `addresses` (
   CONSTRAINT `addresses_country_id_foreign` FOREIGN KEY (`country_id`) REFERENCES `countries` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=68 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.addresses: ~40 rows (approximately)
+-- Dumping data for table ArabCode2511.addresses: ~40 rows (approximately)
 /*!40000 ALTER TABLE `addresses` DISABLE KEYS */;
 INSERT INTO `addresses` (`id`, `address_type`, `address_title`, `address_line_1`, `address_line_2`, `city`, `state_id`, `zip_code`, `country_id`, `phone`, `latitude`, `longitude`, `addressable_id`, `addressable_type`, `created_at`, `updated_at`) VALUES
 	(1, 'Primary', NULL, 'Platform Address', NULL, 'Hollywood', 453, '63585', 840, NULL, NULL, NULL, 1, 'App\\Models\\System', '2022-03-25 01:12:30', '2022-03-25 01:12:30'),
@@ -139,7 +139,7 @@ INSERT INTO `addresses` (`id`, `address_type`, `address_title`, `address_line_1`
 	(67, 'Primary', 'Lesch-Lynch', '8520 Strosin Course Suite 555', 'Rosella Trace', 'Gerardoton', NULL, '39784', 84, '(734) 280-1585', 54.65, -2.59, 1, 'App\\Models\\Warehouse', '2022-03-25 01:14:25', '2022-03-25 01:14:25');
 /*!40000 ALTER TABLE `addresses` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.address_types
+-- Dumping structure for table ArabCode2511.address_types
 CREATE TABLE IF NOT EXISTS `address_types` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `type` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -147,7 +147,7 @@ CREATE TABLE IF NOT EXISTS `address_types` (
   UNIQUE KEY `address_types_type_unique` (`type`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.address_types: ~3 rows (approximately)
+-- Dumping data for table ArabCode2511.address_types: ~3 rows (approximately)
 /*!40000 ALTER TABLE `address_types` DISABLE KEYS */;
 INSERT INTO `address_types` (`id`, `type`) VALUES
 	(2, 'Billing'),
@@ -155,7 +155,7 @@ INSERT INTO `address_types` (`id`, `type`) VALUES
 	(3, 'Shipping');
 /*!40000 ALTER TABLE `address_types` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.announcements
+-- Dumping structure for table ArabCode2511.announcements
 CREATE TABLE IF NOT EXISTS `announcements` (
   `id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `user_id` int(11) NOT NULL,
@@ -167,13 +167,13 @@ CREATE TABLE IF NOT EXISTS `announcements` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.announcements: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.announcements: ~0 rows (approximately)
 /*!40000 ALTER TABLE `announcements` DISABLE KEYS */;
 INSERT INTO `announcements` (`id`, `user_id`, `body`, `action_text`, `action_url`, `created_at`, `updated_at`) VALUES
 	('9e274a6b-1340-4862-8ca2-525331830725', 1, 'Black Friday **Deals**!', 'Shop Now', '/', '2022-03-25 01:13:30', '2022-03-25 01:13:30');
 /*!40000 ALTER TABLE `announcements` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.attachments
+-- Dumping structure for table ArabCode2511.attachments
 CREATE TABLE IF NOT EXISTS `attachments` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `path` text COLLATE utf8_unicode_ci NOT NULL,
@@ -189,11 +189,11 @@ CREATE TABLE IF NOT EXISTS `attachments` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.attachments: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.attachments: ~0 rows (approximately)
 /*!40000 ALTER TABLE `attachments` DISABLE KEYS */;
 /*!40000 ALTER TABLE `attachments` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.attributes
+-- Dumping structure for table ArabCode2511.attributes
 CREATE TABLE IF NOT EXISTS `attributes` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -208,7 +208,7 @@ CREATE TABLE IF NOT EXISTS `attributes` (
   CONSTRAINT `attributes_attribute_type_id_foreign` FOREIGN KEY (`attribute_type_id`) REFERENCES `attribute_types` (`id`) ON DELETE SET NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.attributes: ~6 rows (approximately)
+-- Dumping data for table ArabCode2511.attributes: ~6 rows (approximately)
 /*!40000 ALTER TABLE `attributes` DISABLE KEYS */;
 INSERT INTO `attributes` (`id`, `shop_id`, `name`, `attribute_type_id`, `order`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, NULL, 'Color', 1, 0, NULL, '2022-03-25 01:12:44', '2022-03-25 01:12:44'),
@@ -219,7 +219,7 @@ INSERT INTO `attributes` (`id`, `shop_id`, `name`, `attribute_type_id`, `order`,
 	(6, NULL, 'Format', 3, 5, NULL, '2022-03-25 01:12:44', '2022-03-25 01:12:44');
 /*!40000 ALTER TABLE `attributes` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.attribute_categories
+-- Dumping structure for table ArabCode2511.attribute_categories
 CREATE TABLE IF NOT EXISTS `attribute_categories` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `category_id` int(10) unsigned DEFAULT NULL,
@@ -233,11 +233,11 @@ CREATE TABLE IF NOT EXISTS `attribute_categories` (
   CONSTRAINT `attribute_categories_category_id_foreign` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.attribute_categories: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.attribute_categories: ~0 rows (approximately)
 /*!40000 ALTER TABLE `attribute_categories` DISABLE KEYS */;
 /*!40000 ALTER TABLE `attribute_categories` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.attribute_inventory
+-- Dumping structure for table ArabCode2511.attribute_inventory
 CREATE TABLE IF NOT EXISTS `attribute_inventory` (
   `attribute_id` int(10) unsigned NOT NULL,
   `inventory_id` bigint(20) unsigned NOT NULL,
@@ -252,7 +252,7 @@ CREATE TABLE IF NOT EXISTS `attribute_inventory` (
   CONSTRAINT `attribute_inventory_inventory_id_foreign` FOREIGN KEY (`inventory_id`) REFERENCES `inventories` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.attribute_inventory: ~30 rows (approximately)
+-- Dumping data for table ArabCode2511.attribute_inventory: ~30 rows (approximately)
 /*!40000 ALTER TABLE `attribute_inventory` DISABLE KEYS */;
 INSERT INTO `attribute_inventory` (`attribute_id`, `inventory_id`, `attribute_value_id`, `created_at`, `updated_at`) VALUES
 	(2, 21, 12, '2022-03-25 01:13:30', '2022-03-25 01:13:30'),
@@ -287,7 +287,7 @@ INSERT INTO `attribute_inventory` (`attribute_id`, `inventory_id`, `attribute_va
 	(5, 9, 27, '2022-03-25 01:13:30', '2022-03-25 01:13:30');
 /*!40000 ALTER TABLE `attribute_inventory` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.attribute_types
+-- Dumping structure for table ArabCode2511.attribute_types
 CREATE TABLE IF NOT EXISTS `attribute_types` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `type` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
@@ -295,7 +295,7 @@ CREATE TABLE IF NOT EXISTS `attribute_types` (
   UNIQUE KEY `attribute_types_type_unique` (`type`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.attribute_types: ~3 rows (approximately)
+-- Dumping data for table ArabCode2511.attribute_types: ~3 rows (approximately)
 /*!40000 ALTER TABLE `attribute_types` DISABLE KEYS */;
 INSERT INTO `attribute_types` (`id`, `type`) VALUES
 	(1, 'Color/Pattern'),
@@ -303,7 +303,7 @@ INSERT INTO `attribute_types` (`id`, `type`) VALUES
 	(3, 'Select');
 /*!40000 ALTER TABLE `attribute_types` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.attribute_values
+-- Dumping structure for table ArabCode2511.attribute_values
 CREATE TABLE IF NOT EXISTS `attribute_values` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -319,7 +319,7 @@ CREATE TABLE IF NOT EXISTS `attribute_values` (
   CONSTRAINT `attribute_values_attribute_id_foreign` FOREIGN KEY (`attribute_id`) REFERENCES `attributes` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.attribute_values: ~30 rows (approximately)
+-- Dumping data for table ArabCode2511.attribute_values: ~30 rows (approximately)
 /*!40000 ALTER TABLE `attribute_values` DISABLE KEYS */;
 INSERT INTO `attribute_values` (`id`, `shop_id`, `value`, `color`, `attribute_id`, `order`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 4, 'qui', '#57c90b', 1, 4, NULL, '2022-03-25 01:14:23', '2022-03-25 01:14:23'),
@@ -354,7 +354,7 @@ INSERT INTO `attribute_values` (`id`, `shop_id`, `value`, `color`, `attribute_id
 	(30, 4, 'architecto', '#274a0b', 6, 6, NULL, '2022-03-25 01:14:25', '2022-03-25 01:14:25');
 /*!40000 ALTER TABLE `attribute_values` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.avg_feedback
+-- Dumping structure for table ArabCode2511.avg_feedback
 CREATE TABLE IF NOT EXISTS `avg_feedback` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `rating` tinyint(4) DEFAULT NULL,
@@ -366,7 +366,7 @@ CREATE TABLE IF NOT EXISTS `avg_feedback` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.avg_feedback: ~60 rows (approximately)
+-- Dumping data for table ArabCode2511.avg_feedback: ~60 rows (approximately)
 /*!40000 ALTER TABLE `avg_feedback` DISABLE KEYS */;
 INSERT INTO `avg_feedback` (`id`, `rating`, `count`, `feedbackable_id`, `feedbackable_type`, `created_at`, `updated_at`) VALUES
 	(1, 4, 1, 3, 'App\\Models\\Inventory', '2022-03-25 01:15:59', '2022-03-25 01:15:59'),
@@ -431,7 +431,7 @@ INSERT INTO `avg_feedback` (`id`, `rating`, `count`, `feedbackable_id`, `feedbac
 	(60, 3, 18, 5, 'App\\Models\\Shop', '2022-03-25 01:16:03', '2022-03-25 01:16:03');
 /*!40000 ALTER TABLE `avg_feedback` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.banners
+-- Dumping structure for table ArabCode2511.banners
 CREATE TABLE IF NOT EXISTS `banners` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -448,7 +448,7 @@ CREATE TABLE IF NOT EXISTS `banners` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.banners: ~10 rows (approximately)
+-- Dumping data for table ArabCode2511.banners: ~10 rows (approximately)
 /*!40000 ALTER TABLE `banners` DISABLE KEYS */;
 INSERT INTO `banners` (`id`, `title`, `description`, `link`, `link_label`, `bg_color`, `group_id`, `columns`, `order`, `effect`, `created_at`, `updated_at`) VALUES
 	(1, 'Knockout offers!', 'Up to 43% off', '/category/et-suscipit-aut-optio-quibusdam-dolor-dolorem-enim', 'Shop Now', '#6f80e0', 'group_1', 4, 100, 1, '2022-03-25 01:15:42', '2022-03-25 01:15:42'),
@@ -463,7 +463,7 @@ INSERT INTO `banners` (`id`, `title`, `description`, `link`, `link_label`, `bg_c
 	(10, 'Save up to 40%', '46% off today! + free shipping', '/category/veniam-error-saepe-eos-dolorum-dignissimos-sint', 'Shop Now', '#dce3fb', 'group_6', 6, 100, 1, '2022-03-25 01:15:42', '2022-03-25 01:15:42');
 /*!40000 ALTER TABLE `banners` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.banner_groups
+-- Dumping structure for table ArabCode2511.banner_groups
 CREATE TABLE IF NOT EXISTS `banner_groups` (
   `id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -471,7 +471,7 @@ CREATE TABLE IF NOT EXISTS `banner_groups` (
   UNIQUE KEY `banner_groups_name_unique` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.banner_groups: ~6 rows (approximately)
+-- Dumping data for table ArabCode2511.banner_groups: ~6 rows (approximately)
 /*!40000 ALTER TABLE `banner_groups` DISABLE KEYS */;
 INSERT INTO `banner_groups` (`id`, `name`) VALUES
 	('group_1', 'Group 1'),
@@ -482,7 +482,7 @@ INSERT INTO `banner_groups` (`id`, `name`) VALUES
 	('group_6', 'Group 6');
 /*!40000 ALTER TABLE `banner_groups` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.blogs
+-- Dumping structure for table ArabCode2511.blogs
 CREATE TABLE IF NOT EXISTS `blogs` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` text COLLATE utf8_unicode_ci NOT NULL,
@@ -504,10 +504,10 @@ CREATE TABLE IF NOT EXISTS `blogs` (
   CONSTRAINT `blogs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.blogs: ~6 rows (approximately)
+-- Dumping data for table ArabCode2511.blogs: ~6 rows (approximately)
 /*!40000 ALTER TABLE `blogs` DISABLE KEYS */;
 INSERT INTO `blogs` (`id`, `title`, `slug`, `excerpt`, `content`, `user_id`, `status`, `approved`, `published_at`, `likes`, `dislikes`, `deleted_at`, `created_at`, `updated_at`) VALUES
-	(1, 'Et molestiae molestiae quod quibusdam eum quibusdam.', 'abc-zcart-blog-post', 'Ipsam consequatur facere itaque eum natus repellat tempora voluptatem. Nihil quibusdam eum dignissimos consequatur inventore qui a ipsa. Est fugiat aut ratione sed et. Eligendi atque laboriosam commodi saepe corrupti.', '<p>Modi dignissimos exercitationem ab molestiae alias sint ut. Vero rerum nesciunt fuga consectetur doloribus porro aliquam. Non velit tempora et vel. Ipsa odio quasi veniam laudantium.</p><p>Eum sint dolore fugiat et est voluptatibus dignissimos. Consequuntur veniam itaque et dolorem iusto voluptatem vero. Est dolorum ea minima deserunt vitae. Reiciendis ratione ea sed porro consectetur dolore.</p><p>Reprehenderit qui nihil similique rerum aut voluptatem. Animi aspernatur qui unde quae porro. Voluptatum natus reprehenderit earum ipsum qui saepe incidunt. Atque inventore itaque porro libero soluta vitae.</p><p>Hic consequuntur unde ea commodi quas. Ut eum dolore beatae voluptatibus officia iste. Tempore rerum eius est in.<img src="https://farm5.staticflickr.com/4472/37699097482_c20aaa2910_z.jpg" width="640" height="424" alt="Rolling"></p><p>Dolores eaque fugiat odit libero deserunt. Quisquam qui enim sunt. Eos maiores nesciunt quia quia quae magni exercitationem.</p><p>Et nihil id quo sint perspiciatis sed reprehenderit itaque. Labore eos odit ipsam totam necessitatibus labore. Nostrum commodi voluptatum aut delectus dolorem dolorem quod laboriosam.</p><p>Quis et non ut hic quia dolorem nobis. Aut dolor exercitationem officia incidunt enim. Quidem voluptas quia placeat.</p>', 4, 1, 1, '2022-03-12 01:15:00', 0, 0, NULL, '2022-02-24 01:15:30', '2022-02-24 01:15:30'),
+	(1, 'Et molestiae molestiae quod quibusdam eum quibusdam.', 'abc-ArabCode-blog-post', 'Ipsam consequatur facere itaque eum natus repellat tempora voluptatem. Nihil quibusdam eum dignissimos consequatur inventore qui a ipsa. Est fugiat aut ratione sed et. Eligendi atque laboriosam commodi saepe corrupti.', '<p>Modi dignissimos exercitationem ab molestiae alias sint ut. Vero rerum nesciunt fuga consectetur doloribus porro aliquam. Non velit tempora et vel. Ipsa odio quasi veniam laudantium.</p><p>Eum sint dolore fugiat et est voluptatibus dignissimos. Consequuntur veniam itaque et dolorem iusto voluptatem vero. Est dolorum ea minima deserunt vitae. Reiciendis ratione ea sed porro consectetur dolore.</p><p>Reprehenderit qui nihil similique rerum aut voluptatem. Animi aspernatur qui unde quae porro. Voluptatum natus reprehenderit earum ipsum qui saepe incidunt. Atque inventore itaque porro libero soluta vitae.</p><p>Hic consequuntur unde ea commodi quas. Ut eum dolore beatae voluptatibus officia iste. Tempore rerum eius est in.<img src="https://farm5.staticflickr.com/4472/37699097482_c20aaa2910_z.jpg" width="640" height="424" alt="Rolling"></p><p>Dolores eaque fugiat odit libero deserunt. Quisquam qui enim sunt. Eos maiores nesciunt quia quia quae magni exercitationem.</p><p>Et nihil id quo sint perspiciatis sed reprehenderit itaque. Labore eos odit ipsam totam necessitatibus labore. Nostrum commodi voluptatum aut delectus dolorem dolorem quod laboriosam.</p><p>Quis et non ut hic quia dolorem nobis. Aut dolor exercitationem officia incidunt enim. Quidem voluptas quia placeat.</p>', 4, 1, 1, '2022-03-12 01:15:00', 0, 0, NULL, '2022-02-24 01:15:30', '2022-02-24 01:15:30'),
 	(2, 'Sed iusto sit et rerum ut repellat.', 'facere-aliquam-nesciunt-ipsum-quae-natus', 'Similique quae quo magni non et cupiditate asperiores. Voluptatum voluptatibus in soluta sunt natus. Et a ut voluptas maxime.', '<p>Eos harum repudiandae aut et odit. Perspiciatis ut et sed est voluptas est non. Explicabo voluptatem reprehenderit quaerat aut. Aperiam odit voluptas voluptatibus.</p><p>Quia qui consectetur blanditiis fugiat quo beatae ullam. Fuga nihil deserunt temporibus quibusdam consequatur nihil laudantium reiciendis. Sint vitae quo ut reprehenderit ut ea aut. Asperiores laborum ratione et sed ut.</p><p>Mollitia quo assumenda qui id. Molestiae sit quibusdam ea dolorum. Eum rerum quam dignissimos ea earum. Facere natus facere iusto iure cupiditate ipsum nemo reiciendis. Consequatur et reiciendis labore non nobis illo voluptas ipsa.</p><p>In doloribus quae eum est molestias odio. Odit in quis illo ad quibusdam aut exercitationem. Nihil laborum recusandae illum recusandae sint. Et quisquam neque recusandae unde consequatur.<img src="https://farm5.staticflickr.com/4459/37473350250_be9bb89c24_b.jpg" width="640" height="424" alt="Sunrise at red crabs beach"></p><p>Deleniti vel quod ut corporis voluptatum nihil qui. Aspernatur mollitia itaque eveniet velit. Blanditiis nihil quia quia.</p><p>Voluptatem nam aut aut illum molestiae. Quo voluptate tenetur repudiandae maiores fuga nesciunt. Eius maiores odio qui perferendis et in dolorem. Reiciendis et ea eum iusto inventore quisquam deserunt.</p><p>Consectetur veritatis eum consequatur sed magni est sit. Sunt sequi occaecati voluptatem voluptas libero aut ab. Molestiae distinctio enim est et nisi. Ullam magnam quibusdam occaecati veniam et voluptatem totam.</p>', 4, 1, 1, '2022-03-13 01:15:00', 0, 0, NULL, '2022-03-01 01:15:30', '2022-03-01 01:15:30'),
 	(3, 'Velit nam ipsum aut.', 'eum-voluptas-fuga-harum-voluptatibus', 'Necessitatibus quia dolorem consectetur excepturi est ut molestias. Aut saepe necessitatibus ipsum voluptatem provident. Iure et in saepe eaque fugiat consectetur quos.', '<p>Quia ut a quos hic. Non est blanditiis atque nisi maiores. Itaque dignissimos qui hic aliquid sed velit debitis.</p><p>Quo qui autem et est praesentium. Nobis velit cumque animi esse quas. Hic repellendus fugiat et ut illum. Voluptatibus voluptatem nihil omnis animi tempora et dolor molestiae.</p><p>Dolorem in est fugiat nobis qui omnis totam. Nam iste id perferendis quia sed ea rerum. Dolorem temporibus eum doloremque accusantium et adipisci omnis. Sit excepturi sunt tempore occaecati quo autem.</p><p>Temporibus quibusdam natus inventore eius iste. Repudiandae aut ea dignissimos inventore voluptate et. Qui aut quo velit rerum. Dolore rerum temporibus optio quod.<iframe width="560" height="315" src="https://www.youtube.com/embed/A-rEb0KuopI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><p>Consequatur labore sit ad in. Repellendus quo cum perferendis ipsum quae et et ea. Fuga qui sint atque expedita et esse.</p><p>Aut eligendi esse occaecati inventore sint dolores. Esse consequatur repudiandae sed voluptatibus dolorem ad. Dolor enim natus repellat possimus sequi. Error earum qui ipsam delectus ut dolor.</p><p>Voluptates nesciunt cumque corrupti consequatur placeat illum sint. Suscipit explicabo autem quisquam excepturi perferendis inventore. Voluptatem voluptas a aliquam inventore pariatur provident atque vel.</p>', 5, 1, 1, '2022-03-19 01:15:00', 0, 0, NULL, '2022-03-09 01:15:30', '2022-03-09 01:15:30'),
 	(4, 'Consectetur nemo esse ipsa.', 'aliquid-rerum-harum-non-soluta', 'Et necessitatibus ut voluptatem dolor. Repudiandae vero quis vitae itaque dolores quo dicta. Corrupti dolorem suscipit explicabo dolorem qui illo et nam. Quia facere explicabo qui animi exercitationem culpa. Et non blanditiis id praesentium soluta.', '<p>Magnam laudantium saepe adipisci dolor. Quae corporis quia provident ab aperiam error. Soluta qui repellendus cum quibusdam mollitia. Fuga nobis ducimus a.</p><p>Similique sapiente quae similique ut qui. Facilis possimus occaecati dolor voluptates dolor officiis. Perferendis perferendis ad voluptatem ea qui. Alias porro nisi molestias dolorem animi.</p><p>Et autem laborum saepe libero sequi et quos numquam. Occaecati iste voluptates vel occaecati sint.</p><p>Debitis voluptas maiores minus et distinctio. Dolorem veniam rem sunt sunt temporibus voluptatem maiores. Iure earum dolore est laboriosam ut. Repellendus non laborum quibusdam in tenetur fugiat.<img src="https://farm5.staticflickr.com/4471/37699101012_7b2c5c2734_z.jpg" width="640" height="424" alt="Dogs on beach V1"></p><p>Ut illum suscipit non molestias omnis error voluptas. Iure libero maiores temporibus voluptates cumque natus amet. Tempore nemo et ipsam pariatur et. Sequi aliquam inventore quidem quis aut.</p><p>Aut animi dolorum ipsa nobis numquam. Aut autem voluptatem dolorem aut modi. Et hic ad qui laboriosam necessitatibus.</p><p>Ullam enim sint nobis aliquam sapiente esse est. Fuga enim illo et ratione delectus eaque voluptas. Quibusdam dignissimos est consequuntur minima sint ut eligendi dolores. Ad delectus incidunt minima dolores perspiciatis iusto repellendus.</p>', 1, 1, 1, '2022-03-12 01:15:00', 0, 0, NULL, '2022-03-01 01:15:30', '2022-03-01 01:15:30'),
@@ -515,7 +515,7 @@ INSERT INTO `blogs` (`id`, `title`, `slug`, `excerpt`, `content`, `user_id`, `st
 	(6, 'Beatae rerum debitis aut velit et vel.', 'sint-pariatur-deleniti-molestiae-iste-qui-iste-qui', 'Impedit non sit fugit ea. Aut distinctio beatae nesciunt ducimus. Aperiam nisi magnam possimus est. Ut eos mollitia modi at dicta. Hic blanditiis voluptatibus quos quis architecto dignissimos totam autem.', '<p>Facilis eius quaerat deleniti laboriosam rerum consequuntur distinctio. Ipsam et aliquid est dicta sed. Voluptatem molestias quam error beatae vero.</p><p>Harum praesentium voluptate consequatur quo praesentium tempore. Maiores velit numquam impedit. Enim nihil voluptas et maxime. Error quam assumenda eveniet in qui.</p><p>At ut dolor alias numquam. Explicabo enim aut velit aliquid et. Neque earum officia facilis similique.</p><p>Numquam laudantium impedit corporis molestias. Dolores corporis doloremque labore laboriosam. Eligendi ducimus velit laboriosam.<iframe width="560" height="315" src="https://www.youtube.com/embed/A-rEb0KuopI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><p>Quasi repudiandae maxime in ut eius adipisci nulla. Velit ipsa magni perspiciatis.</p><p>Voluptatem quae ut consequatur modi atque necessitatibus autem. Aliquid consequuntur qui aut earum eius temporibus non. Quae omnis rerum in dolorem quia perspiciatis earum. Facere quo vero error ducimus aliquam.</p><p>Quaerat unde exercitationem quas repellendus magnam modi dicta consectetur. Id dolor vero magni aliquam dolores eligendi rerum nihil. Magni quo et qui esse. Nobis cumque hic voluptatibus blanditiis numquam sunt unde. Iure tempora amet saepe sint expedita.</p>', 1, 1, 1, '2022-03-17 01:15:00', 0, 0, NULL, '2022-02-19 01:15:30', '2022-02-19 01:15:30');
 /*!40000 ALTER TABLE `blogs` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.blog_comments
+-- Dumping structure for table ArabCode2511.blog_comments
 CREATE TABLE IF NOT EXISTS `blog_comments` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `content` longtext COLLATE utf8_unicode_ci NOT NULL,
@@ -535,7 +535,7 @@ CREATE TABLE IF NOT EXISTS `blog_comments` (
   CONSTRAINT `blog_comments_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.blog_comments: ~30 rows (approximately)
+-- Dumping data for table ArabCode2511.blog_comments: ~30 rows (approximately)
 /*!40000 ALTER TABLE `blog_comments` DISABLE KEYS */;
 INSERT INTO `blog_comments` (`id`, `content`, `blog_id`, `user_id`, `parent`, `approved`, `likes`, `dislikes`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 'Est saepe iusto facilis nesciunt. Aliquam numquam quos est nulla ut fugiat dolor autem. Qui est illo voluptates non. Aliquam fugit amet accusantium ducimus praesentium.', 3, 1, NULL, 1, 0, 0, NULL, '2022-03-24 01:15:31', '2022-03-11 01:15:31'),
@@ -570,7 +570,7 @@ INSERT INTO `blog_comments` (`id`, `content`, `blog_id`, `user_id`, `parent`, `a
 	(30, 'Vel adipisci voluptatibus mollitia consequuntur facere. Quo omnis doloribus facere ea doloribus non. Ex quia est molestiae nam omnis. Quis dolorem error voluptatibus inventore molestiae.', 2, 4, NULL, 1, 0, 0, NULL, '2022-03-15 01:15:31', '2022-03-21 01:15:31');
 /*!40000 ALTER TABLE `blog_comments` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.cancellations
+-- Dumping structure for table ArabCode2511.cancellations
 CREATE TABLE IF NOT EXISTS `cancellations` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -592,11 +592,11 @@ CREATE TABLE IF NOT EXISTS `cancellations` (
   CONSTRAINT `cancellations_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.cancellations: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.cancellations: ~0 rows (approximately)
 /*!40000 ALTER TABLE `cancellations` DISABLE KEYS */;
 /*!40000 ALTER TABLE `cancellations` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.cancellation_reasons
+-- Dumping structure for table ArabCode2511.cancellation_reasons
 CREATE TABLE IF NOT EXISTS `cancellation_reasons` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `detail` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -605,7 +605,7 @@ CREATE TABLE IF NOT EXISTS `cancellation_reasons` (
   UNIQUE KEY `cancellation_reasons_detail_unique` (`detail`)
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.cancellation_reasons: ~13 rows (approximately)
+-- Dumping data for table ArabCode2511.cancellation_reasons: ~13 rows (approximately)
 /*!40000 ALTER TABLE `cancellation_reasons` DISABLE KEYS */;
 INSERT INTO `cancellation_reasons` (`id`, `detail`, `office_use`) VALUES
 	(1, 'Order created by mistake', NULL),
@@ -623,7 +623,7 @@ INSERT INTO `cancellation_reasons` (`id`, `detail`, `office_use`) VALUES
 	(13, 'Customs problem', 1);
 /*!40000 ALTER TABLE `cancellation_reasons` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.carriers
+-- Dumping structure for table ArabCode2511.carriers
 CREATE TABLE IF NOT EXISTS `carriers` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -639,7 +639,7 @@ CREATE TABLE IF NOT EXISTS `carriers` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.carriers: ~5 rows (approximately)
+-- Dumping data for table ArabCode2511.carriers: ~5 rows (approximately)
 /*!40000 ALTER TABLE `carriers` DISABLE KEYS */;
 INSERT INTO `carriers` (`id`, `shop_id`, `tax_id`, `name`, `email`, `phone`, `tracking_url`, `active`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 4, 4, 'FedEx', 'wmayert@yahoo.com', '(341) 921-7416', 'http://www.ratke.com/voluptas-et-est-vel-soluta-perferendis-et-iusto/@', 1, NULL, '2022-03-25 01:14:27', '2022-03-25 01:14:27'),
@@ -649,7 +649,7 @@ INSERT INTO `carriers` (`id`, `shop_id`, `tax_id`, `name`, `email`, `phone`, `tr
 	(5, 3, 2, 'DTDC', 'noemie.kovacek@abbott.com', '432.949.6784', 'http://www.satterfield.net/perferendis-sint-voluptas-corporis-tempora.html/@', 1, NULL, '2022-03-25 01:14:27', '2022-03-25 01:14:27');
 /*!40000 ALTER TABLE `carriers` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.carts
+-- Dumping structure for table ArabCode2511.carts
 CREATE TABLE IF NOT EXISTS `carts` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -690,11 +690,11 @@ CREATE TABLE IF NOT EXISTS `carts` (
   CONSTRAINT `carts_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE SET NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.carts: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.carts: ~0 rows (approximately)
 /*!40000 ALTER TABLE `carts` DISABLE KEYS */;
 /*!40000 ALTER TABLE `carts` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.cart_items
+-- Dumping structure for table ArabCode2511.cart_items
 CREATE TABLE IF NOT EXISTS `cart_items` (
   `cart_id` bigint(20) unsigned NOT NULL,
   `inventory_id` bigint(20) unsigned NOT NULL,
@@ -709,11 +709,11 @@ CREATE TABLE IF NOT EXISTS `cart_items` (
   CONSTRAINT `cart_items_inventory_id_foreign` FOREIGN KEY (`inventory_id`) REFERENCES `inventories` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.cart_items: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.cart_items: ~0 rows (approximately)
 /*!40000 ALTER TABLE `cart_items` DISABLE KEYS */;
 /*!40000 ALTER TABLE `cart_items` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.categories
+-- Dumping structure for table ArabCode2511.categories
 CREATE TABLE IF NOT EXISTS `categories` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `category_sub_group_id` int(10) unsigned NOT NULL,
@@ -734,7 +734,7 @@ CREATE TABLE IF NOT EXISTS `categories` (
   CONSTRAINT `categories_category_sub_group_id_foreign` FOREIGN KEY (`category_sub_group_id`) REFERENCES `category_sub_groups` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.categories: ~40 rows (approximately)
+-- Dumping data for table ArabCode2511.categories: ~40 rows (approximately)
 /*!40000 ALTER TABLE `categories` DISABLE KEYS */;
 INSERT INTO `categories` (`id`, `category_sub_group_id`, `name`, `slug`, `description`, `active`, `featured`, `order`, `meta_title`, `meta_description`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 2, 'Mobile', 'mobile', 'Mobile Phones', 1, 1, 100, NULL, NULL, NULL, '2022-03-25 01:13:55', '2022-03-25 01:13:55'),
@@ -779,7 +779,7 @@ INSERT INTO `categories` (`id`, `category_sub_group_id`, `name`, `slug`, `descri
 	(40, 16, 'Wolf, Hartmann and Goldner', 'minima-natus-quo-ipsum-necessitatibus-tempore-eum-dolore', 'Repudiandae fugiat id quaerat enim laudantium.', 1, NULL, 100, NULL, NULL, NULL, '2022-03-25 01:13:57', '2022-03-25 01:13:57');
 /*!40000 ALTER TABLE `categories` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.category_groups
+-- Dumping structure for table ArabCode2511.category_groups
 CREATE TABLE IF NOT EXISTS `category_groups` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
@@ -797,7 +797,7 @@ CREATE TABLE IF NOT EXISTS `category_groups` (
   UNIQUE KEY `category_groups_slug_unique` (`slug`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.category_groups: ~9 rows (approximately)
+-- Dumping data for table ArabCode2511.category_groups: ~9 rows (approximately)
 /*!40000 ALTER TABLE `category_groups` DISABLE KEYS */;
 INSERT INTO `category_groups` (`id`, `name`, `slug`, `description`, `icon`, `active`, `order`, `meta_title`, `meta_description`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 'Home & Garden', 'home-garden', 'Cookware, Dining, Bath, Home Decor and more', 'fa-shower', 1, 100, NULL, NULL, NULL, '2022-03-25 01:13:53', '2022-03-25 01:13:53'),
@@ -811,7 +811,7 @@ INSERT INTO `category_groups` (`id`, `name`, `slug`, `description`, `icon`, `act
 	(9, 'Hobbies & DIY', 'hobbies-diy', 'Craft Sewing, Supplies and more.', 'fa-paint-brush', 1, 100, NULL, NULL, NULL, '2022-03-25 01:13:53', '2022-03-25 01:13:53');
 /*!40000 ALTER TABLE `category_groups` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.category_product
+-- Dumping structure for table ArabCode2511.category_product
 CREATE TABLE IF NOT EXISTS `category_product` (
   `category_id` int(10) unsigned NOT NULL,
   `product_id` bigint(20) unsigned NOT NULL,
@@ -823,7 +823,7 @@ CREATE TABLE IF NOT EXISTS `category_product` (
   CONSTRAINT `category_product_product_id_foreign` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.category_product: ~237 rows (approximately)
+-- Dumping data for table ArabCode2511.category_product: ~237 rows (approximately)
 /*!40000 ALTER TABLE `category_product` DISABLE KEYS */;
 INSERT INTO `category_product` (`category_id`, `product_id`, `created_at`, `updated_at`) VALUES
 	(30, 51, '2022-03-25 01:13:30', '2022-03-25 01:13:30'),
@@ -1065,7 +1065,7 @@ INSERT INTO `category_product` (`category_id`, `product_id`, `created_at`, `upda
 	(25, 19, '2022-03-25 01:15:56', '2022-03-25 01:15:56');
 /*!40000 ALTER TABLE `category_product` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.category_sub_groups
+-- Dumping structure for table ArabCode2511.category_sub_groups
 CREATE TABLE IF NOT EXISTS `category_sub_groups` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `category_group_id` int(10) unsigned NOT NULL,
@@ -1085,7 +1085,7 @@ CREATE TABLE IF NOT EXISTS `category_sub_groups` (
   CONSTRAINT `category_sub_groups_category_group_id_foreign` FOREIGN KEY (`category_group_id`) REFERENCES `category_groups` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.category_sub_groups: ~25 rows (approximately)
+-- Dumping data for table ArabCode2511.category_sub_groups: ~25 rows (approximately)
 /*!40000 ALTER TABLE `category_sub_groups` DISABLE KEYS */;
 INSERT INTO `category_sub_groups` (`id`, `category_group_id`, `name`, `slug`, `description`, `active`, `order`, `meta_title`, `meta_description`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 1, 'Mobile & Accessories', 'mobile-accessories', 'Cell Phones and Accessories', 1, 100, NULL, NULL, NULL, '2022-03-25 01:13:54', '2022-03-25 01:13:54'),
@@ -1115,7 +1115,7 @@ INSERT INTO `category_sub_groups` (`id`, `category_group_id`, `name`, `slug`, `d
 	(25, 6, 'Schinner, Hill and Lindgren', 'ab-ratione-facilis-commodi', 'Sapiente expedita aut necessitatibus et corporis dolorum. Laborum veritatis sint ipsam quia provident iste. Facere totam amet itaque et quae. Quo quisquam voluptatem dolorum voluptatem tempore excepturi non animi. Sint veritatis reiciendis est molestias et. Cumque ipsum repudiandae iusto. Expedita doloribus cupiditate exercitationem facere consequatur expedita architecto quaerat. Illum ab voluptas quod. Ipsum nemo nulla et ut aut ut quia.', 1, 100, NULL, NULL, NULL, '2022-03-25 01:13:55', '2022-03-25 01:13:55');
 /*!40000 ALTER TABLE `category_sub_groups` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.chat_conversations
+-- Dumping structure for table ArabCode2511.chat_conversations
 CREATE TABLE IF NOT EXISTS `chat_conversations` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -1134,13 +1134,13 @@ CREATE TABLE IF NOT EXISTS `chat_conversations` (
   CONSTRAINT `chat_conversations_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE SET NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.chat_conversations: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.chat_conversations: ~0 rows (approximately)
 /*!40000 ALTER TABLE `chat_conversations` DISABLE KEYS */;
 INSERT INTO `chat_conversations` (`id`, `shop_id`, `customer_id`, `message`, `status`, `private`, `read`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 4, 17, 'hello', 1, 1, NULL, NULL, '2022-03-25 01:54:58', '2022-03-25 01:54:58');
 /*!40000 ALTER TABLE `chat_conversations` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.configs
+-- Dumping structure for table ArabCode2511.configs
 CREATE TABLE IF NOT EXISTS `configs` (
   `shop_id` int(10) unsigned NOT NULL,
   `support_phone` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -1184,7 +1184,7 @@ CREATE TABLE IF NOT EXISTS `configs` (
   CONSTRAINT `configs_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.configs: ~7 rows (approximately)
+-- Dumping data for table ArabCode2511.configs: ~7 rows (approximately)
 /*!40000 ALTER TABLE `configs` DISABLE KEYS */;
 INSERT INTO `configs` (`shop_id`, `support_phone`, `support_phone_toll_free`, `support_email`, `support_agent`, `default_sender_email_address`, `default_email_sender_name`, `return_refund`, `order_number_prefix`, `order_number_suffix`, `default_tax_id`, `order_handling_cost`, `auto_archive_order`, `default_payment_method_id`, `pagination`, `show_shop_desc_with_listing`, `show_refund_policy_with_listing`, `alert_quantity`, `digital_goods_only`, `default_warehouse_id`, `default_supplier_id`, `default_packaging_ids`, `notify_new_message`, `notify_alert_quantity`, `notify_inventory_out`, `notify_new_order`, `notify_abandoned_checkout`, `notify_new_disput`, `enable_live_chat`, `notify_new_chat`, `maintenance_mode`, `pending_verification`, `created_at`, `updated_at`, `active_ecommerce`, `pay_online`, `pay_in_person`) VALUES
 	(1, NULL, NULL, 'support.shop@demo.com', NULL, 'noreply.shop@demo.com', 'Support Agent', '<h3>Return & Refund Policy</h3> Thanks for shopping at My Shop.<br/> If you are not entirely satisfied with your purchase, we\'re here to help.<br/><br/><h3>Returns</h3>You have 30 (change this) calendar days to return an item from the date you received it.<br/>To be eligible for a return, your item must be unused and in the same condition that you received it.<br/>Your item must be in the original packaging.<br/>Your item needs to have the receipt or proof of purchase.<br/><br/>', '#', NULL, 1, 2.000000, 0, NULL, 10, NULL, 1, NULL, 0, NULL, NULL, 'a:3:{i:0;i:0;i:1;i:2;i:2;i:4;}', NULL, NULL, NULL, 1, NULL, 1, 1, 1, 0, NULL, '2022-03-25 01:13:38', '2022-03-25 01:13:38', 1, 1, 0),
@@ -1197,7 +1197,7 @@ INSERT INTO `configs` (`shop_id`, `support_phone`, `support_phone_toll_free`, `s
 	(8, '+967714311582', NULL, 'mhudair30@gmail.com', NULL, 'mhudair30@gmail.com', NULL, NULL, '#', NULL, 1, NULL, 0, NULL, 10, NULL, 1, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, 1, 1, 1, 1, NULL, '2022-03-25 02:19:41', '2022-03-25 02:19:41', 1, 1, 0);
 /*!40000 ALTER TABLE `configs` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.config_authorize_net
+-- Dumping structure for table ArabCode2511.config_authorize_net
 CREATE TABLE IF NOT EXISTS `config_authorize_net` (
   `shop_id` int(10) unsigned NOT NULL,
   `api_login_id` text COLLATE utf8_unicode_ci,
@@ -1210,11 +1210,11 @@ CREATE TABLE IF NOT EXISTS `config_authorize_net` (
   CONSTRAINT `config_authorize_net_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.config_authorize_net: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.config_authorize_net: ~0 rows (approximately)
 /*!40000 ALTER TABLE `config_authorize_net` DISABLE KEYS */;
 /*!40000 ALTER TABLE `config_authorize_net` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.config_cybersources
+-- Dumping structure for table ArabCode2511.config_cybersources
 CREATE TABLE IF NOT EXISTS `config_cybersources` (
   `shop_id` int(10) unsigned NOT NULL,
   `merchant_id` text COLLATE utf8_unicode_ci,
@@ -1228,11 +1228,11 @@ CREATE TABLE IF NOT EXISTS `config_cybersources` (
   CONSTRAINT `config_cybersources_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.config_cybersources: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.config_cybersources: ~0 rows (approximately)
 /*!40000 ALTER TABLE `config_cybersources` DISABLE KEYS */;
 /*!40000 ALTER TABLE `config_cybersources` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.config_instamojo
+-- Dumping structure for table ArabCode2511.config_instamojo
 CREATE TABLE IF NOT EXISTS `config_instamojo` (
   `shop_id` int(10) unsigned NOT NULL,
   `api_key` text COLLATE utf8_unicode_ci,
@@ -1245,11 +1245,11 @@ CREATE TABLE IF NOT EXISTS `config_instamojo` (
   CONSTRAINT `config_instamojo_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.config_instamojo: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.config_instamojo: ~0 rows (approximately)
 /*!40000 ALTER TABLE `config_instamojo` DISABLE KEYS */;
 /*!40000 ALTER TABLE `config_instamojo` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.config_manual_payments
+-- Dumping structure for table ArabCode2511.config_manual_payments
 CREATE TABLE IF NOT EXISTS `config_manual_payments` (
   `shop_id` int(10) unsigned NOT NULL,
   `payment_method_id` int(10) unsigned NOT NULL,
@@ -1263,7 +1263,7 @@ CREATE TABLE IF NOT EXISTS `config_manual_payments` (
   CONSTRAINT `config_manual_payments_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.config_manual_payments: ~10 rows (approximately)
+-- Dumping data for table ArabCode2511.config_manual_payments: ~10 rows (approximately)
 /*!40000 ALTER TABLE `config_manual_payments` DISABLE KEYS */;
 INSERT INTO `config_manual_payments` (`shop_id`, `payment_method_id`, `additional_details`, `payment_instructions`, `created_at`, `updated_at`) VALUES
 	(1, 7, 'Send the payment via Bank Wire Transfer.', 'Payment instructions for Bank Wire Transfer', '2022-03-25 01:13:30', '2022-03-25 01:13:30'),
@@ -1279,7 +1279,7 @@ INSERT INTO `config_manual_payments` (`shop_id`, `payment_method_id`, `additiona
 	(8, 6, 'wwwwwwwww', 'ssssssssss', '2022-03-25 02:21:12', '2022-03-25 02:21:25');
 /*!40000 ALTER TABLE `config_manual_payments` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.config_paypal_express
+-- Dumping structure for table ArabCode2511.config_paypal_express
 CREATE TABLE IF NOT EXISTS `config_paypal_express` (
   `shop_id` int(10) unsigned NOT NULL,
   `account` text COLLATE utf8_unicode_ci,
@@ -1293,11 +1293,11 @@ CREATE TABLE IF NOT EXISTS `config_paypal_express` (
   CONSTRAINT `config_paypal_express_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.config_paypal_express: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.config_paypal_express: ~0 rows (approximately)
 /*!40000 ALTER TABLE `config_paypal_express` DISABLE KEYS */;
 /*!40000 ALTER TABLE `config_paypal_express` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.config_paystacks
+-- Dumping structure for table ArabCode2511.config_paystacks
 CREATE TABLE IF NOT EXISTS `config_paystacks` (
   `shop_id` int(10) unsigned NOT NULL,
   `merchant_email` text COLLATE utf8_unicode_ci,
@@ -1311,11 +1311,11 @@ CREATE TABLE IF NOT EXISTS `config_paystacks` (
   CONSTRAINT `config_paystacks_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.config_paystacks: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.config_paystacks: ~0 rows (approximately)
 /*!40000 ALTER TABLE `config_paystacks` DISABLE KEYS */;
 /*!40000 ALTER TABLE `config_paystacks` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.config_stripes
+-- Dumping structure for table ArabCode2511.config_stripes
 CREATE TABLE IF NOT EXISTS `config_stripes` (
   `shop_id` int(10) unsigned NOT NULL,
   `stripe_user_id` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -1328,11 +1328,11 @@ CREATE TABLE IF NOT EXISTS `config_stripes` (
   CONSTRAINT `config_stripes_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.config_stripes: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.config_stripes: ~0 rows (approximately)
 /*!40000 ALTER TABLE `config_stripes` DISABLE KEYS */;
 /*!40000 ALTER TABLE `config_stripes` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.contact_us
+-- Dumping structure for table ArabCode2511.contact_us
 CREATE TABLE IF NOT EXISTS `contact_us` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -1346,11 +1346,11 @@ CREATE TABLE IF NOT EXISTS `contact_us` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.contact_us: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.contact_us: ~0 rows (approximately)
 /*!40000 ALTER TABLE `contact_us` DISABLE KEYS */;
 /*!40000 ALTER TABLE `contact_us` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.countries
+-- Dumping structure for table ArabCode2511.countries
 CREATE TABLE IF NOT EXISTS `countries` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -1374,7 +1374,7 @@ CREATE TABLE IF NOT EXISTS `countries` (
   CONSTRAINT `countries_timezone_id_foreign` FOREIGN KEY (`timezone_id`) REFERENCES `timezones` (`id`) ON DELETE SET NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=895 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.countries: ~249 rows (approximately)
+-- Dumping data for table ArabCode2511.countries: ~249 rows (approximately)
 /*!40000 ALTER TABLE `countries` DISABLE KEYS */;
 INSERT INTO `countries` (`id`, `name`, `full_name`, `capital`, `currency_id`, `timezone_id`, `citizenship`, `iso_code`, `iso_numeric`, `calling_code`, `flag`, `eea`, `active`, `created_at`, `updated_at`) VALUES
 	(4, 'Afghanistan', 'Islamic Republic of Afghanistan', 'Kabul', 2, NULL, 'Afghan', 'AF', '004', '93', 'AF.png', 0, 1, '2022-03-25 01:12:23', '2022-03-25 01:12:23'),
@@ -1628,7 +1628,7 @@ INSERT INTO `countries` (`id`, `name`, `full_name`, `capital`, `currency_id`, `t
 	(894, 'Zambia', 'Republic of Zambia', 'Lusaka', 172, NULL, 'Zambian', 'ZM', '894', '260', 'ZM.png', 0, 1, '2022-03-25 01:12:23', '2022-03-25 01:12:23');
 /*!40000 ALTER TABLE `countries` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.coupons
+-- Dumping structure for table ArabCode2511.coupons
 CREATE TABLE IF NOT EXISTS `coupons` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -1649,7 +1649,7 @@ CREATE TABLE IF NOT EXISTS `coupons` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.coupons: ~15 rows (approximately)
+-- Dumping data for table ArabCode2511.coupons: ~15 rows (approximately)
 /*!40000 ALTER TABLE `coupons` DISABLE KEYS */;
 INSERT INTO `coupons` (`id`, `shop_id`, `name`, `code`, `description`, `value`, `min_order_amount`, `type`, `quantity`, `quantity_per_customer`, `starting_time`, `ending_time`, `active`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 1, 'hic', '4', 'Rerum optio tempora culpa asperiores sit et. Natus sed quae et consequuntur qui enim. Quaerat nihil eius velit tempora odio commodi ut. Ea quia aspernatur at qui consequatur. Dolor corrupti impedit dolorem et aperiam. Et est nihil eveniet nisi officiis. Maxime nisi ipsum labore et. In consequatur repellat recusandae ullam temporibus iusto. Ex labore sequi et. Et repellat voluptas odio deleniti numquam. Eos et rem et non aliquam sit non expedita. Fugiat quo ut odio quis. Aliquam aut at qui nam aut. Repudiandae modi dicta doloremque reprehenderit molestiae rerum ad. Rerum tenetur explicabo non cupiditate. Rerum illum laborum rerum sit. Vitae soluta voluptatem voluptatem illum minima sunt et. Sed nisi cumque quaerat vel vel. Voluptates quaerat quas nam sit. Consequuntur ea praesentium odio. Laboriosam qui expedita nemo harum ut et id. Dolore iste qui eius est. Odio possimus magnam non cumque vero. Unde quia omnis dolores nulla. Et consequatur fuga eos in non. Labore nam fugiat aut sunt voluptatum repudiandae. Veritatis consequuntur dolore sit ea beatae ea incidunt. Et tenetur natus repudiandae dolorem consequuntur. Pariatur laborum delectus incidunt dolor. Dolores quasi tempora dolor consequatur officia. Reiciendis fugit aut natus molestias dolorum impedit saepe qui. Est voluptas in veniam. Exercitationem quia mollitia ipsam explicabo porro fuga.', 94.000000, NULL, 'amount', 24, 3, '2022-03-31 01:15:00', '2022-04-04 01:15:00', 1, NULL, '2022-03-22 01:15:34', '2022-03-16 01:15:34'),
@@ -1669,7 +1669,7 @@ INSERT INTO `coupons` (`id`, `shop_id`, `name`, `code`, `description`, `value`, 
 	(15, 3, 'ipsam', '12233514', 'Provident in vel numquam deleniti quo quas repudiandae voluptate. Repudiandae beatae magni velit earum sit dolor aut. Nam distinctio atque ducimus tempore earum delectus. Voluptatum ipsum maxime aut sit tempora at voluptatem. Quidem magnam ad rerum labore consequatur molestiae sed. Commodi itaque voluptatum non aut ea. Inventore qui nihil assumenda suscipit. Quia accusantium reprehenderit assumenda ea facere non vero. Modi laboriosam nihil inventore sint. Aut vero fuga aut enim sit voluptatum veniam. In consequatur quia eius suscipit modi. Minus repudiandae quis odit non. Praesentium vitae error quaerat soluta quisquam iure. Fugiat voluptatem sunt quia consequatur aliquid. Ipsa ut expedita sapiente aut voluptas mollitia consequatur ab. Debitis sed excepturi delectus fugiat est beatae. Tempora quas vero quia beatae tempora nam. Provident nemo tempore et quod. Culpa ratione veniam unde eaque non ea quia. Voluptas perspiciatis accusamus et non. Voluptatem voluptatem molestiae facilis sint eum nobis praesentium. Unde neque porro dolor assumenda similique voluptates. Aut delectus eos facilis nobis. Voluptas dolor natus exercitationem quas. Velit reiciendis rerum non quo eos atque. Ad iste pariatur esse quas et. Assumenda explicabo ex tempora sunt eius hic nulla. Consectetur quis enim in repellendus veniam veritatis. Delectus voluptatem illo molestiae tenetur. Et sed eaque est quia dolorem pariatur.', 65.000000, NULL, 'amount', 7, 4, '2022-03-25 01:15:00', '2022-04-15 01:15:00', 1, NULL, '2022-03-16 01:15:34', '2022-03-18 01:15:34');
 /*!40000 ALTER TABLE `coupons` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.coupon_customer
+-- Dumping structure for table ArabCode2511.coupon_customer
 CREATE TABLE IF NOT EXISTS `coupon_customer` (
   `coupon_id` bigint(20) unsigned NOT NULL,
   `customer_id` bigint(20) unsigned NOT NULL,
@@ -1681,7 +1681,7 @@ CREATE TABLE IF NOT EXISTS `coupon_customer` (
   CONSTRAINT `coupon_customer_customer_id_foreign` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.coupon_customer: ~15 rows (approximately)
+-- Dumping data for table ArabCode2511.coupon_customer: ~15 rows (approximately)
 /*!40000 ALTER TABLE `coupon_customer` DISABLE KEYS */;
 INSERT INTO `coupon_customer` (`coupon_id`, `customer_id`, `created_at`, `updated_at`) VALUES
 	(9, 1, '2022-03-25 01:13:30', '2022-03-25 01:13:30'),
@@ -1691,7 +1691,7 @@ INSERT INTO `coupon_customer` (`coupon_id`, `customer_id`, `created_at`, `update
 	(9, 16, '2022-03-25 01:13:30', '2022-03-25 01:13:30');
 /*!40000 ALTER TABLE `coupon_customer` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.coupon_shipping_zone
+-- Dumping structure for table ArabCode2511.coupon_shipping_zone
 CREATE TABLE IF NOT EXISTS `coupon_shipping_zone` (
   `coupon_id` bigint(20) unsigned NOT NULL,
   `shipping_zone_id` int(10) unsigned NOT NULL,
@@ -1703,11 +1703,11 @@ CREATE TABLE IF NOT EXISTS `coupon_shipping_zone` (
   CONSTRAINT `coupon_shipping_zone_shipping_zone_id_foreign` FOREIGN KEY (`shipping_zone_id`) REFERENCES `shipping_zones` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.coupon_shipping_zone: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.coupon_shipping_zone: ~0 rows (approximately)
 /*!40000 ALTER TABLE `coupon_shipping_zone` DISABLE KEYS */;
 /*!40000 ALTER TABLE `coupon_shipping_zone` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.currencies
+-- Dumping structure for table ArabCode2511.currencies
 CREATE TABLE IF NOT EXISTS `currencies` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `iso_code` varchar(3) COLLATE utf8_unicode_ci NOT NULL,
@@ -1729,7 +1729,7 @@ CREATE TABLE IF NOT EXISTS `currencies` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=178 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.currencies: ~177 rows (approximately)
+-- Dumping data for table ArabCode2511.currencies: ~177 rows (approximately)
 /*!40000 ALTER TABLE `currencies` DISABLE KEYS */;
 INSERT INTO `currencies` (`id`, `iso_code`, `iso_numeric`, `name`, `symbol`, `disambiguate_symbol`, `subunit`, `subunit_to_unit`, `symbol_first`, `html_entity`, `decimal_mark`, `thousands_separator`, `smallest_denomination`, `priority`, `active`, `created_at`, `updated_at`) VALUES
 	(1, 'AED', '784', 'United Arab Emirates Dirham', 'د.إ', NULL, 'Fils', 100, 0, '', '.', ',', 25, 100, 0, '2022-03-25 01:12:16', '2022-03-25 01:12:16'),
@@ -1911,7 +1911,7 @@ INSERT INTO `currencies` (`id`, `iso_code`, `iso_numeric`, `name`, `symbol`, `di
 	(177, 'XFU', '', 'UIC Franc', '', 'XFU', '', 100, 1, '', '.', ',', 1, 100, 0, '2022-03-25 01:12:22', '2022-03-25 01:12:22');
 /*!40000 ALTER TABLE `currencies` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.customers
+-- Dumping structure for table ArabCode2511.customers
 CREATE TABLE IF NOT EXISTS `customers` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -1940,7 +1940,7 @@ CREATE TABLE IF NOT EXISTS `customers` (
   UNIQUE KEY `customers_api_token_unique` (`api_token`)
 ) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.customers: ~8 rows (approximately)
+-- Dumping data for table ArabCode2511.customers: ~8 rows (approximately)
 /*!40000 ALTER TABLE `customers` DISABLE KEYS */;
 INSERT INTO `customers` (`id`, `name`, `nice_name`, `email`, `password`, `dob`, `sex`, `description`, `last_visited_at`, `last_visited_from`, `stripe_id`, `card_holder_name`, `pm_type`, `pm_last_four`, `active`, `accepts_marketing`, `verification_token`, `api_token`, `remember_token`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 'Dr. Ignatius Treutel', 'Schneider', 'customer@demo.com', '$2y$10$xluFKVWRecBhUy8VO/CYUOyJmVoN2mnVa9qgIIu7sNah5VDw5B6Ta', '1970-03-25', 'app.male', 'Rem voluptas temporibus harum. Sequi quis doloremque accusantium amet quaerat. Iste aut non sed doloribus. Reiciendis nobis quo enim dignissimos.', NULL, NULL, NULL, NULL, NULL, NULL, 1, 1, NULL, NULL, 'RWqQEG7nVw', '2022-03-25 15:23:24', '2020-12-25 01:13:41', '2022-03-25 15:23:24'),
@@ -1953,7 +1953,7 @@ INSERT INTO `customers` (`id`, `name`, `nice_name`, `email`, `password`, `dob`, 
 	(17, 'arabcode', NULL, 'arab6ode@gmail.com', '$2y$10$niQehJc1PKh0pCE9gQ0uw.i3PmEfjrsQQjvOHdwpbvSUkj9dHdyoO', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 1, 'hV83Koxy5cZtBpsFQrfBK3hMGSrqae8c9tjtRtQI', NULL, NULL, NULL, '2022-03-25 01:53:47', '2022-03-25 01:53:47');
 /*!40000 ALTER TABLE `customers` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.dashboard_configs
+-- Dumping structure for table ArabCode2511.dashboard_configs
 CREATE TABLE IF NOT EXISTS `dashboard_configs` (
   `user_id` bigint(20) NOT NULL,
   `upgrade_plan_notice` tinyint(1) DEFAULT '1',
@@ -1962,7 +1962,7 @@ CREATE TABLE IF NOT EXISTS `dashboard_configs` (
   PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.dashboard_configs: ~7 rows (approximately)
+-- Dumping data for table ArabCode2511.dashboard_configs: ~7 rows (approximately)
 /*!40000 ALTER TABLE `dashboard_configs` DISABLE KEYS */;
 INSERT INTO `dashboard_configs` (`user_id`, `upgrade_plan_notice`, `created_at`, `updated_at`) VALUES
 	(1, 1, '2022-03-25 01:12:30', '2022-03-25 01:12:30'),
@@ -1974,7 +1974,7 @@ INSERT INTO `dashboard_configs` (`user_id`, `upgrade_plan_notice`, `created_at`,
 	(7, 1, '2022-03-25 01:13:38', '2022-03-25 01:13:38');
 /*!40000 ALTER TABLE `dashboard_configs` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.delivery_boys
+-- Dumping structure for table ArabCode2511.delivery_boys
 CREATE TABLE IF NOT EXISTS `delivery_boys` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -2000,7 +2000,7 @@ CREATE TABLE IF NOT EXISTS `delivery_boys` (
   CONSTRAINT `delivery_boys_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.delivery_boys: ~6 rows (approximately)
+-- Dumping data for table ArabCode2511.delivery_boys: ~6 rows (approximately)
 /*!40000 ALTER TABLE `delivery_boys` DISABLE KEYS */;
 INSERT INTO `delivery_boys` (`id`, `shop_id`, `first_name`, `last_name`, `nice_name`, `email`, `phone_number`, `password`, `status`, `dob`, `sex`, `verification_token`, `api_token`, `remember_token`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 1, 'Coralie', 'Schuster', 'Hudson', 'delivery1@demo.com', '+12522080153', '$2y$10$wjAjhbrT5GKZ/z/tfhO8ruVXhuThtF9EIq9V1HwFtrr/tWlRZIDsK', 1, NULL, NULL, NULL, NULL, NULL, NULL, '2022-03-25 01:13:38', '2022-03-25 01:13:38'),
@@ -2011,7 +2011,7 @@ INSERT INTO `delivery_boys` (`id`, `shop_id`, `first_name`, `last_name`, `nice_n
 	(6, 1, 'Rosemary', 'Skiles', 'Hintz', 'delivery@demo.com', '347-982-5428', '$2y$10$jrR7dbiG9EZ70vk8Ja8cZ.2s6sWbyt2ddqIvjPHyHZOUag6a0FsPe', 1, NULL, NULL, NULL, NULL, NULL, NULL, '2022-03-25 01:13:40', '2022-03-25 01:13:40');
 /*!40000 ALTER TABLE `delivery_boys` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.disputes
+-- Dumping structure for table ArabCode2511.disputes
 CREATE TABLE IF NOT EXISTS `disputes` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -2035,7 +2035,7 @@ CREATE TABLE IF NOT EXISTS `disputes` (
   CONSTRAINT `disputes_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.disputes: ~5 rows (approximately)
+-- Dumping data for table ArabCode2511.disputes: ~5 rows (approximately)
 /*!40000 ALTER TABLE `disputes` DISABLE KEYS */;
 INSERT INTO `disputes` (`id`, `shop_id`, `dispute_type_id`, `customer_id`, `order_id`, `product_id`, `description`, `order_received`, `return_goods`, `refund_amount`, `status`, `created_at`, `updated_at`) VALUES
 	(1, 2, 4, 14, 9, NULL, 'Ut est nesciunt et optio labore. Dolores et veniam qui architecto. Corrupti et id non voluptas sit.', 1, 1, NULL, 6, '2022-02-25 01:15:29', '2022-01-25 01:15:29'),
@@ -2043,7 +2043,7 @@ INSERT INTO `disputes` (`id`, `shop_id`, `dispute_type_id`, `customer_id`, `orde
 	(5, 2, 4, 14, 9, NULL, 'Id doloremque sint ut. Nesciunt minima ratione harum. Et fuga ad quia quia eaque ut magnam.', 0, 0, NULL, 3, '2022-02-25 01:15:29', '2022-02-25 01:15:29');
 /*!40000 ALTER TABLE `disputes` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.dispute_types
+-- Dumping structure for table ArabCode2511.dispute_types
 CREATE TABLE IF NOT EXISTS `dispute_types` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `detail` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -2051,7 +2051,7 @@ CREATE TABLE IF NOT EXISTS `dispute_types` (
   UNIQUE KEY `dispute_types_detail_unique` (`detail`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.dispute_types: ~10 rows (approximately)
+-- Dumping data for table ArabCode2511.dispute_types: ~10 rows (approximately)
 /*!40000 ALTER TABLE `dispute_types` DISABLE KEYS */;
 INSERT INTO `dispute_types` (`id`, `detail`) VALUES
 	(2, 'Counterfeit goods'),
@@ -2066,7 +2066,7 @@ INSERT INTO `dispute_types` (`id`, `detail`) VALUES
 	(8, 'Shipping method');
 /*!40000 ALTER TABLE `dispute_types` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.email_templates
+-- Dumping structure for table ArabCode2511.email_templates
 CREATE TABLE IF NOT EXISTS `email_templates` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -2085,7 +2085,7 @@ CREATE TABLE IF NOT EXISTS `email_templates` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.email_templates: ~5 rows (approximately)
+-- Dumping data for table ArabCode2511.email_templates: ~5 rows (approximately)
 /*!40000 ALTER TABLE `email_templates` DISABLE KEYS */;
 INSERT INTO `email_templates` (`id`, `shop_id`, `name`, `sender_name`, `sender_email`, `subject`, `body`, `type`, `position`, `template_for`, `files`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, NULL, 'Welcome Merchant', NULL, 'support@domain.com', 'Welcome to {platform_name}', '<table class="m_886163020439323843footer" width="700" height="165" bgcolor="#efefef" align="center" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="bottom" style="color:#999;line-height:18px;font-size:11px;font-family:arial">Site Access: <a href="http://d.incevio.com/http://www.incevio.com/?tracelog=rowan&amp;rowan_id1=sellerLeaveFeedbackToBuyer_en_US_2017-10-22&amp;rowan_msg_id=c063bc521feb4649a25121ff130ac482&amp;ck=in_edm_other" style="color:#999;text-decoration:underline;font-size:11px;font-family:arial" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://d.incevio.com/http://www.incevio.com/?tracelog%3Drowan%26rowan_id1%3DsellerLeaveFeedbackToBuyer_en_US_2017-10-22%26rowan_msg_id%3Dc063bc521feb4649a25121ff130ac482%26ck%3Din_edm_other&amp;source=gmail&amp;ust=1508835770795000&amp;usg=AFQjCNFswRI--_oSylG_TCSI9jMZfEgJFw">Homepage</a> <span style="color:#999">|</span> <a href="http://d.incevio.com/http://trade.incevio.com?tracelog=rowan&amp;rowan_id1=sellerLeaveFeedbackToBuyer_en_US_2017-10-22&amp;rowan_msg_id=c063bc521feb4649a25121ff130ac482&amp;ck=in_edm_other" style="color:#999;text-decoration:underline;font-size:11px;font-family:arial" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://d.incevio.com/http://trade.incevio.com?tracelog%3Drowan%26rowan_id1%3DsellerLeaveFeedbackToBuyer_en_US_2017-10-22%26rowan_msg_id%3Dc063bc521feb4649a25121ff130ac482%26ck%3Din_edm_other&amp;source=gmail&amp;ust=1508835770795000&amp;usg=AFQjCNHs5u0lVvXx_IxyFnkfBFEuVdacig">My Orders</a> <span style="color:#999">|</span> <a href="http://d.incevio.com/http://www.incevio.com/buyerprotection/index.html?tracelog=rowan&amp;rowan_id1=sellerLeaveFeedbackToBuyer_en_US_2017-10-22&amp;rowan_msg_id=c063bc521feb4649a25121ff130ac482&amp;ck=in_edm_other" style="color:#999;text-decoration:underline;font-size:11px;font-family:arial" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://d.incevio.com/http://www.incevio.com/buyerprotection/index.html?tracelog%3Drowan%26rowan_id1%3DsellerLeaveFeedbackToBuyer_en_US_2017-10-22%26rowan_msg_id%3Dc063bc521feb4649a25121ff130ac482%26ck%3Din_edm_other&amp;source=gmail&amp;ust=1508835770795000&amp;usg=AFQjCNFgBGjO2cWQlMNn3ok1sdo9FEI0PQ">Buyer Protection</a> <span style="color:#999">|</span> <a href="http://help.incevio.com/?tracelog=rowan&amp;rowan_id1=sellerLeaveFeedbackToBuyer_en_US_2017-10-22&amp;rowan_msg_id=c063bc521feb4649a25121ff130ac482&amp;ck=in_edm_other" style="color:#999;text-decoration:underline;font-size:11px;font-family:arial" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://help.incevio.com/?tracelog%3Drowan%26rowan_id1%3DsellerLeaveFeedbackToBuyer_en_US_2017-10-22%26rowan_msg_id%3Dc063bc521feb4649a25121ff130ac482%26ck%3Din_edm_other&amp;source=gmail&amp;ust=1508835770795000&amp;usg=AFQjCNEY6uWlpV61xJ2EWu_OnR1ImK1k8A">Help Center</a> <span style="color:#999">|</span> <a href="http://www.incevio.com/help/home.html#contact?tracelog=rowan&amp;rowan_id1=sellerLeaveFeedbackToBuyer_en_US_2017-10-22&amp;rowan_msg_id=c063bc521feb4649a25121ff130ac482&amp;ck=in_edm_other" style="color:#999;text-decoration:underline;font-size:11px;font-family:arial" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://www.incevio.com/help/home.html%23contact?tracelog%3Drowan%26rowan_id1%3DsellerLeaveFeedbackToBuyer_en_US_2017-10-22%26rowan_msg_id%3Dc063bc521feb4649a25121ff130ac482%26ck%3Din_edm_other&amp;source=gmail&amp;ust=1508835770795000&amp;usg=AFQjCNFrHNdxDedZiwv6L-zLA4_5jthBKw">Contact Us</a><br><a href="http://us.my.incevio.com/user/company/forget_password_input_email.htm?edm_src=wto&amp;edm_type=ifm&amp;edm_cta=footer&amp;tracelog=rowan&amp;rowan_id1=sellerLeaveFeedbackToBuyer_en_US_2017-10-22&amp;rowan_msg_id=c063bc521feb4649a25121ff130ac482&amp;ck=in_edm_other" style="color:#999;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://us.my.incevio.com/user/company/forget_password_input_email.htm?edm_src%3Dwto%26edm_type%3Difm%26edm_cta%3Dfooter%26tracelog%3Drowan%26rowan_id1%3DsellerLeaveFeedbackToBuyer_en_US_2017-10-22%26rowan_msg_id%3Dc063bc521feb4649a25121ff130ac482%26ck%3Din_edm_other&amp;source=gmail&amp;ust=1508835770795000&amp;usg=AFQjCNGl36Hq7gk2E4ZfaHgnp8lgblu0Hw">Forgot your password?</a> <br>This email was sent to <a href="http://d.incevio.com/mailto:?tracelog=rowan&amp;rowan_id1=sellerLeaveFeedbackToBuyer_en_US_2017-10-22&amp;rowan_msg_id=c063bc521feb4649a25121ff130ac482&amp;ck=in_edm_other" style="color:#999;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://d.incevio.com/mailto:?tracelog%3Drowan%26rowan_id1%3DsellerLeaveFeedbackToBuyer_en_US_2017-10-22%26rowan_msg_id%3Dc063bc521feb4649a25121ff130ac482%26ck%3Din_edm_other&amp;source=gmail&amp;ust=1508835770795000&amp;usg=AFQjCNF57ZGzDDxPVbiErICMxd6_6wJH0Q"></a>. <br>You are receiving this email because you are a registered member of <a href="http://d.incevio.com/http://www.incevio.com?tracelog=rowan&amp;rowan_id1=sellerLeaveFeedbackToBuyer_en_US_2017-10-22&amp;rowan_msg_id=c063bc521feb4649a25121ff130ac482&amp;ck=in_edm_other" style="color:#999;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://d.incevio.com/http://www.incevio.com?tracelog%3Drowan%26rowan_id1%3DsellerLeaveFeedbackToBuyer_en_US_2017-10-22%26rowan_msg_id%3Dc063bc521feb4649a25121ff130ac482%26ck%3Din_edm_other&amp;source=gmail&amp;ust=1508835770795000&amp;usg=AFQjCNEV-vw0uLnpfTBy2KjLmMrSWfquEA">www.<span class="il">incevio</span>.com</a>, powered by incevio.com. <br>Read our <a href="http://www.incevio.com/help/safety_security/policies_rules/others/001.html?tracelog=rowan&amp;rowan_id1=sellerLeaveFeedbackToBuyer_en_US_2017-10-22&amp;rowan_msg_id=c063bc521feb4649a25121ff130ac482&amp;ck=in_edm_other" style="color:#999;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://www.incevio.com/help/safety_security/policies_rules/others/001.html?tracelog%3Drowan%26rowan_id1%3DsellerLeaveFeedbackToBuyer_en_US_2017-10-22%26rowan_msg_id%3Dc063bc521feb4649a25121ff130ac482%26ck%3Din_edm_other&amp;source=gmail&amp;ust=1508835770795000&amp;usg=AFQjCNHhvncoIuRqRpPKKTgyRYpiV6Z5vg">Privacy Policy</a> and <a href="http://www.incevio.com/help/safety_security/policies_rules/others/002.html?tracelog=rowan&amp;rowan_id1=sellerLeaveFeedbackToBuyer_en_US_2017-10-22&amp;rowan_msg_id=c063bc521feb4649a25121ff130ac482&amp;ck=in_edm_other" style="color:#999;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://www.incevio.com/help/safety_security/policies_rules/others/002.html?tracelog%3Drowan%26rowan_id1%3DsellerLeaveFeedbackToBuyer_en_US_2017-10-22%26rowan_msg_id%3Dc063bc521feb4649a25121ff130ac482%26ck%3Din_edm_other&amp;source=gmail&amp;ust=1508835770795000&amp;usg=AFQjCNGdCuw2_Z7MHkHP5eKVE0mPoK_ysA">Terms of Use</a> if you have any questions. <br><span class="il">incevio</span> Service Center: <a href="http://d.incevio.com/mailto:buyer@incevio.com?tracelog=rowan&amp;rowan_id1=sellerLeaveFeedbackToBuyer_en_US_2017-10-22&amp;rowan_msg_id=c063bc521feb4649a25121ff130ac482&amp;ck=in_edm_other" style="color:#999;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://d.incevio.com/mailto:buyer@incevio.com?tracelog%3Drowan%26rowan_id1%3DsellerLeaveFeedbackToBuyer_en_US_2017-10-22%26rowan_msg_id%3Dc063bc521feb4649a25121ff130ac482%26ck%3Din_edm_other&amp;source=gmail&amp;ust=1508835770795000&amp;usg=AFQjCNEZo5gjjdfsNWKIaeuOQoM6rxxuNQ">buyer@<span class="il">incevio</span>.com</a> <br>incevio.com Hong Kong Limited, 26/F Tower One, Times Square1 Matheson Street Causeway Bay, Hong Kong.</td></tr><tr><td height="20">&nbsp;</td></tr></tbody></table>', 'HTML', 'Footer', 'Platform', NULL, NULL, '2022-03-25 01:15:54', '2022-03-25 01:15:54'),
@@ -2095,7 +2095,7 @@ INSERT INTO `email_templates` (`id`, `shop_id`, `name`, `sender_name`, `sender_e
 	(5, NULL, 'User account updated', NULL, 'support@domain.com', 'Your account settings have been updated', '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\n  <meta name="viewport" content="width=device-width" />\n  <title>Airmail Ping</title>\n</head>\n\n<body bgcolor="#ffffff">\n\n  <div align="center">\n    <table class="head-wrap w320 full-width-gmail-android" bgcolor="#f9f8f8" cellpadding="0" cellspacing="0" border="0">\n      <tr>\n        <td background="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" bgcolor="#ffffff" width="100%" height="8" valign="top">\n          <!--[if gte mso 9]>\n          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;height:8px;">\n            <v:fill type="tile" src="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" color="#ffffff" />\n            <v:textbox inset="0,0,0,0">\n          <![endif]-->\n          <div height="8">\n          </div>\n          <!--[if gte mso 9]>\n            </v:textbox>\n          </v:rect>\n          <![endif]-->\n        </td>\n      </tr>\n      <tr class="header-background">\n        <td class="header container" align="center">\n          <div class="content">\n            <span class="brand">\n              <a href="#">\n                Company Name\n              </a>\n            </span>\n          </div>\n        </td>\n      </tr>\n    </table>\n\n    <table class="body-wrap w320">\n      <tr>\n        <td></td>\n        <td class="container">\n          <div class="content">\n            <table cellspacing="0">\n              <tr>\n                <td>\n                  <table class="soapbox">\n                    <tr>\n                      <td class="soapbox-title">Your account settings have been updated</td>\n                    </tr>\n                  </table>\n                  <table class="body">\n                    <tr>\n                      <td class="body-padding"></td>\n                      <td class="body-padded">\n                        <div class="body-title">Hi {{ first_name }},</div>\n                        <table class="body-text">\n                          <tr>\n                            <td class="body-text-cell">\n                              Your account settings have been updated. If you did not update your settings, please <a href="#">contact support</a>.\n                            </td>\n                          </tr>\n                        </table>\n                        <div><!--[if mso]>\n                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:38px;v-text-anchor:middle;width:230px;" arcsize="11%" strokecolor="#407429" fill="t">\n                            <v:fill type="tile" src="https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7" color="#41CC00" />\n                            <w:anchorlock/>\n                            <center style="color:#ffffff;font-family:sans-serif;font-size:17px;font-weight:bold;">Review Account Settings</center>\n                          </v:roundrect>\n                        <![endif]--><a href="#"\n                        style="background-color:#41CC00;background-image:url(https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7);border:1px solid #407429;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:17px;font-weight:bold;text-shadow: -1px -1px #47A54B;line-height:38px;text-align:center;text-decoration:none;width:230px;-webkit-text-size-adjust:none;mso-hide:all;">Review Account Settings</a></div>\n                        <table class="body-signature-block">\n                          <tr>\n                            <td class="body-signature-cell">\n                              <p>Thanks for being a customer!</p>\n                              <p class="body-signature"><img src="https://www.filepicker.io/api/file/2R9HpqboTPaB4NyF35xt" alt="Company Name"></p>\n                            </td>\n                          </tr>\n                        </table>\n                      </td>\n                      <td class="body-padding"></td>\n                    </tr>\n                  </table>\n                </td>\n              </tr>\n            </table>\n          </div>\n        </td>\n        <td></td>\n      </tr>\n    </table>\n\n    <table class="footer-wrap w320 full-width-gmail-android" bgcolor="#e5e5e5">\n      <tr>\n        <td></td>\n        <td class="container">\n          <div class="content footer-lead">\n            <a href="#"><b>Get in touch</b></a> if you have any questions or feedback\n          </div>\n        </td>\n        <td></td>\n      </tr>\n    </table>\n    <table class="footer-wrap w320 full-width-gmail-android" bgcolor="#e5e5e5">\n      <tr>\n        <td></td>\n        <td class="container">\n          <div class="content">\n            <a href="#">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;\n            <span class="footer-group">\n              <a href="#">Facebook</a>&nbsp;&nbsp;|&nbsp;&nbsp;\n              <a href="#">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;\n              <a href="#">Support</a>\n            </span>\n          </div>\n        </td>\n        <td></td>\n      </tr>\n    </table>\n  </div>\n\n</body>\n</html>\n', 'HTML', 'Content', 'Platform', NULL, NULL, '2022-03-25 01:15:54', '2022-03-25 01:15:54');
 /*!40000 ALTER TABLE `email_templates` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.failed_jobs
+-- Dumping structure for table ArabCode2511.failed_jobs
 CREATE TABLE IF NOT EXISTS `failed_jobs` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `uuid` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -2108,11 +2108,11 @@ CREATE TABLE IF NOT EXISTS `failed_jobs` (
   UNIQUE KEY `failed_jobs_uuid_unique` (`uuid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.failed_jobs: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.failed_jobs: ~0 rows (approximately)
 /*!40000 ALTER TABLE `failed_jobs` DISABLE KEYS */;
 /*!40000 ALTER TABLE `failed_jobs` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.faqs
+-- Dumping structure for table ArabCode2511.faqs
 CREATE TABLE IF NOT EXISTS `faqs` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `faq_topic_id` int(10) unsigned DEFAULT NULL,
@@ -2125,7 +2125,7 @@ CREATE TABLE IF NOT EXISTS `faqs` (
   CONSTRAINT `faqs_faq_topic_id_foreign` FOREIGN KEY (`faq_topic_id`) REFERENCES `faq_topics` (`id`) ON DELETE SET NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.faqs: ~9 rows (approximately)
+-- Dumping data for table ArabCode2511.faqs: ~9 rows (approximately)
 /*!40000 ALTER TABLE `faqs` DISABLE KEYS */;
 INSERT INTO `faqs` (`id`, `faq_topic_id`, `question`, `answer`, `created_at`, `updated_at`) VALUES
 	(1, 1, 'Why should I sell on :marketplace?', 'There are many reasons to sell on :marketplace. We have our customers who can see your products to the ability to start selling fast without the need to create a new standalone website. You spend no time and money to do marekting, We do it for you!', '2022-03-25 01:12:47', '2022-03-25 01:12:47'),
@@ -2139,7 +2139,7 @@ INSERT INTO `faqs` (`id`, `faq_topic_id`, `question`, `answer`, `created_at`, `u
 	(9, 3, 'Is there any hidden cost?', 'No', '2022-03-25 01:12:47', '2022-03-25 01:12:47');
 /*!40000 ALTER TABLE `faqs` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.faq_topics
+-- Dumping structure for table ArabCode2511.faq_topics
 CREATE TABLE IF NOT EXISTS `faq_topics` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` text COLLATE utf8_unicode_ci NOT NULL,
@@ -2149,7 +2149,7 @@ CREATE TABLE IF NOT EXISTS `faq_topics` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.faq_topics: ~3 rows (approximately)
+-- Dumping data for table ArabCode2511.faq_topics: ~3 rows (approximately)
 /*!40000 ALTER TABLE `faq_topics` DISABLE KEYS */;
 INSERT INTO `faq_topics` (`id`, `name`, `for`, `created_at`, `updated_at`) VALUES
 	(1, 'Overview', 'Merchant', '2022-03-25 01:12:47', '2022-03-25 01:12:47'),
@@ -2157,7 +2157,7 @@ INSERT INTO `faq_topics` (`id`, `name`, `for`, `created_at`, `updated_at`) VALUE
 	(3, 'Pricing', 'Merchant', '2022-03-25 01:12:47', '2022-03-25 01:12:47');
 /*!40000 ALTER TABLE `faq_topics` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.feedbacks
+-- Dumping structure for table ArabCode2511.feedbacks
 CREATE TABLE IF NOT EXISTS `feedbacks` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `customer_id` bigint(20) unsigned NOT NULL,
@@ -2174,7 +2174,7 @@ CREATE TABLE IF NOT EXISTS `feedbacks` (
   CONSTRAINT `feedbacks_customer_id_foreign` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=150 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.feedbacks: ~150 rows (approximately)
+-- Dumping data for table ArabCode2511.feedbacks: ~150 rows (approximately)
 /*!40000 ALTER TABLE `feedbacks` DISABLE KEYS */;
 INSERT INTO `feedbacks` (`id`, `customer_id`, `rating`, `comment`, `feedbackable_id`, `feedbackable_type`, `approved`, `spam`, `created_at`, `updated_at`) VALUES
 	(1, 14, 1, 'Nostrum et facilis est consequatur optio. Quisquam praesentium rerum quia sunt voluptates incidunt voluptas. Voluptas rerum aut facere et aliquid qui. Quaerat nostrum qui quis harum quia est.', 5, 'App\\Models\\Shop', 1, 0, '2022-03-15 01:15:43', '2022-03-13 01:15:43'),
@@ -2249,7 +2249,7 @@ INSERT INTO `feedbacks` (`id`, `customer_id`, `rating`, `comment`, `feedbackable
 	(149, 13, 1, 'Et dolores aliquid ad quaerat aut sit eaque. Laboriosam repellendus in sit qui eum molestiae. Totam voluptatibus provident sit. Molestiae sed et corrupti sed aut odio.', 18, 'App\\Models\\Inventory', 1, 0, '2022-03-20 01:15:44', '2022-03-23 01:15:44');
 /*!40000 ALTER TABLE `feedbacks` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.gift_cards
+-- Dumping structure for table ArabCode2511.gift_cards
 CREATE TABLE IF NOT EXISTS `gift_cards` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `customer_id` bigint(20) unsigned DEFAULT NULL,
@@ -2270,11 +2270,11 @@ CREATE TABLE IF NOT EXISTS `gift_cards` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.gift_cards: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.gift_cards: ~0 rows (approximately)
 /*!40000 ALTER TABLE `gift_cards` DISABLE KEYS */;
 /*!40000 ALTER TABLE `gift_cards` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.gtin_types
+-- Dumping structure for table ArabCode2511.gtin_types
 CREATE TABLE IF NOT EXISTS `gtin_types` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
@@ -2283,7 +2283,7 @@ CREATE TABLE IF NOT EXISTS `gtin_types` (
   UNIQUE KEY `gtin_types_name_unique` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.gtin_types: ~5 rows (approximately)
+-- Dumping data for table ArabCode2511.gtin_types: ~5 rows (approximately)
 /*!40000 ALTER TABLE `gtin_types` DISABLE KEYS */;
 INSERT INTO `gtin_types` (`id`, `name`, `description`) VALUES
 	(1, 'UPC', 'Universal Product Code (UPC), also called GTIN-12 and UPC-A'),
@@ -2293,7 +2293,7 @@ INSERT INTO `gtin_types` (`id`, `name`, `description`) VALUES
 	(5, 'ITF', 'ITF barcodes, also known as Interleaved 2 of 5 barcodes, encode 14 numeric digits and are generally used for the packaging level of products. Since they can deal with high printing tolerances, ITF is a good choice when barcodes need to be printed on corrugated cardboard.');
 /*!40000 ALTER TABLE `gtin_types` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.images
+-- Dumping structure for table ArabCode2511.images
 CREATE TABLE IF NOT EXISTS `images` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `path` text COLLATE utf8_unicode_ci NOT NULL,
@@ -2310,7 +2310,7 @@ CREATE TABLE IF NOT EXISTS `images` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=534 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.images: ~475 rows (approximately)
+-- Dumping data for table ArabCode2511.images: ~475 rows (approximately)
 /*!40000 ALTER TABLE `images` DISABLE KEYS */;
 INSERT INTO `images` (`id`, `path`, `name`, `type`, `extension`, `size`, `order`, `featured`, `imageable_id`, `imageable_type`, `created_at`, `updated_at`) VALUES
 	(6, 'images\\category_5.png', 'category_5.png', 'background', 'png', '0', 0, 0, 5, 'App\\Models\\CategoryGroup', '2022-03-25 01:13:53', '2022-03-25 01:13:53'),
@@ -2843,7 +2843,7 @@ INSERT INTO `images` (`id`, `path`, `name`, `type`, `extension`, `size`, `order`
 	(533, 'images/oYaJPeIduELbT40ghCYCxvTstMcUAaHeY9e4gWoz.jpg', 'i6uCpn06_400x400.jpg', 'logo', 'jpg', '12769', 0, NULL, 5, 'App\\Models\\Shop', '2022-03-25 15:18:24', '2022-03-25 15:18:24');
 /*!40000 ALTER TABLE `images` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.inventories
+-- Dumping structure for table ArabCode2511.inventories
 CREATE TABLE IF NOT EXISTS `inventories` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -2884,7 +2884,7 @@ CREATE TABLE IF NOT EXISTS `inventories` (
   CONSTRAINT `inventories_product_id_foreign` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=108 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.inventories: ~107 rows (approximately)
+-- Dumping data for table ArabCode2511.inventories: ~107 rows (approximately)
 /*!40000 ALTER TABLE `inventories` DISABLE KEYS */;
 INSERT INTO `inventories` (`id`, `shop_id`, `title`, `warehouse_id`, `product_id`, `brand`, `supplier_id`, `sku`, `condition`, `condition_note`, `description`, `key_features`, `stock_quantity`, `damaged_quantity`, `user_id`, `purchase_price`, `sale_price`, `offer_price`, `offer_start`, `offer_end`, `shipping_weight`, `free_shipping`, `available_from`, `min_order_quantity`, `slug`, `linked_items`, `meta_title`, `meta_description`, `stuff_pick`, `active`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 1, 'Aut unde commodi vel voluptate autem quos qui.', NULL, 1, 'Shanahan-Kiehn', 3, 'dolor', 'New', 'Queen\'s shrill cries to the Cheshire Cat, she was quite surprised to find that her idea of the shelves as she could not remember ever having seen such a very truthful child; \'but little girls eat.', 'Dicta dignissimos sit iusto mollitia voluptatibus officiis. Omnis qui exercitationem assumenda amet nemo. Ut sed harum qui exercitationem enim totam aperiam. Perspiciatis amet eveniet quia et. Architecto aut minus doloribus autem aliquid eum dolores. Qui sunt cupiditate et pariatur doloribus necessitatibus rerum rem. Aut dignissimos consequatur excepturi repellat eos autem. Adipisci vel ipsam voluptatem nam. Eligendi placeat debitis ducimus repellat at fuga sunt. Harum odit dolore temporibus consequuntur odit occaecati. Minus assumenda est eos nostrum aliquam non. Et et exercitationem magnam dolor quae. Voluptatem eum nobis unde sit et. Praesentium sint minus qui. Sint sit magnam sunt eum. Ut numquam temporibus quaerat rem dolores. Id deserunt eligendi ipsam quia aut natus. Exercitationem facilis quisquam esse neque cupiditate. Voluptatem beatae qui aut quia aperiam deleniti. Voluptatem et cum et omnis quaerat aut quis. Nihil nemo accusantium unde ut. Voluptatem rerum qui molestiae laboriosam omnis. Qui commodi aut est qui ab quia numquam. Delectus necessitatibus incidunt et dignissimos possimus est dolores. Facere error fugiat nulla. Numquam est labore vero reprehenderit. Rerum quia consequatur dolorum quae consequatur. Voluptatem molestiae libero et maxime aut ut quibusdam quidem. Quis est repudiandae numquam quia. Deleniti labore vero fugit ab esse quos numquam.', 'a:7:{i:0;s:55:"Repudiandae sapiente ea voluptatem laboriosam eligendi.";i:1;s:54:"Ut labore sit exercitationem rerum ipsam sequi veniam.";i:2;s:63:"Et excepturi facilis maiores asperiores nisi nihil eos impedit.";i:3;s:46:"Labore qui rerum aut qui qui perspiciatis est.";i:4;s:42:"Esse ab maiores voluptas vero hic placeat.";i:5;s:67:"Et aut cum doloremque molestiae libero dignissimos ducimus dolorum.";i:6;s:49:"Magnam cum aut fuga labore temporibus voluptatem.";}', 43, 0, 3, 313.064138, 472.064138, 336.064138, '2022-03-25 01:14:00', '2022-04-03 01:14:00', 1468.00, 1, '2022-03-22 01:14:00', 1, 'abc-xyz-listing-123', 'a:2:{i:0;i:21;i:1;i:35;}', 'Nulla veritatis accusantium quis facere quis praesentium iusto.', 'I was sent for.\' \'You ought to eat some of them with the Duchess, as she could. \'No,\' said the Hatter: \'I\'m on the top of his great wig.\' The judge, by the end of the bread-and-butter. Just at this.', 1, 1, NULL, '2022-03-14 01:14:28', '2022-03-10 01:14:28'),
@@ -2996,7 +2996,7 @@ INSERT INTO `inventories` (`id`, `shop_id`, `title`, `warehouse_id`, `product_id
 	(107, 2, 'Nobis voluptates amet ipsum eos.', NULL, 43, 'Bashirian-Hahn', 5, 'est', 'Used', 'Tarts? The King turned pale, and shut his note-book hastily. \'Consider your verdict,\' he said to herself, (not in a hurry to change the subject,\' the March Hare will be the right thing to eat some.', 'Id dolorem voluptatem provident rerum. Perspiciatis magni veritatis dolore expedita velit iusto est. Provident ut sit sit saepe. Doloribus quisquam quos cum rerum eligendi. Voluptas qui atque voluptas vero maxime. Molestiae iusto iure quae sint. Dignissimos quia sit numquam est. Sequi quas consectetur dolore error excepturi vero ullam iste. Vero et minus dolorum eveniet et voluptatem. Assumenda hic nihil dolorem suscipit non quisquam. Odit eligendi omnis maxime porro veritatis tempore ad. Vel ea dolor sit ipsa voluptatum. Illo occaecati dolorum perspiciatis quis aut praesentium non. Et non neque iure voluptatem quisquam dolores error. Aliquam iusto quia corrupti praesentium. Quisquam omnis atque adipisci aut odit fugiat sapiente. Voluptatem quia voluptatem rem dignissimos. Alias quisquam ipsam corrupti labore. Quia ut iusto quae tempora. Doloremque ab labore voluptate. Consequatur tempora cupiditate facere. Doloribus deserunt ipsum ad accusamus. Vitae iure laborum molestiae consequatur saepe placeat cum est. Minima explicabo qui eaque ipsam voluptas. Et est expedita reiciendis ad et quia et quod. Sed nisi sunt non ex. Vero quis cupiditate est quia repellat est porro fugit. Aut quam autem qui qui commodi. Rerum tenetur veritatis laudantium ut eos quia. Explicabo reiciendis natus dolorum quasi sit et facilis. Non voluptatem hic harum velit qui nisi quia. Et at velit voluptatem sed. Libero quia nihil rem error quia sed. Nulla ad maiores natus similique eum non incidunt.', 'a:7:{i:0;s:56:"Est porro odit minus corrupti repellendus maiores eaque.";i:1;s:58:"Eaque voluptatem in corporis dignissimos exercitationem a.";i:2;s:32:"Sed minus quia ad ut nisi rerum.";i:3;s:79:"Dolorem asperiores sunt quasi exercitationem magni molestias quaerat inventore.";i:4;s:58:"Natus voluptatibus animi ab porro eos maxime eaque facere.";i:5;s:66:"Nulla sequi molestiae beatae necessitatibus quod non voluptatibus.";i:6;s:41:"Eaque quis fugiat molestiae optio facere.";}', 47, 0, 3, 348.530591, 94.000000, NULL, NULL, NULL, 128.00, 1, '2022-03-22 01:15:00', 1, 'ut-et-nemo-adipisci-optio-a-delectus-nihil-voluptatem', 'a:2:{i:0;i:12;i:1;i:38;}', 'Qui blanditiis voluptatem vitae quibusdam dolor voluptas.', 'HAVE tasted eggs, certainly,\' said Alice in a louder tone. \'ARE you to death."\' \'You are old,\' said the Hatter: \'let\'s all move one place on.\' He moved on as he spoke, \'we were trying--\' \'I see!\'.', 0, 1, NULL, '2022-03-12 01:15:19', '2022-03-13 01:15:19');
 /*!40000 ALTER TABLE `inventories` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.inventory_packaging
+-- Dumping structure for table ArabCode2511.inventory_packaging
 CREATE TABLE IF NOT EXISTS `inventory_packaging` (
   `packaging_id` int(10) unsigned NOT NULL,
   `inventory_id` bigint(20) unsigned NOT NULL,
@@ -3008,11 +3008,11 @@ CREATE TABLE IF NOT EXISTS `inventory_packaging` (
   CONSTRAINT `inventory_packaging_packaging_id_foreign` FOREIGN KEY (`packaging_id`) REFERENCES `packagings` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.inventory_packaging: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.inventory_packaging: ~0 rows (approximately)
 /*!40000 ALTER TABLE `inventory_packaging` DISABLE KEYS */;
 /*!40000 ALTER TABLE `inventory_packaging` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.invoices
+-- Dumping structure for table ArabCode2511.invoices
 CREATE TABLE IF NOT EXISTS `invoices` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `user_id` bigint(20) DEFAULT NULL,
@@ -3032,11 +3032,11 @@ CREATE TABLE IF NOT EXISTS `invoices` (
   KEY `invoices_shop_id_index` (`shop_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.invoices: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.invoices: ~0 rows (approximately)
 /*!40000 ALTER TABLE `invoices` DISABLE KEYS */;
 /*!40000 ALTER TABLE `invoices` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.jobs
+-- Dumping structure for table ArabCode2511.jobs
 CREATE TABLE IF NOT EXISTS `jobs` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `queue` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -3049,11 +3049,11 @@ CREATE TABLE IF NOT EXISTS `jobs` (
   KEY `jobs_queue_index` (`queue`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.jobs: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.jobs: ~0 rows (approximately)
 /*!40000 ALTER TABLE `jobs` DISABLE KEYS */;
 /*!40000 ALTER TABLE `jobs` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.languages
+-- Dumping structure for table ArabCode2511.languages
 CREATE TABLE IF NOT EXISTS `languages` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `code` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -3069,7 +3069,7 @@ CREATE TABLE IF NOT EXISTS `languages` (
   UNIQUE KEY `languages_code_unique` (`code`)
 ) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.languages: ~23 rows (approximately)
+-- Dumping data for table ArabCode2511.languages: ~23 rows (approximately)
 /*!40000 ALTER TABLE `languages` DISABLE KEYS */;
 INSERT INTO `languages` (`id`, `code`, `php_locale_code`, `language`, `order`, `rtl`, `active`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 'en', 'en_US', 'English', 1, 0, 1, NULL, '2022-03-25 01:12:47', '2022-03-25 01:12:47'),
@@ -3097,7 +3097,7 @@ INSERT INTO `languages` (`id`, `code`, `php_locale_code`, `language`, `order`, `
 	(23, 'uk', 'uk_UA', 'Ukrainian', 100, 0, 0, '2022-03-25 16:03:48', '2022-03-25 01:12:47', '2022-03-25 16:03:48');
 /*!40000 ALTER TABLE `languages` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.manufacturers
+-- Dumping structure for table ArabCode2511.manufacturers
 CREATE TABLE IF NOT EXISTS `manufacturers` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -3116,7 +3116,7 @@ CREATE TABLE IF NOT EXISTS `manufacturers` (
   UNIQUE KEY `manufacturers_slug_unique` (`slug`)
 ) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.manufacturers: ~16 rows (approximately)
+-- Dumping data for table ArabCode2511.manufacturers: ~16 rows (approximately)
 /*!40000 ALTER TABLE `manufacturers` DISABLE KEYS */;
 INSERT INTO `manufacturers` (`id`, `shop_id`, `name`, `slug`, `email`, `url`, `phone`, `description`, `country_id`, `active`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 4, 'acme', 'acme', 'maryjane.daugherty@gmail.com', 'http://ortiz.com/', '(434) 867-8277', 'Natus quidem repudiandae illo ducimus nam incidunt aliquam. Odit cum ad aut excepturi. Et est excepturi illum deleniti molestiae magnam. In veniam placeat fugit eaque. Doloremque et explicabo ipsam aut. Et tempora ratione enim voluptatum cum officia. Quidem eos nihil dolorem et ipsa. Illum praesentium suscipit in eaque autem quis sapiente.', 732, 1, NULL, '2022-03-25 01:13:57', '2022-03-25 01:13:57'),
@@ -3137,7 +3137,7 @@ INSERT INTO `manufacturers` (`id`, `shop_id`, `name`, `slug`, `email`, `url`, `p
 	(16, 2, 'Green, Stokes and Goyette', 'green-stokes-and-goyette', 'erich.hammes@tremblay.net', 'http://bruen.com/sed-ipsum-nesciunt-hic-laboriosam', '+1.214.927.7907', 'In et rem adipisci dicta veritatis placeat omnis qui. Dolores eligendi quo a aut quo illo. Aut explicabo itaque officia ducimus asperiores est. Nihil omnis dolorem veritatis modi. Possimus quibusdam debitis non fugit consequatur beatae aperiam. Earum id et ex quibusdam. Maxime et laudantium doloribus saepe. Quaerat recusandae doloribus blanditiis magnam fuga aperiam. Velit et et sit dolor facilis debitis nisi.', 499, 1, NULL, '2022-03-25 01:13:57', '2022-03-25 01:13:57');
 /*!40000 ALTER TABLE `manufacturers` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.messages
+-- Dumping structure for table ArabCode2511.messages
 CREATE TABLE IF NOT EXISTS `messages` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -3159,7 +3159,7 @@ CREATE TABLE IF NOT EXISTS `messages` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.messages: ~15 rows (approximately)
+-- Dumping data for table ArabCode2511.messages: ~15 rows (approximately)
 /*!40000 ALTER TABLE `messages` DISABLE KEYS */;
 INSERT INTO `messages` (`id`, `shop_id`, `user_id`, `customer_id`, `name`, `phone`, `email`, `subject`, `message`, `order_id`, `product_id`, `status`, `customer_status`, `label`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 1, NULL, 1, NULL, NULL, NULL, 'Ut quis ut provident.', 'Commodi reprehenderit mollitia dicta veritatis voluptatibus. A inventore quis pariatur qui assumenda neque autem qui. Commodi non voluptatibus ullam architecto beatae voluptates sit laboriosam. Asperiores est temporibus nihil culpa dignissimos id harum vel.', 12, NULL, 3, 1, 1, NULL, '2022-03-18 01:15:35', '2022-03-25 01:15:38'),
@@ -3180,7 +3180,7 @@ INSERT INTO `messages` (`id`, `shop_id`, `user_id`, `customer_id`, `name`, `phon
 	(16, 4, NULL, 17, NULL, NULL, NULL, 'لقد تم طلبك بنجاح', 'yyyyy', NULL, 4, 1, 3, 1, NULL, '2022-03-25 01:57:05', '2022-03-25 01:57:05');
 /*!40000 ALTER TABLE `messages` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.migrations
+-- Dumping structure for table ArabCode2511.migrations
 CREATE TABLE IF NOT EXISTS `migrations` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `migration` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -3188,7 +3188,7 @@ CREATE TABLE IF NOT EXISTS `migrations` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=97 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.migrations: ~96 rows (approximately)
+-- Dumping data for table ArabCode2511.migrations: ~96 rows (approximately)
 /*!40000 ALTER TABLE `migrations` DISABLE KEYS */;
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 	(1, '2014_04_01_151049_create_activity_log_table', 1),
@@ -3289,7 +3289,7 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 	(96, '2022_02_17_113926_add_customer_phone_to_orders_table', 1);
 /*!40000 ALTER TABLE `migrations` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.modules
+-- Dumping structure for table ArabCode2511.modules
 CREATE TABLE IF NOT EXISTS `modules` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -3303,7 +3303,7 @@ CREATE TABLE IF NOT EXISTS `modules` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.modules: ~33 rows (approximately)
+-- Dumping data for table ArabCode2511.modules: ~33 rows (approximately)
 /*!40000 ALTER TABLE `modules` DISABLE KEYS */;
 INSERT INTO `modules` (`id`, `name`, `description`, `access`, `actions`, `active`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 'Appearance', 'Manage all appearance.', 'Platform', 'customize', 1, NULL, '2022-03-25 01:12:31', '2022-03-25 01:12:31'),
@@ -3341,7 +3341,7 @@ INSERT INTO `modules` (`id`, `name`, `description`, `access`, `actions`, `active
 	(33, 'Utility', 'Manage all utility.', 'Platform', 'view,add,edit,delete', 1, NULL, '2022-03-25 01:12:32', '2022-03-25 01:12:32');
 /*!40000 ALTER TABLE `modules` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.notifications
+-- Dumping structure for table ArabCode2511.notifications
 CREATE TABLE IF NOT EXISTS `notifications` (
   `id` char(36) COLLATE utf8_unicode_ci NOT NULL,
   `type` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -3359,7 +3359,7 @@ CREATE TABLE IF NOT EXISTS `notifications` (
   KEY `notifications_notifiable_type_notifiable_id_index` (`notifiable_type`,`notifiable_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.notifications: ~21 rows (approximately)
+-- Dumping data for table ArabCode2511.notifications: ~21 rows (approximately)
 /*!40000 ALTER TABLE `notifications` DISABLE KEYS */;
 INSERT INTO `notifications` (`id`, `type`, `notifiable_type`, `notifiable_id`, `created_by`, `icon`, `action_text`, `action_url`, `data`, `read_at`, `created_at`, `updated_at`) VALUES
 	('020691f4-176a-40ea-ad50-46150e127525', 'App\\Notifications\\Shop\\ShopUpdated', 'App\\Models\\User', 3, NULL, NULL, NULL, NULL, '{"user":"SuperAdmin","name":"Haraj Marib"}', NULL, '2022-03-25 15:09:45', '2022-03-25 15:09:45'),
@@ -3385,7 +3385,7 @@ INSERT INTO `notifications` (`id`, `type`, `notifiable_type`, `notifiable_id`, `
 	('fa6a7e3b-c73a-4cfe-ac55-9d767ae07774', 'App\\Notifications\\Shop\\ShopIsLive', 'App\\Models\\User', 8, NULL, NULL, NULL, NULL, '{"name":"arab","status":"Shop is back to LIVE!"}', NULL, '2022-03-25 02:00:56', '2022-03-25 02:00:56');
 /*!40000 ALTER TABLE `notifications` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.options
+-- Dumping structure for table ArabCode2511.options
 CREATE TABLE IF NOT EXISTS `options` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `option_name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -3396,7 +3396,7 @@ CREATE TABLE IF NOT EXISTS `options` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.options: ~5 rows (approximately)
+-- Dumping data for table ArabCode2511.options: ~5 rows (approximately)
 /*!40000 ALTER TABLE `options` DISABLE KEYS */;
 INSERT INTO `options` (`id`, `option_name`, `option_value`, `autoload`, `created_at`, `updated_at`) VALUES
 	(1, 'trending_categories', 'a:3:{i:0;i:1;i:1;i:35;i:2;i:25;}', 1, '2022-03-25 01:13:30', '2022-03-25 01:13:30'),
@@ -3407,7 +3407,7 @@ INSERT INTO `options` (`id`, `option_name`, `option_value`, `autoload`, `created
 	(6, 'best_finds_under', '99', 1, '2022-03-25 01:21:30', '2022-03-25 01:21:30');
 /*!40000 ALTER TABLE `options` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.orders
+-- Dumping structure for table ArabCode2511.orders
 CREATE TABLE IF NOT EXISTS `orders` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `order_number` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -3461,7 +3461,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
   CONSTRAINT `orders_customer_id_foreign` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`id`) ON DELETE SET NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.orders: ~17 rows (approximately)
+-- Dumping data for table ArabCode2511.orders: ~17 rows (approximately)
 /*!40000 ALTER TABLE `orders` DISABLE KEYS */;
 INSERT INTO `orders` (`id`, `order_number`, `shop_id`, `delivery_boy_id`, `customer_id`, `ship_to`, `shipping_zone_id`, `shipping_rate_id`, `packaging_id`, `item_count`, `quantity`, `taxrate`, `shipping_weight`, `total`, `discount`, `shipping`, `packaging`, `handling`, `taxes`, `grand_total`, `billing_address`, `shipping_address`, `fulfilment_type`, `payment_instruction`, `email`, `customer_phone_number`, `shipping_date`, `delivery_date`, `tracking_id`, `coupon_id`, `carrier_id`, `payment_status`, `payment_ref_id`, `payment_method_id`, `order_status_id`, `message_to_customer`, `send_invoice_to_customer`, `admin_note`, `buyer_note`, `goods_received`, `approved`, `disputed`, `feedback_id`, `device_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, '#920655', 1, NULL, 16, NULL, NULL, 23, 1, 2, 6, NULL, 3741.000000, 1821.988515, NULL, 5.000000, NULL, NULL, NULL, 1826.988515, '<address>23467 Satterfield Gateway Suite 202<br/>Kaia Road<br/>New Alexys, <br/>Z̧ufār 30274-7472<br/><abbr title="Phone">P:</abbr> +1 (610) 368-7072</address>', '<address>23467 Satterfield Gateway Suite 202<br/>Kaia Road<br/>New Alexys, <br/>Z̧ufār 30274-7472<br/><abbr title="Phone">P:</abbr> +1 (610) 368-7072</address>', 'deliver', NULL, NULL, NULL, NULL, NULL, 'RR123456789CN', NULL, NULL, 1, NULL, 3, 1, NULL, NULL, 'Quisquam in quasi eveniet illum perspiciatis sed.', 'Aut numquam eos sunt esse.', NULL, NULL, NULL, NULL, NULL, NULL, '2022-03-13 01:15:26', '2022-03-13 01:15:26'),
@@ -3483,7 +3483,7 @@ INSERT INTO `orders` (`id`, `order_number`, `shop_id`, `delivery_boy_id`, `custo
 	(17, '#233032', 2, NULL, NULL, 887, 3, NULL, NULL, 1, 1, 0.000000, 985.000000, 468.556000, 0.000000, NULL, NULL, 0.000000, 0.000000, 468.556000, '<address>,<br/>ali,<br/>main,<br/>almethaq,<br/>marib,<br/>Ma\'rib 12345,<br/>Yemen,<br/>Phone: +967777584055,<br/></address>', '<address>,<br/>ali,<br/>main,<br/>almethaq,<br/>marib,<br/>Ma\'rib 12345,<br/>Yemen,<br/>Phone: +967777584055,<br/></address>', 'deliver', 'Payment instructions for Bank Wire Transfer', 'hululerp@gmail.com', '+967777584055', NULL, NULL, NULL, NULL, NULL, 2, NULL, 7, 1, NULL, NULL, NULL, 'hello', NULL, NULL, NULL, NULL, NULL, NULL, '2022-03-25 17:49:22', '2022-03-25 17:49:22');
 /*!40000 ALTER TABLE `orders` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.order_items
+-- Dumping structure for table ArabCode2511.order_items
 CREATE TABLE IF NOT EXISTS `order_items` (
   `order_id` bigint(20) unsigned NOT NULL,
   `inventory_id` bigint(20) unsigned DEFAULT NULL,
@@ -3499,7 +3499,7 @@ CREATE TABLE IF NOT EXISTS `order_items` (
   CONSTRAINT `order_items_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.order_items: ~46 rows (approximately)
+-- Dumping data for table ArabCode2511.order_items: ~46 rows (approximately)
 /*!40000 ALTER TABLE `order_items` DISABLE KEYS */;
 INSERT INTO `order_items` (`order_id`, `inventory_id`, `item_description`, `quantity`, `unit_price`, `feedback_id`, `created_at`, `updated_at`) VALUES
 	(1, 44, 'Quasi cupiditate dignissimos labore ducimus blanditiis in. - New', 3, 441.971905, NULL, '2022-03-25 01:13:30', '2022-03-25 01:13:30'),
@@ -3550,7 +3550,7 @@ INSERT INTO `order_items` (`order_id`, `inventory_id`, `item_description`, `quan
 	(17, 34, 'vel: Nulla cum ut voluptatem corrupti velit aliquam. - sunt - id - Refurbished', 1, 468.556000, NULL, '2022-03-25 17:47:05', '2022-03-25 17:48:27');
 /*!40000 ALTER TABLE `order_items` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.packages
+-- Dumping structure for table ArabCode2511.packages
 CREATE TABLE IF NOT EXISTS `packages` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `slug` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -3571,11 +3571,11 @@ CREATE TABLE IF NOT EXISTS `packages` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.packages: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.packages: ~0 rows (approximately)
 /*!40000 ALTER TABLE `packages` DISABLE KEYS */;
 /*!40000 ALTER TABLE `packages` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.packagings
+-- Dumping structure for table ArabCode2511.packagings
 CREATE TABLE IF NOT EXISTS `packagings` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -3592,7 +3592,7 @@ CREATE TABLE IF NOT EXISTS `packagings` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.packagings: ~6 rows (approximately)
+-- Dumping data for table ArabCode2511.packagings: ~6 rows (approximately)
 /*!40000 ALTER TABLE `packagings` DISABLE KEYS */;
 INSERT INTO `packagings` (`id`, `shop_id`, `name`, `width`, `height`, `depth`, `cost`, `default`, `active`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, NULL, 'Free Basic Packaging', NULL, NULL, NULL, 0.000000, NULL, 1, NULL, '2022-03-25 01:12:46', '2022-03-25 01:12:46'),
@@ -3603,7 +3603,7 @@ INSERT INTO `packagings` (`id`, `shop_id`, `name`, `width`, `height`, `depth`, `
 	(6, 5, 'totam', 40.130000, 31.510000, 21.860000, 1.000000, NULL, 1, NULL, '2022-03-20 01:14:28', '2022-03-17 01:14:28');
 /*!40000 ALTER TABLE `packagings` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.pages
+-- Dumping structure for table ArabCode2511.pages
 CREATE TABLE IF NOT EXISTS `pages` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `author_id` bigint(20) unsigned DEFAULT NULL,
@@ -3620,7 +3620,7 @@ CREATE TABLE IF NOT EXISTS `pages` (
   UNIQUE KEY `pages_slug_unique` (`slug`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.pages: ~8 rows (approximately)
+-- Dumping data for table ArabCode2511.pages: ~8 rows (approximately)
 /*!40000 ALTER TABLE `pages` DISABLE KEYS */;
 INSERT INTO `pages` (`id`, `author_id`, `title`, `slug`, `content`, `published_at`, `visibility`, `position`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 1, 'About us', 'about-us', 'Add your own About Us info here. You can modify this page from ADMIN PANEL >> UTILITIES >> PAGES section.', '2022-03-25 01:12:46', 1, 'copyright_area', NULL, '2022-03-25 01:12:46', '2022-03-25 01:12:46'),
@@ -3633,7 +3633,7 @@ INSERT INTO `pages` (`id`, `author_id`, `title`, `slug`, `content`, `published_a
 	(8, 1, 'Career', 'career', 'You can modify this page from ADMIN PANEL >> UTILITIES >> PAGES section.', '2022-03-25 01:12:46', 1, 'footer_2nd_column', NULL, '2022-03-25 01:12:46', '2022-03-25 01:12:46');
 /*!40000 ALTER TABLE `pages` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.password_resets
+-- Dumping structure for table ArabCode2511.password_resets
 CREATE TABLE IF NOT EXISTS `password_resets` (
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `token` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -3642,11 +3642,11 @@ CREATE TABLE IF NOT EXISTS `password_resets` (
   KEY `password_resets_token_index` (`token`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.password_resets: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.password_resets: ~0 rows (approximately)
 /*!40000 ALTER TABLE `password_resets` DISABLE KEYS */;
 /*!40000 ALTER TABLE `password_resets` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.payment_methods
+-- Dumping structure for table ArabCode2511.payment_methods
 CREATE TABLE IF NOT EXISTS `payment_methods` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `code` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -3668,11 +3668,11 @@ CREATE TABLE IF NOT EXISTS `payment_methods` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.payment_methods: ~7 rows (approximately)
+-- Dumping data for table ArabCode2511.payment_methods: ~7 rows (approximately)
 /*!40000 ALTER TABLE `payment_methods` DISABLE KEYS */;
 INSERT INTO `payment_methods` (`id`, `code`, `name`, `type`, `split_money`, `company_name`, `website`, `help_doc_link`, `terms_conditions_link`, `description`, `instructions`, `admin_description`, `admin_help_doc_link`, `enabled`, `order`, `created_at`, `updated_at`) VALUES
 	(1, 'paypal-express', 'PayPal Express Checkout', 1, 0, 'PayPal Inc.', 'https://www.paypal.com/', 'https://www.paypal.com/us/webapps/mpp/express-checkout', NULL, 'Add PayPal as a payment method to allow customers to checkout with PayPal. Express Checkout offers the ease of convenience and security of PayPal, can turn more shoppers into buyers. You must have a PayPal business account to activate this payment method. - You must have a PayPal business account.<br/><strong>To activate PayPal Express: </strong><br/>- You must have a PayPal business account to accept payments.<br/>- Create an app to receive API credentials for testing and live transactions.<br/>- Go to this link to create your app: <small>https://developer.paypal.com/webapps/developer/applications/myapps</small>', NULL, 'Add PayPal as a payment method to any checkout with Express Checkout. Express Checkout offers the ease of convenience and security of PayPal, can be set up in minutes and can turn more shoppers into buyers.', 'https://developer.paypal.com/docs/integration/direct/express-checkout/integration-jsv4/', 1, 1, '2022-03-25 01:12:45', '2022-03-25 01:12:45'),
-	(2, 'stripe', 'Stripe', 2, 1, 'Stripe Inc.', 'https://stripe.com/', 'https://stripe.com/docs/checkout/tutorial', NULL, 'Stripe is one of the best and safe option to charge credit and debit cards around the world. Stripe has a simple fee structure and no hidden costs. No other gateway or merchant account is required. <br/><strong>By using Stripe: </strong><br/>- You have to connect our platform to your Stripe account. <br/>- You agree to Stripe\'s <a href="https://stripe.com/us/privacy" target="_blank">Terms of Service</a>.', NULL, 'Stripe is one of the best and safe option to charge credit and debit cards around the world. Stripe has a product for marketplace like this. To enable Stripe to your vendors, you must have to register your platform with Stripe.<br/><strong> Follow This Simple steps:</strong><br/>- Create an Stripe application using the bellow information. <a href="https://stripe.com/docs/connect/quickstart" target="_blank">Check their documentation for help.</a><br/>- Update the .env file on your server with Stripe API credentials.<br/><br/><strong>Remember </strong> when you register your platform use this information: <br/>- Name: \'zCart Marketplace\'<br/>- Website URL: \'http://localhost/zcart2511/public\'<br/>- Redirect URL: \'http://localhost/zcart2511/public/admin/setting/stripe/redirect\'', 'https://stripe.com/docs/connect/quickstart', 1, 2, '2022-03-25 01:12:45', '2022-03-25 01:12:45'),
+	(2, 'stripe', 'Stripe', 2, 1, 'Stripe Inc.', 'https://stripe.com/', 'https://stripe.com/docs/checkout/tutorial', NULL, 'Stripe is one of the best and safe option to charge credit and debit cards around the world. Stripe has a simple fee structure and no hidden costs. No other gateway or merchant account is required. <br/><strong>By using Stripe: </strong><br/>- You have to connect our platform to your Stripe account. <br/>- You agree to Stripe\'s <a href="https://stripe.com/us/privacy" target="_blank">Terms of Service</a>.', NULL, 'Stripe is one of the best and safe option to charge credit and debit cards around the world. Stripe has a product for marketplace like this. To enable Stripe to your vendors, you must have to register your platform with Stripe.<br/><strong> Follow This Simple steps:</strong><br/>- Create an Stripe application using the bellow information. <a href="https://stripe.com/docs/connect/quickstart" target="_blank">Check their documentation for help.</a><br/>- Update the .env file on your server with Stripe API credentials.<br/><br/><strong>Remember </strong> when you register your platform use this information: <br/>- Name: \'ArabCode Marketplace\'<br/>- Website URL: \'http://localhost/ArabCode2511/public\'<br/>- Redirect URL: \'http://localhost/ArabCode2511/public/admin/setting/stripe/redirect\'', 'https://stripe.com/docs/connect/quickstart', 1, 2, '2022-03-25 01:12:45', '2022-03-25 01:12:45'),
 	(3, 'authorize-net', 'Authorize.Net', 2, 0, 'Authorize.Net', 'https://www.authorize.net/', 'https://www.authorize.net/support/', NULL, 'More solutions for your business. More support when you need it. More strength to stand on. <br/><strong>By using Authorize.Net: </strong><br/>- You have to have an Authorize.Net account. <br/>- You agree to Authorize.Net\'s <a href="https://www.authorize.net/about-us/terms/" target="_blank">Terms of Use</a>.', NULL, 'Authorize.Net helps makes it simple to accept electronic and credit card payments.', 'https://www.authorize.net/about-us/', 1, 3, '2022-03-25 01:12:45', '2022-03-25 01:12:45'),
 	(4, 'instamojo', 'Instamojo', 2, 0, 'Instamojo Technologies Pvt. Ltd.', 'https://instamojo.com/', 'https://instamojo.com/docs/checkout/tutorial', NULL, 'Instamojo is one of the most popular and Multi-Channel Payment Gateway for India - Accept Credit/Debit Cards, Wallets, Net Banking, UPI & EMI. <br/><strong>By using Instamojo: </strong><br/>- You have to have your Instamojo business account. <br/>- You agree to Instamojo\'s <a href="https://www.instamojo.com/terms/" target="_blank">Terms of Service</a>.', NULL, 'Instamojo is one of the most popular and Multi-Channel Payment Gateway for India - Accept Credit/Debit Cards, Wallets, Net Banking, UPI & EMI. Enable Instamojo to your vendors.', 'https://www.instamojo.com/', 1, 5, '2022-03-25 01:12:45', '2022-03-25 01:12:45'),
 	(5, 'paystack', 'Paystack', 4, 0, 'Paystack', 'https://paystack.com/', 'https://paystack.helpscoutdocs.com/', NULL, 'Modern online and offline payments for Africa. Paystack helps businesses in Africa get paid by anyone, anywhere in the world. <br/><strong>By using Paystack: </strong><br/>- You agree to Paystack\'s <a href="https://paystack.com/terms" target="_blank">Terms of Service</a>.', NULL, 'Modern online and offline payments for Africa. Paystack helps businesses in Africa get paid by anyone, anywhere in the world.', 'https://paystack.helpscoutdocs.com/', 1, 1, '2022-03-25 01:12:45', '2022-03-25 01:12:45'),
@@ -3680,7 +3680,7 @@ INSERT INTO `payment_methods` (`id`, `code`, `name`, `type`, `split_money`, `com
 	(7, 'wire', 'Bank Wire Transfer', 3, 0, 'Pay by bank wire transfer', NULL, NULL, NULL, 'Pay by bank wire transfer,  transfer the invoice amount via wire tranfer to the merchant account and confirm manually. After payment confirmation the goods will be shipped.', NULL, 'Pay by bank wire transfer,  transfer the invoice amount via wire tranfer to the merchant account and confirm manually. After payment confirmation the goods will be shipped.', '', 1, 6, '2022-03-25 01:12:45', '2022-03-25 01:12:45');
 /*!40000 ALTER TABLE `payment_methods` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.performance_indicators
+-- Dumping structure for table ArabCode2511.performance_indicators
 CREATE TABLE IF NOT EXISTS `performance_indicators` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `monthly_recurring_revenue` decimal(8,2) DEFAULT NULL,
@@ -3693,11 +3693,11 @@ CREATE TABLE IF NOT EXISTS `performance_indicators` (
   KEY `performance_indicators_created_at_index` (`created_at`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.performance_indicators: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.performance_indicators: ~0 rows (approximately)
 /*!40000 ALTER TABLE `performance_indicators` DISABLE KEYS */;
 /*!40000 ALTER TABLE `performance_indicators` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.permissions
+-- Dumping structure for table ArabCode2511.permissions
 CREATE TABLE IF NOT EXISTS `permissions` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `module_id` int(10) unsigned NOT NULL,
@@ -3711,7 +3711,7 @@ CREATE TABLE IF NOT EXISTS `permissions` (
   CONSTRAINT `permissions_module_id_foreign` FOREIGN KEY (`module_id`) REFERENCES `modules` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=115 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.permissions: ~114 rows (approximately)
+-- Dumping data for table ArabCode2511.permissions: ~114 rows (approximately)
 /*!40000 ALTER TABLE `permissions` DISABLE KEYS */;
 INSERT INTO `permissions` (`id`, `module_id`, `name`, `slug`, `created_at`, `updated_at`) VALUES
 	(1, 1, 'Customize', 'customize_appearance', '2022-03-25 01:12:32', '2022-03-25 01:12:32'),
@@ -3830,7 +3830,7 @@ INSERT INTO `permissions` (`id`, `module_id`, `name`, `slug`, `created_at`, `upd
 	(114, 33, 'Delete', 'delete_utility', '2022-03-25 01:12:32', '2022-03-25 01:12:32');
 /*!40000 ALTER TABLE `permissions` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.permission_role
+-- Dumping structure for table ArabCode2511.permission_role
 CREATE TABLE IF NOT EXISTS `permission_role` (
   `permission_id` int(10) unsigned NOT NULL,
   `role_id` int(10) unsigned NOT NULL,
@@ -3843,7 +3843,7 @@ CREATE TABLE IF NOT EXISTS `permission_role` (
   CONSTRAINT `permission_role_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.permission_role: ~156 rows (approximately)
+-- Dumping data for table ArabCode2511.permission_role: ~156 rows (approximately)
 /*!40000 ALTER TABLE `permission_role` DISABLE KEYS */;
 INSERT INTO `permission_role` (`permission_id`, `role_id`, `created_at`, `updated_at`) VALUES
 	(1, 2, '2022-03-25 01:12:32', '2022-03-25 01:12:32'),
@@ -4004,7 +4004,7 @@ INSERT INTO `permission_role` (`permission_id`, `role_id`, `created_at`, `update
 	(114, 2, '2022-03-25 01:12:32', '2022-03-25 01:12:32');
 /*!40000 ALTER TABLE `permission_role` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.products
+-- Dumping structure for table ArabCode2511.products
 CREATE TABLE IF NOT EXISTS `products` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -4032,7 +4032,7 @@ CREATE TABLE IF NOT EXISTS `products` (
   UNIQUE KEY `products_slug_unique` (`slug`)
 ) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.products: ~51 rows (approximately)
+-- Dumping data for table ArabCode2511.products: ~51 rows (approximately)
 /*!40000 ALTER TABLE `products` DISABLE KEYS */;
 INSERT INTO `products` (`id`, `shop_id`, `manufacturer_id`, `brand`, `name`, `model_number`, `mpn`, `gtin`, `gtin_type`, `description`, `min_price`, `max_price`, `origin_country`, `has_variant`, `requires_shipping`, `downloadable`, `slug`, `sale_count`, `active`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, NULL, 1, 'qui', 'Consequatur officia optio voluptatem nemo.', 'qui rq545', '3150161', '7425807891768', 'UPC', 'Enim odit sint molestiae consequuntur molestiae hic ut repellendus. Et blanditiis minus temporibus earum non velit. Eos sit vel et maiores rem fugit inventore. Qui cumque perspiciatis id. A iure quis placeat. Cumque necessitatibus quaerat iste praesentium cum possimus culpa vel. Reiciendis aperiam voluptas labore id repudiandae alias officia nihil. A unde aut omnis et sed. Quia ut consequatur rerum rerum. Et molestiae non dolore placeat. Eius quae quos a in. Nostrum ut similique ipsam sunt.<p><br/><iframe frameborder="0" src="//www.youtube.com/embed/7abGwVjXSY4" class="note-video-clip" style="width: 100%; height: 475px; float: none;"></iframe></p><br/>Labore porro enim repellendus temporibus aperiam. Voluptate sed non quis. Neque mollitia aut mollitia consequatur eum. Dolorem optio et sint praesentium quos nihil. Incidunt laudantium voluptatem blanditiis nam aspernatur velit ducimus non. Modi blanditiis occaecati voluptates at nobis. Animi nulla neque quidem sapiente totam voluptas sint.<img src="https://picsum.photos/640/360.webp" style="width: 50%; float: right; margin: 20px 0 20px 20px;">Molestiae suscipit cum rem sed quis tempore tempora eius. Sint voluptatem labore et et. Soluta dolorum soluta inventore quasi. Assumenda id impedit nesciunt error non. Perspiciatis in qui molestiae dolor est. Quaerat sequi necessitatibus ducimus qui sapiente libero. Similique et et reiciendis et explicabo. Ut et velit quo. Sunt commodi et assumenda sit ut repellat quis. Qui cupiditate ratione vero perferendis earum. Suscipit repellat qui voluptatem in. Aliquid quibusdam quod qui. Enim quidem qui distinctio vel. Voluptatem sapiente dicta deserunt ut ut molestias. Aliquid iusto modi aut voluptas. Laudantium aut consequatur consectetur et velit. Non minima autem quis ab exercitationem. Placeat corporis veritatis unde officia. At totam quo sit officia vitae officia. Voluptas consequuntur voluptatum provident quia et aliquam. Et similique et aut alias reprehenderit rerum cum odit. Esse ad vel nostrum et quis aut. Consequatur modi magnam sed et quae ad delectus nobis. Quis inventore cum sapiente quia ut. Et magni vero nemo explicabo animi ex commodi.<p><br/><img src="https://loremflickr.com/640/360" style="width: 100%; float: none;"></p><br/>Voluptatibus libero porro enim est et nulla dolores. Nam aperiam sequi aut deserunt rerum sed. Voluptas deserunt temporibus et fugiat sit. Laboriosam molestiae optio consectetur quia et quis laborum. Atque beatae nemo et provident fugit. Doloribus dolor sed saepe non sequi. Deleniti alias tempore animi quas cum. Ipsam debitis corrupti rem veniam enim quis dignissimos. Vero architecto fuga ut. Aut architecto incidunt ut voluptatem aut est tenetur. Voluptatem nobis molestias ut amet. Doloremque sint et aut sunt illo. Voluptates voluptatem quia officia explicabo dolor natus cupiditate alias.', 0.000000, NULL, 674, 0, 1, NULL, 'abc-xyz-product-123', 7, 1, NULL, '2022-03-19 01:13:58', '2022-03-20 01:13:58'),
@@ -4088,7 +4088,7 @@ INSERT INTO `products` (`id`, `shop_id`, `manufacturer_id`, `brand`, `name`, `mo
 	(51, NULL, 13, 'qui', 'Odio qui veniam culpa eius sed repellat est.', 'mollitia va575', '19904', '3427656124923', 'ISBN', 'Omnis amet hic doloribus autem reiciendis ipsam. Corrupti repudiandae reprehenderit aut. Impedit non repellendus voluptatem et. Dolores quia nulla ipsa atque. Perspiciatis necessitatibus ipsum autem hic omnis labore. Et labore sit in voluptatem quisquam deleniti. Ea mollitia commodi in ipsa voluptatem magni. Ratione autem excepturi officiis alias eligendi. Vel reiciendis et libero consequatur impedit laudantium. Dolor perferendis deleniti neque qui tenetur consequuntur.<p><br/><iframe frameborder="0" src="//www.youtube.com/embed/TGbUpEJ1z-k" class="note-video-clip" style="width: 100%; height: 475px; float: none;"></iframe></p><br/>Et tempore eveniet doloremque ipsam ipsa aut non quibusdam. Doloribus aut saepe perferendis quam provident voluptas. Necessitatibus excepturi fugit magnam vitae est dolor. Nihil quo dolores architecto vel velit dolorem est. Aut eum temporibus sed est. Molestiae maiores doloribus ut et adipisci quos saepe. Id facere quia repellendus voluptas non.<img src="https://loremflickr.com/640/360" style="width: 50%; float: right; margin: 20px 0 20px 20px;">Tenetur iste est sapiente eius recusandae quae. Sapiente eos quisquam sit mollitia aperiam repellat. Est iste accusantium sint sunt rerum. Corporis sed quia repellat alias. Ut ipsam dolorem non provident. Ut velit hic ratione provident veniam possimus aperiam adipisci. Possimus quae eos et fugit maxime doloribus qui. Ducimus in earum quibusdam quam et cupiditate. Est vel repellat quae cum. Ut nihil fugiat eum at. Commodi illo aperiam ratione nam culpa quis quis ad. Qui corrupti aut autem omnis iusto repellat autem. Aut officia sint voluptates nisi quo repudiandae. Magni dolorum architecto dolore dolorum odio. Eligendi sed distinctio dolores in vel corporis. Eos hic id qui sed non. Aut et commodi dolores consectetur. Provident qui earum reiciendis delectus. Alias consequatur ratione quos impedit saepe. Et mollitia et quis voluptatem. Dolor repellat animi voluptate consequatur. Id eos delectus rem ratione at libero qui. Nobis amet autem fuga a voluptas facilis deserunt ea. Voluptates asperiores sunt rerum magni aperiam labore. Et quis quos eum cum in. Ab culpa possimus eos repellat adipisci.<p><br/><img src="https://picsum.photos/640/360.webp" style="width: 100%; float: none;"></p><br/>Est incidunt et laboriosam voluptatum ut vero. Harum assumenda vel id alias sapiente ut laudantium. Reiciendis illo vero officiis vel. A rerum enim reprehenderit consequatur aut rem. Aspernatur aut ut sunt temporibus et ea. Repellendus vitae vero at ut suscipit recusandae. Quos ducimus dolor porro necessitatibus dolores consequatur. Omnis harum rerum amet. Qui magni soluta rem reiciendis expedita ea blanditiis. Aut possimus ab excepturi aliquid quisquam non optio. Molestiae eos ipsum quaerat dolorem beatae eum. At consequuntur debitis quibusdam ut aliquid nostrum.', 0.000000, NULL, 706, 0, 1, NULL, 'a-quasi-ut-perspiciatis-minima-qui-est', 6, 1, NULL, '2022-03-15 01:14:01', '2022-03-25 01:14:01');
 /*!40000 ALTER TABLE `products` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.refunds
+-- Dumping structure for table ArabCode2511.refunds
 CREATE TABLE IF NOT EXISTS `refunds` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -4105,11 +4105,11 @@ CREATE TABLE IF NOT EXISTS `refunds` (
   CONSTRAINT `refunds_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.refunds: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.refunds: ~0 rows (approximately)
 /*!40000 ALTER TABLE `refunds` DISABLE KEYS */;
 /*!40000 ALTER TABLE `refunds` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.replies
+-- Dumping structure for table ArabCode2511.replies
 CREATE TABLE IF NOT EXISTS `replies` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `reply` longtext COLLATE utf8_unicode_ci,
@@ -4125,7 +4125,7 @@ CREATE TABLE IF NOT EXISTS `replies` (
   CONSTRAINT `replies_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.replies: ~30 rows (approximately)
+-- Dumping data for table ArabCode2511.replies: ~30 rows (approximately)
 /*!40000 ALTER TABLE `replies` DISABLE KEYS */;
 INSERT INTO `replies` (`id`, `reply`, `user_id`, `customer_id`, `read`, `repliable_id`, `repliable_type`, `created_at`, `updated_at`) VALUES
 	(1, 'Doloribus eius vel est omnis debitis ipsum id. In velit aut nam iure ea. Praesentium ut minus at ex consequatur iste. Accusamus explicabo est necessitatibus culpa perspiciatis et.', 7, NULL, 1, 1, 'App\\Models\\Message', '2022-03-23 01:15:36', '2022-03-20 01:15:36'),
@@ -4160,7 +4160,7 @@ INSERT INTO `replies` (`id`, `reply`, `user_id`, `customer_id`, `read`, `repliab
 	(30, 'Nesciunt illo voluptatibus aut minus et dolorum quia. Voluptate delectus pariatur dolore incidunt distinctio saepe. Dolores pariatur illum animi et.', 2, NULL, 1, 3, 'App\\Models\\Ticket', '2022-03-21 01:15:36', '2022-03-21 01:15:36');
 /*!40000 ALTER TABLE `replies` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.roles
+-- Dumping structure for table ArabCode2511.roles
 CREATE TABLE IF NOT EXISTS `roles` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -4174,7 +4174,7 @@ CREATE TABLE IF NOT EXISTS `roles` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.roles: ~5 rows (approximately)
+-- Dumping data for table ArabCode2511.roles: ~5 rows (approximately)
 /*!40000 ALTER TABLE `roles` DISABLE KEYS */;
 INSERT INTO `roles` (`id`, `shop_id`, `name`, `description`, `public`, `level`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, NULL, 'Super Admin', 'Super Admin can do anything over the application.', 0, 1, NULL, '2022-03-25 01:12:29', '2022-03-25 01:12:29'),
@@ -4184,7 +4184,7 @@ INSERT INTO `roles` (`id`, `shop_id`, `name`, `description`, `public`, `level`, 
 	(5, NULL, 'Order Handler', 'Only can access order information under his/her shop.', 1, 5, NULL, '2022-03-25 01:12:29', '2022-03-25 01:12:29');
 /*!40000 ALTER TABLE `roles` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.shipping_rates
+-- Dumping structure for table ArabCode2511.shipping_rates
 CREATE TABLE IF NOT EXISTS `shipping_rates` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -4202,7 +4202,7 @@ CREATE TABLE IF NOT EXISTS `shipping_rates` (
   CONSTRAINT `shipping_rates_shipping_zone_id_foreign` FOREIGN KEY (`shipping_zone_id`) REFERENCES `shipping_zones` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.shipping_rates: ~50 rows (approximately)
+-- Dumping data for table ArabCode2511.shipping_rates: ~50 rows (approximately)
 /*!40000 ALTER TABLE `shipping_rates` DISABLE KEYS */;
 INSERT INTO `shipping_rates` (`id`, `name`, `shipping_zone_id`, `carrier_id`, `based_on`, `minimum`, `maximum`, `rate`, `delivery_takes`, `created_at`, `updated_at`) VALUES
 	(1, 'quibusdam', 1, 4, 'weight', 0.000000, 2000.000000, 15.000000, '10-27 days', '2022-03-25 01:14:25', '2022-03-25 01:14:25'),
@@ -4257,7 +4257,7 @@ INSERT INTO `shipping_rates` (`id`, `name`, `shipping_zone_id`, `carrier_id`, `b
 	(50, 'tempore', 10, 4, 'price', 0.000000, NULL, 20.000000, '20-36 days', '2022-03-25 01:14:27', '2022-03-25 01:14:27');
 /*!40000 ALTER TABLE `shipping_rates` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.shipping_zones
+-- Dumping structure for table ArabCode2511.shipping_zones
 CREATE TABLE IF NOT EXISTS `shipping_zones` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -4272,7 +4272,7 @@ CREATE TABLE IF NOT EXISTS `shipping_zones` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.shipping_zones: ~13 rows (approximately)
+-- Dumping data for table ArabCode2511.shipping_zones: ~13 rows (approximately)
 /*!40000 ALTER TABLE `shipping_zones` DISABLE KEYS */;
 INSERT INTO `shipping_zones` (`id`, `shop_id`, `name`, `tax_id`, `country_ids`, `state_ids`, `rest_of_the_world`, `active`, `created_at`, `updated_at`) VALUES
 	(1, 1, 'Domestic', 1, 'a:2:{i:0;i:50;i:1;i:840;}', 'a:67:{i:0;i:64;i:1;i:65;i:2;i:66;i:3;i:67;i:4;i:68;i:5;i:69;i:6;i:70;i:7;i:71;i:8;i:1371;i:9;i:1372;i:10;i:1373;i:11;i:1374;i:12;i:1375;i:13;i:1376;i:14;i:1377;i:15;i:1378;i:16;i:1379;i:17;i:1380;i:18;i:1381;i:19;i:1382;i:20;i:1383;i:21;i:1384;i:22;i:1385;i:23;i:1386;i:24;i:1387;i:25;i:1388;i:26;i:1389;i:27;i:1390;i:28;i:1391;i:29;i:1392;i:30;i:1393;i:31;i:1394;i:32;i:1395;i:33;i:1396;i:34;i:1397;i:35;i:1398;i:36;i:1399;i:37;i:1400;i:38;i:1401;i:39;i:1402;i:40;i:1403;i:41;i:1404;i:42;i:1405;i:43;i:1406;i:44;i:1407;i:45;i:1408;i:46;i:1409;i:47;i:1410;i:48;i:1411;i:49;i:1412;i:50;i:1413;i:51;i:1414;i:52;i:1415;i:53;i:1416;i:54;i:1417;i:55;i:1418;i:56;i:1419;i:57;i:1420;i:58;i:1421;i:59;i:1422;i:60;i:1423;i:61;i:1424;i:62;i:1425;i:63;i:1426;i:64;i:1427;i:65;i:1428;i:66;i:1429;}', 0, 1, '2022-03-25 01:13:38', '2022-03-25 01:13:38'),
@@ -4290,7 +4290,7 @@ INSERT INTO `shipping_zones` (`id`, `shop_id`, `name`, `tax_id`, `country_ids`, 
 	(13, 8, 'Worldwide', 1, 'a:0:{}', 'a:0:{}', 1, 1, '2022-03-25 02:19:41', '2022-03-25 02:19:41');
 /*!40000 ALTER TABLE `shipping_zones` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.shops
+-- Dumping structure for table ArabCode2511.shops
 CREATE TABLE IF NOT EXISTS `shops` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `owner_id` bigint(20) unsigned NOT NULL,
@@ -4324,7 +4324,7 @@ CREATE TABLE IF NOT EXISTS `shops` (
   CONSTRAINT `shops_owner_id_foreign` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.shops: ~8 rows (approximately)
+-- Dumping data for table ArabCode2511.shops: ~8 rows (approximately)
 /*!40000 ALTER TABLE `shops` DISABLE KEYS */;
 INSERT INTO `shops` (`id`, `owner_id`, `name`, `legal_name`, `slug`, `email`, `description`, `external_url`, `timezone_id`, `current_billing_plan`, `stripe_id`, `card_holder_name`, `pm_type`, `pm_last_four`, `trial_ends_at`, `hide_trial_notice`, `active`, `current_sale_amount`, `payment_verified`, `id_verified`, `phone_verified`, `address_verified`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 3, 'Haraj Marib', 'Haraj Marib Ltd.', 'haraj-marib', 'info@harajmarib.com', 'market place multivendor', 'https://harajmarib.com', 73, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0.000000, 1, 1, 1, 1, NULL, '2022-03-25 01:13:38', '2022-03-25 16:12:03'),
@@ -4337,7 +4337,7 @@ INSERT INTO `shops` (`id`, `owner_id`, `name`, `legal_name`, `slug`, `email`, `d
 	(8, 10, 'yyy', NULL, 'yyy', 'mhudair30@gmail.com', 'Welcome', NULL, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0.000000, NULL, NULL, NULL, NULL, '2022-03-25 16:05:06', '2022-03-25 02:19:41', '2022-03-25 16:05:06');
 /*!40000 ALTER TABLE `shops` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.shop_payment_methods
+-- Dumping structure for table ArabCode2511.shop_payment_methods
 CREATE TABLE IF NOT EXISTS `shop_payment_methods` (
   `payment_method_id` int(10) unsigned NOT NULL,
   `shop_id` int(10) unsigned NOT NULL,
@@ -4349,7 +4349,7 @@ CREATE TABLE IF NOT EXISTS `shop_payment_methods` (
   CONSTRAINT `shop_payment_methods_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.shop_payment_methods: ~10 rows (approximately)
+-- Dumping data for table ArabCode2511.shop_payment_methods: ~10 rows (approximately)
 /*!40000 ALTER TABLE `shop_payment_methods` DISABLE KEYS */;
 INSERT INTO `shop_payment_methods` (`payment_method_id`, `shop_id`, `created_at`, `updated_at`) VALUES
 	(6, 1, '2022-03-25 01:13:30', '2022-03-25 01:13:30'),
@@ -4365,7 +4365,7 @@ INSERT INTO `shop_payment_methods` (`payment_method_id`, `shop_id`, `created_at`
 	(6, 8, '2022-03-25 02:21:12', '2022-03-25 02:21:12');
 /*!40000 ALTER TABLE `shop_payment_methods` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.sliders
+-- Dumping structure for table ArabCode2511.sliders
 CREATE TABLE IF NOT EXISTS `sliders` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -4383,7 +4383,7 @@ CREATE TABLE IF NOT EXISTS `sliders` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.sliders: ~4 rows (approximately)
+-- Dumping data for table ArabCode2511.sliders: ~4 rows (approximately)
 /*!40000 ALTER TABLE `sliders` DISABLE KEYS */;
 INSERT INTO `sliders` (`id`, `title`, `title_color`, `sub_title`, `sub_title_color`, `description`, `description_color`, `alt_color`, `link`, `order`, `text_position`, `created_at`, `updated_at`) VALUES
 	(1, 'Slider title', '#333E48', 'Sub title <span>with color</span>', '#333E48', 'Description with a text', '#868E8E', '#FED700', '/category/corporis-voluptatem-sint-excepturi-reiciendis-repudiandae-non-libero', 1, 'left', '2022-03-25 01:15:41', '2022-03-25 01:15:41'),
@@ -4392,7 +4392,7 @@ INSERT INTO `sliders` (`id`, `title`, `title_color`, `sub_title`, `sub_title_col
 	(4, '', '#333E48', '', '#333E48', '', '#868E8E', '#FED700', '', 4, 'right', '2022-03-25 01:15:41', '2022-03-25 01:15:41');
 /*!40000 ALTER TABLE `sliders` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.states
+-- Dumping structure for table ArabCode2511.states
 CREATE TABLE IF NOT EXISTS `states` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `country_id` int(10) unsigned NOT NULL,
@@ -4408,7 +4408,7 @@ CREATE TABLE IF NOT EXISTS `states` (
   CONSTRAINT `states_country_id_foreign` FOREIGN KEY (`country_id`) REFERENCES `countries` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=1517 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.states: ~1,516 rows (approximately)
+-- Dumping data for table ArabCode2511.states: ~1,516 rows (approximately)
 /*!40000 ALTER TABLE `states` DISABLE KEYS */;
 INSERT INTO `states` (`id`, `country_id`, `iso_code`, `iso_numeric`, `name`, `calling_code`, `active`, `created_at`, `updated_at`) VALUES
 	(1, 784, 'AZ', NULL, 'Abū Ȥaby[Abu Dhabi]', NULL, 1, '2022-03-25 01:12:24', '2022-03-25 01:12:24'),
@@ -5929,7 +5929,7 @@ INSERT INTO `states` (`id`, `country_id`, `iso_code`, `iso_numeric`, `name`, `ca
 	(1516, 887, 'HD', NULL, 'Ḩaḑramawt', NULL, 1, '2022-03-25 01:12:24', '2022-03-25 01:12:24');
 /*!40000 ALTER TABLE `states` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.subscriptions
+-- Dumping structure for table ArabCode2511.subscriptions
 CREATE TABLE IF NOT EXISTS `subscriptions` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned NOT NULL,
@@ -5947,7 +5947,7 @@ CREATE TABLE IF NOT EXISTS `subscriptions` (
   KEY `subscriptions_shop_id_stripe_status_index` (`shop_id`,`stripe_status`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.subscriptions: ~5 rows (approximately)
+-- Dumping data for table ArabCode2511.subscriptions: ~5 rows (approximately)
 /*!40000 ALTER TABLE `subscriptions` DISABLE KEYS */;
 INSERT INTO `subscriptions` (`id`, `shop_id`, `name`, `stripe_id`, `stripe_status`, `stripe_price`, `quantity`, `trial_ends_at`, `ends_at`, `notification_sent_at`, `created_at`, `updated_at`) VALUES
 	(1, 1, 'Business', NULL, NULL, NULL, 1, NULL, NULL, NULL, '2022-03-25 01:13:38', '2022-03-25 01:13:38'),
@@ -5957,7 +5957,7 @@ INSERT INTO `subscriptions` (`id`, `shop_id`, `name`, `stripe_id`, `stripe_statu
 	(5, 5, 'Business', NULL, NULL, NULL, 1, NULL, NULL, NULL, '2022-03-25 01:13:38', '2022-03-25 01:13:38');
 /*!40000 ALTER TABLE `subscriptions` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.subscription_items
+-- Dumping structure for table ArabCode2511.subscription_items
 CREATE TABLE IF NOT EXISTS `subscription_items` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `subscription_id` bigint(20) unsigned NOT NULL,
@@ -5972,11 +5972,11 @@ CREATE TABLE IF NOT EXISTS `subscription_items` (
   KEY `subscription_items_stripe_id_index` (`stripe_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.subscription_items: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.subscription_items: ~0 rows (approximately)
 /*!40000 ALTER TABLE `subscription_items` DISABLE KEYS */;
 /*!40000 ALTER TABLE `subscription_items` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.subscription_plans
+-- Dumping structure for table ArabCode2511.subscription_plans
 CREATE TABLE IF NOT EXISTS `subscription_plans` (
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `plan_id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -5997,7 +5997,7 @@ CREATE TABLE IF NOT EXISTS `subscription_plans` (
   UNIQUE KEY `subscription_plans_name_unique` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.subscription_plans: ~3 rows (approximately)
+-- Dumping data for table ArabCode2511.subscription_plans: ~3 rows (approximately)
 /*!40000 ALTER TABLE `subscription_plans` DISABLE KEYS */;
 INSERT INTO `subscription_plans` (`name`, `plan_id`, `best_for`, `cost`, `transaction_fee`, `marketplace_commission`, `order_per_month`, `revenue_per_month`, `team_size`, `inventory_limit`, `featured`, `order`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	('Business', 'price_1GyyRyJewI4n8wVFSRWlMSHy', NULL, 29.00, 1.90, 2.50, NULL, NULL, 5, 200, 1, 2, NULL, '2022-03-25 01:12:46', '2022-03-25 01:12:46'),
@@ -6005,7 +6005,7 @@ INSERT INTO `subscription_plans` (`name`, `plan_id`, `best_for`, `cost`, `transa
 	('Professional', 'price_1H1HW7JewI4n8wVFl8Ukknoz', NULL, 49.00, 1.00, 1.50, NULL, NULL, 10, 500, 0, 3, NULL, '2022-03-25 01:12:46', '2022-03-25 01:12:46');
 /*!40000 ALTER TABLE `subscription_plans` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.suppliers
+-- Dumping structure for table ArabCode2511.suppliers
 CREATE TABLE IF NOT EXISTS `suppliers` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -6021,7 +6021,7 @@ CREATE TABLE IF NOT EXISTS `suppliers` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.suppliers: ~5 rows (approximately)
+-- Dumping data for table ArabCode2511.suppliers: ~5 rows (approximately)
 /*!40000 ALTER TABLE `suppliers` DISABLE KEYS */;
 INSERT INTO `suppliers` (`id`, `shop_id`, `name`, `email`, `contact_person`, `url`, `description`, `active`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 2, 'Satterfield Group', 'eudora73@yahoo.com', 'Greta Frami MD', 'https://www.blanda.com/molestiae-qui-consequuntur-non-laboriosam-sequi-laudantium-eos-voluptas', 'Id molestiae consequuntur quod suscipit quia. Maxime nostrum minima rerum iste cupiditate cum aut maxime. Qui impedit quia incidunt consequatur cupiditate. Sunt labore architecto consequatur sint dolores illo sint voluptatem. Magni voluptas aut fugit error. Doloribus voluptatem asperiores et nesciunt. Sequi et voluptatibus sapiente iure totam similique pariatur.', 1, NULL, '2022-03-25 01:13:57', '2022-03-25 01:13:57'),
@@ -6031,7 +6031,7 @@ INSERT INTO `suppliers` (`id`, `shop_id`, `name`, `email`, `contact_person`, `ur
 	(5, 4, 'Blanda, Beatty and Goyette', 'ucartwright@gmail.com', 'Guiseppe Sauer', 'http://herman.org/voluptates-ducimus-tempore-nisi-nam.html', 'Aliquam quae qui sint consectetur est quo. Qui eaque nemo blanditiis. Nam iste fugit repudiandae dignissimos. Sapiente tempora excepturi fugiat perspiciatis cumque nam. Ea blanditiis maxime a eligendi fuga qui. Modi aut quis omnis impedit aspernatur sed.', 1, NULL, '2022-03-25 01:13:58', '2022-03-25 01:13:58');
 /*!40000 ALTER TABLE `suppliers` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.systems
+-- Dumping structure for table ArabCode2511.systems
 CREATE TABLE IF NOT EXISTS `systems` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `maintenance_mode` tinyint(1) DEFAULT NULL,
@@ -6102,13 +6102,13 @@ CREATE TABLE IF NOT EXISTS `systems` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.systems: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.systems: ~0 rows (approximately)
 /*!40000 ALTER TABLE `systems` DISABLE KEYS */;
 INSERT INTO `systems` (`id`, `maintenance_mode`, `install_verion`, `name`, `slogan`, `legal_name`, `email`, `worldwide_business_area`, `timezone_id`, `currency_id`, `default_language`, `vendor_can_view_customer_info`, `can_use_own_catalog_only`, `google_analytic_report`, `required_card_upfront`, `vendor_needs_approval`, `vendor_order_cancellation_fee`, `show_merchant_info_as_vendor`, `trial_days`, `ask_customer_for_email_subscription`, `can_cancel_order_within`, `support_phone`, `support_phone_toll_free`, `support_email`, `default_sender_email_address`, `default_email_sender_name`, `facebook_link`, `google_plus_link`, `twitter_link`, `pinterest_link`, `instagram_link`, `youtube_link`, `social_auth`, `length_unit`, `weight_unit`, `valume_unit`, `decimals`, `show_currency_symbol`, `show_space_after_symbol`, `coupon_code_size`, `gift_card_serial_number_size`, `gift_card_pin_size`, `active_theme`, `selling_theme`, `pagination`, `show_seo_info_to_frontend`, `max_img_size_limit_kb`, `max_number_of_inventory_imgs`, `show_item_conditions`, `address_default_country`, `address_default_state`, `show_address_title`, `address_show_country`, `address_show_map`, `allow_guest_checkout`, `auto_approve_order`, `notify_when_vendor_registered`, `notify_when_dispute_appealed`, `notify_new_message`, `notify_new_ticket`, `enable_chat`, `digital_goods_only`, `is_multi_vendor`, `max_role_level`, `created_at`, `updated_at`) VALUES
 	(1, NULL, '2.5.1', 'arabcode', NULL, 'arabcode', 'notify@demo.com', 1, 35, 148, 'en', 1, 1, 0, NULL, 1, 0.00, 1, 13, 1, 0, NULL, NULL, 'support@demo.com', NULL, NULL, 'https://www.facebook.com/', 'https://plus.google.com/', 'https://twitter.com/', 'https://www.pinterest.com/', 'https://www.instagram.com/', 'https://www.youtube.com/', 1, 'cm', 'g', 'liter', '2', 1, 0, 8, 13, 10, 'default', 'default', 10, 1, 5000, 10, 1, 840, NULL, NULL, 1, 1, 1, 0, 1, 1, NULL, 1, 1, 0, 1, 99, '2022-03-25 01:12:30', '2022-03-25 02:09:21');
 /*!40000 ALTER TABLE `systems` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.taggables
+-- Dumping structure for table ArabCode2511.taggables
 CREATE TABLE IF NOT EXISTS `taggables` (
   `tag_id` int(10) unsigned NOT NULL,
   `taggable_id` int(10) unsigned NOT NULL,
@@ -6117,7 +6117,7 @@ CREATE TABLE IF NOT EXISTS `taggables` (
   CONSTRAINT `taggables_tag_id_foreign` FOREIGN KEY (`tag_id`) REFERENCES `tags` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.taggables: ~28 rows (approximately)
+-- Dumping data for table ArabCode2511.taggables: ~28 rows (approximately)
 /*!40000 ALTER TABLE `taggables` DISABLE KEYS */;
 INSERT INTO `taggables` (`tag_id`, `taggable_id`, `taggable_type`) VALUES
 	(23, 4, 'App\\Models\\Blog'),
@@ -6150,7 +6150,7 @@ INSERT INTO `taggables` (`tag_id`, `taggable_id`, `taggable_type`) VALUES
 	(2, 3, 'App\\Models\\Blog');
 /*!40000 ALTER TABLE `taggables` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.tags
+-- Dumping structure for table ArabCode2511.tags
 CREATE TABLE IF NOT EXISTS `tags` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -6159,7 +6159,7 @@ CREATE TABLE IF NOT EXISTS `tags` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.tags: ~30 rows (approximately)
+-- Dumping data for table ArabCode2511.tags: ~30 rows (approximately)
 /*!40000 ALTER TABLE `tags` DISABLE KEYS */;
 INSERT INTO `tags` (`id`, `name`, `created_at`, `updated_at`) VALUES
 	(1, 'delectus', '2022-03-25 01:15:33', '2022-03-25 01:15:33'),
@@ -6194,7 +6194,7 @@ INSERT INTO `tags` (`id`, `name`, `created_at`, `updated_at`) VALUES
 	(30, 'iusto', '2022-03-25 01:15:34', '2022-03-25 01:15:34');
 /*!40000 ALTER TABLE `tags` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.taxes
+-- Dumping structure for table ArabCode2511.taxes
 CREATE TABLE IF NOT EXISTS `taxes` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -6210,7 +6210,7 @@ CREATE TABLE IF NOT EXISTS `taxes` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.taxes: ~6 rows (approximately)
+-- Dumping data for table ArabCode2511.taxes: ~6 rows (approximately)
 /*!40000 ALTER TABLE `taxes` DISABLE KEYS */;
 INSERT INTO `taxes` (`id`, `shop_id`, `name`, `taxrate`, `country_id`, `state_id`, `public`, `active`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, NULL, '- No tax -', 0.000000, NULL, NULL, 1, 1, NULL, '2022-03-25 01:12:46', '2022-03-25 01:12:46'),
@@ -6221,7 +6221,7 @@ INSERT INTO `taxes` (`id`, `shop_id`, `name`, `taxrate`, `country_id`, `state_id
 	(6, 3, 'reprehenderit 3.63%', 3.633000, 630, NULL, NULL, 1, NULL, '2022-03-25 01:14:27', '2022-03-25 01:14:27');
 /*!40000 ALTER TABLE `taxes` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.tickets
+-- Dumping structure for table ArabCode2511.tickets
 CREATE TABLE IF NOT EXISTS `tickets` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -6242,7 +6242,7 @@ CREATE TABLE IF NOT EXISTS `tickets` (
   CONSTRAINT `tickets_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.tickets: ~5 rows (approximately)
+-- Dumping data for table ArabCode2511.tickets: ~5 rows (approximately)
 /*!40000 ALTER TABLE `tickets` DISABLE KEYS */;
 INSERT INTO `tickets` (`id`, `shop_id`, `user_id`, `category_id`, `subject`, `message`, `assigned_to`, `status`, `priority`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 3, 3, 1, 'Magni qui error ducimus dolorum tenetur omnis dolorem.', 'Asperiores delectus quia et aliquam. Necessitatibus officiis eos quia vel reiciendis. Repellat magnam ut quos sed tenetur. Vel corporis magni qui magni reprehenderit distinctio ea laudantium.', NULL, 4, 1, NULL, '2022-03-21 01:15:36', '2022-03-25 01:15:38'),
@@ -6252,7 +6252,7 @@ INSERT INTO `tickets` (`id`, `shop_id`, `user_id`, `category_id`, `subject`, `me
 	(5, 2, 3, 2, 'Pariatur suscipit facilis officiis dolore et autem voluptas.', 'Sapiente optio est officiis. Ab voluptatem dolorum voluptas. Praesentium voluptatem minima numquam eligendi et esse aut. Officia ullam facere eos iure in.', NULL, 4, 4, NULL, '2022-03-21 01:15:36', '2022-03-25 01:15:38');
 /*!40000 ALTER TABLE `tickets` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.ticket_categories
+-- Dumping structure for table ArabCode2511.ticket_categories
 CREATE TABLE IF NOT EXISTS `ticket_categories` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -6260,7 +6260,7 @@ CREATE TABLE IF NOT EXISTS `ticket_categories` (
   UNIQUE KEY `ticket_categories_name_unique` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.ticket_categories: ~4 rows (approximately)
+-- Dumping data for table ArabCode2511.ticket_categories: ~4 rows (approximately)
 /*!40000 ALTER TABLE `ticket_categories` DISABLE KEYS */;
 INSERT INTO `ticket_categories` (`id`, `name`) VALUES
 	(1, 'General query'),
@@ -6269,7 +6269,7 @@ INSERT INTO `ticket_categories` (`id`, `name`) VALUES
 	(4, 'Webmaster');
 /*!40000 ALTER TABLE `ticket_categories` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.timezones
+-- Dumping structure for table ArabCode2511.timezones
 CREATE TABLE IF NOT EXISTS `timezones` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `value` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -6283,7 +6283,7 @@ CREATE TABLE IF NOT EXISTS `timezones` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=98 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.timezones: ~97 rows (approximately)
+-- Dumping data for table ArabCode2511.timezones: ~97 rows (approximately)
 /*!40000 ALTER TABLE `timezones` DISABLE KEYS */;
 INSERT INTO `timezones` (`id`, `value`, `abbr`, `offset`, `text`, `utc`, `dst`, `created_at`, `updated_at`) VALUES
 	(1, 'Dateline Standard Time', 'DST', -12, '(UTC-12:00) International Date Line West', 'Etc/GMT+12', 0, '2022-03-25 01:12:12', '2022-03-25 01:12:12'),
@@ -6385,7 +6385,7 @@ INSERT INTO `timezones` (`id`, `value`, `abbr`, `offset`, `text`, `utc`, `dst`, 
 	(97, 'Samoa/Tonga/Kamchatka Standard Time', 'SST', 13, '(UTC+13:00) Samoa, Tongatapu, Fakaofo, Enderbury', 'Pacific/Apia', 0, '2022-03-25 01:12:16', '2022-03-25 01:12:16');
 /*!40000 ALTER TABLE `timezones` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.users
+-- Dumping structure for table ArabCode2511.users
 CREATE TABLE IF NOT EXISTS `users` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -6411,7 +6411,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   UNIQUE KEY `users_email_unique` (`email`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.users: ~10 rows (approximately)
+-- Dumping data for table ArabCode2511.users: ~10 rows (approximately)
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 INSERT INTO `users` (`id`, `shop_id`, `role_id`, `name`, `nice_name`, `email`, `password`, `dob`, `sex`, `description`, `last_visited_at`, `last_visited_from`, `active`, `read_announcements_at`, `verification_token`, `email_verified_at`, `remember_token`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, NULL, 1, 'Super Admin', 'SuperAdmin', 'superadmin@demo.com', '$2y$10$sNCXr1GH/mj4wEuPUm7ut.1GCaBjSqjA09oPYbpbD.dJ5r0nn4jmm', NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, 'PqFa9ARKn9SDWcMt2nq51ZHf9pEN2wxQN4qagkkieFlzJufx9adrbqd9REk6', NULL, '2022-03-25 01:12:30', '2022-03-25 01:12:30'),
@@ -6426,7 +6426,7 @@ INSERT INTO `users` (`id`, `shop_id`, `role_id`, `name`, `nice_name`, `email`, `
 	(10, 8, 3, NULL, NULL, 'mhudair30@gmail.com', '$2y$10$IhfpZFHJOOmBm2lAgFoPkOPQ/Jh/FtKpO0lpSDfPHJ7IEhZ0/lTWe', NULL, NULL, NULL, NULL, NULL, 1, NULL, 'kOH3E109XY4jGjeEb0PQCVWXt2M5ZldySUiaJT8b', NULL, NULL, '2022-03-25 16:05:06', '2022-03-25 02:19:41', '2022-03-25 16:05:06');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.user_warehouse
+-- Dumping structure for table ArabCode2511.user_warehouse
 CREATE TABLE IF NOT EXISTS `user_warehouse` (
   `user_id` bigint(20) unsigned NOT NULL,
   `warehouse_id` int(10) unsigned NOT NULL,
@@ -6438,11 +6438,11 @@ CREATE TABLE IF NOT EXISTS `user_warehouse` (
   CONSTRAINT `user_warehouse_warehouse_id_foreign` FOREIGN KEY (`warehouse_id`) REFERENCES `warehouses` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.user_warehouse: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.user_warehouse: ~0 rows (approximately)
 /*!40000 ALTER TABLE `user_warehouse` DISABLE KEYS */;
 /*!40000 ALTER TABLE `user_warehouse` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.visitors
+-- Dumping structure for table ArabCode2511.visitors
 CREATE TABLE IF NOT EXISTS `visitors` (
   `ip` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
   `mac` varchar(17) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -6457,7 +6457,7 @@ CREATE TABLE IF NOT EXISTS `visitors` (
   PRIMARY KEY (`ip`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.visitors: ~31 rows (approximately)
+-- Dumping data for table ArabCode2511.visitors: ~31 rows (approximately)
 /*!40000 ALTER TABLE `visitors` DISABLE KEYS */;
 INSERT INTO `visitors` (`ip`, `mac`, `device`, `hits`, `page_views`, `country_code`, `info`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	('::1', NULL, NULL, 1, 2, NULL, NULL, NULL, '2022-03-25 17:22:01', '2022-03-25 17:22:10'),
@@ -6494,7 +6494,7 @@ INSERT INTO `visitors` (`ip`, `mac`, `device`, `hits`, `page_views`, `country_co
 	('99.92.70.87', '39:59:55:E6:6D:C3', NULL, 373, 753, 'SI', NULL, NULL, '2022-03-25 01:15:54', '2022-03-25 01:15:54');
 /*!40000 ALTER TABLE `visitors` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.warehouses
+-- Dumping structure for table ArabCode2511.warehouses
 CREATE TABLE IF NOT EXISTS `warehouses` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `shop_id` int(10) unsigned DEFAULT NULL,
@@ -6514,13 +6514,13 @@ CREATE TABLE IF NOT EXISTS `warehouses` (
   CONSTRAINT `warehouses_shop_id_foreign` FOREIGN KEY (`shop_id`) REFERENCES `shops` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.warehouses: ~0 rows (approximately)
+-- Dumping data for table ArabCode2511.warehouses: ~0 rows (approximately)
 /*!40000 ALTER TABLE `warehouses` DISABLE KEYS */;
 INSERT INTO `warehouses` (`id`, `shop_id`, `name`, `email`, `incharge`, `description`, `opening_time`, `close_time`, `business_days`, `active`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 4, 'Lesch-Lynch', 'theresia.kuhic@hilpert.com', 6, 'Et fuga quidem omnis aut numquam. Aut nemo qui incidunt quis esse modi. Dolorum non occaecati recusandae consequatur cumque dolorem omnis minima. Eum accusamus cupiditate nesciunt labore tempore laudantium. Quidem voluptatem voluptatibus expedita repellat culpa voluptas. Pariatur saepe voluptatem adipisci laudantium voluptatum qui. Neque expedita et consectetur sit dolorum eum dolorem. Qui dolores provident maxime deleniti sint.', '0', '0', NULL, 1, NULL, '2022-03-25 01:14:25', '2022-03-25 01:14:25');
 /*!40000 ALTER TABLE `warehouses` ENABLE KEYS */;
 
--- Dumping structure for table zcart2511.wishlists
+-- Dumping structure for table ArabCode2511.wishlists
 CREATE TABLE IF NOT EXISTS `wishlists` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `inventory_id` bigint(20) unsigned DEFAULT NULL,
@@ -6535,7 +6535,7 @@ CREATE TABLE IF NOT EXISTS `wishlists` (
   CONSTRAINT `wishlists_product_id_foreign` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table zcart2511.wishlists: ~15 rows (approximately)
+-- Dumping data for table ArabCode2511.wishlists: ~15 rows (approximately)
 /*!40000 ALTER TABLE `wishlists` DISABLE KEYS */;
 INSERT INTO `wishlists` (`id`, `inventory_id`, `product_id`, `customer_id`, `created_at`, `updated_at`) VALUES
 	(1, 82, 7, 1, '2022-03-18 01:15:43', '2022-03-18 01:15:43'),

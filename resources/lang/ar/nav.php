@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'dashboard' => 'Dashboard',
+    'dashboard' => 'لوحة التحكم',
     'admin' => 'Admin',
     'announcements' => 'announcements',
     'users' => 'Users',
@@ -27,7 +27,7 @@ return [
     'manufacturers' => 'Manufacturers',
     'blogs' => 'Blogs',
     'settings' => 'Settings',
-    'catalog' => 'Catalog',
+    'catalog' => 'المنتجات',
     'categories' => 'Categories',
     'groups' => 'Groups',
     'sub-groups' => 'Sub-groups',

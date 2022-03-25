@@ -286,6 +286,7 @@ $can_update = Gate::allows('update', $system) ?? null;
                 </p>
               </div><!-- /.col-sm-4 -->
 <!--
+
               <div class="col-sm-4 text-center">
                 <a href="javascript:void(0)" data-link="{{ route('admin.setting.system.importDemoContents') }}" class="ajax-modal-btn btn btn-default btn-lg ">
                   {{ trans('app.import_demo_contents') }}
@@ -297,7 +298,7 @@ $can_update = Gate::allows('update', $system) ?? null;
                 </p>
               </div><!-- /.col-sm-4 -->
 
-              -->
+              
 
               <div class="col-sm-4 text-center">
                 @if (config('app.demo') !== true)
@@ -348,7 +349,7 @@ $can_update = Gate::allows('update', $system) ?? null;
                     {!! trans('messages.uninstall_app_license') !!}
                   </p>
                 </div><!-- /.col-sm-4 -->
-              -->
+              
               <!--
 
                 <div class="col-sm-4 text-justify">
@@ -363,7 +364,7 @@ $can_update = Gate::allows('update', $system) ?? null;
                     {!! trans('messages.update_app_license') !!}
                   </p>
                 </div><!-- /.col-sm-4 -->
-              -->
+              
               @endunless
             </div><!-- /.row -->
           @endif

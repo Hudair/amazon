@@ -23,7 +23,7 @@ return [
   "login_success" => "Login Successful",
   "login_error" => "Login Error",
   "logout_success" => "Logout Successful",
-  "dashboard" => "Dashboard",
+  "dashboard" => "لوحة التحكم",
   "support" => "Support",
   "customer_support" => "Customer Support",
   "search_order" => "Search Order",
