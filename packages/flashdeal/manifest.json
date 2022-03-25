@@ -1,0 +1,17 @@
+{
+  "id": 9,
+  "slug": "flashdeal",
+  "name": "Flash Deal",
+  "description": "A Package to promote products and make more sells",
+  "icon": "bolt",
+  "author": "Incevio Team",
+  "email": "help@incevio.com",
+  "uri": "https://arabcode.online",
+  "license": "Copyright reserved to the Incevio",
+  "dependency": "",
+  "warning": "",
+  "active": false,
+  "provider": "Flashdeal\\FlashdealServiceProvider",
+  "compatible": "2.3.8",
+  "version": "1.3.0"
+}

@@ -5,7 +5,7 @@
     <div class="alert alert-info">
       <h4><i class="fa fa-info"></i> {{ trans('app.info') }}</h4>
       {!! trans('messages.not_accessible_on_demo') !!}
-      <a href="https://incevio.com/plugins" class="indent10" target="_blank">You can get all available plagins here. </a>
+      <a href="https://arabcode.online/plugins" class="indent10" target="_blank">You can get all available plagins here. </a>
     </div>
   @else
     <div class="alert alert-danger">
@@ -76,7 +76,7 @@
                 @elseif($can_load)
                   @if (config('app.demo') == true)
                     <span class="text-muted" title="{!! trans('messages.demo_restriction') !!}" data-toggle="tooltip"><i class=" fa fa-wrench"></i> {{ trans('app.install') }}</span>
-                    <a href="https://incevio.com/plugins" class="text-bold small indent10" target="_blank">Check it here </a>
+                    <a href="https://arabcode.online/plugins" class="text-bold small indent10" target="_blank">Check it here </a>
                   @else
                     <a href="javascript:void(0)" data-link="{{ route('admin.package.initiate', $package['slug']) }}" type="button" class="btn btn-md btn-secondary ajax-modal-btn">
                       <i class=" fa fa-wrench"></i> {{ trans('app.install') }}
@@ -136,7 +136,7 @@
         <div class="panel-body">
           We're developing more and more packages with useful functionality extensions.
           <br /><br />
-          <a href="https://incevio.com/plugins" class="btn btn-primary" target="_blank">
+          <a href="https://arabcode.online/plugins" class="btn btn-primary" target="_blank">
             All Available Packages
             <i class="fa fa-external-link"></i>
           </a>
@@ -153,7 +153,7 @@
         <div class="panel-body">
           Send us an email for any kind of modification or custom work as we know the code better than everyone.
           <br /><br />
-          <a href="https://incevio.com/contact" class="btn btn-default" target="_blank">
+          <a href="https://arabcode.online/contact" class="btn btn-default" target="_blank">
             Contact Us
             <i class="fa fa-external-link"></i>
           </a>
