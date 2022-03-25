@@ -285,17 +285,19 @@ $can_update = Gate::allows('update', $system) ?? null;
                   <i class="fa fa-exclamation-triangle"></i> {!! trans('messages.modify_environment_file') !!}
                 </p>
               </div><!-- /.col-sm-4 -->
-
+<!--
               <div class="col-sm-4 text-center">
                 <a href="javascript:void(0)" data-link="{{ route('admin.setting.system.importDemoContents') }}" class="ajax-modal-btn btn btn-default btn-lg ">
                   {{ trans('app.import_demo_contents') }}
                 </a>
-
+              
                 <div class="spacer10"></div>
                 <p class="text-danger">
                   <i class="fa fa-exclamation-triangle"></i> {!! trans('messages.import_demo_contents') !!}
                 </p>
               </div><!-- /.col-sm-4 -->
+
+              -->
 
               <div class="col-sm-4 text-center">
                 @if (config('app.demo') !== true)
@@ -333,7 +335,7 @@ $can_update = Gate::allows('update', $system) ?? null;
                     <i class="fa fa-info-circle"></i> {!! trans('help.help_clear_cache') !!}
                   </p>
                 </div><!-- /.col-sm-4 -->
-
+<!--
                 <div class="col-sm-4 text-justify">
                   <a href="javascript:void(0)" data-link="{{ route('admin.setting.license.uninstall') }}" class="ajax-modal-btn btn btn-danger btn-lg">
                     {{ trans('app.uninstall_app_license') }}
@@ -346,6 +348,8 @@ $can_update = Gate::allows('update', $system) ?? null;
                     {!! trans('messages.uninstall_app_license') !!}
                   </p>
                 </div><!-- /.col-sm-4 -->
+              -->
+              <!--
 
                 <div class="col-sm-4 text-justify">
                   <a href="{{ route('admin.setting.license.update') }}" class="btn btn-default btn-lg confirm">
@@ -359,9 +363,11 @@ $can_update = Gate::allows('update', $system) ?? null;
                     {!! trans('messages.update_app_license') !!}
                   </p>
                 </div><!-- /.col-sm-4 -->
+              -->
               @endunless
             </div><!-- /.row -->
           @endif
+          
 
           <div class="row">
             <hr class="style3" />

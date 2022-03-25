@@ -2,7 +2,7 @@
 <footer class="main-footer">
   <div class="pull-right hidden-xs">
   	@if(auth()->user()->isSuperAdmin())
-	    <a href="https://arabcode.online/" target="_blank">zCart Version: {{ \App\Models\System::VERSION }}</a>
+	    <a href="https://arabcode.online/" target="_blank">ArabCode Version: {{ \App\Models\System::VERSION }}</a>
   	@else
 	  	<span>{{ trans('app.today_is') . ' ' . date('l M-j, Y')}}</span>
   	@endif
