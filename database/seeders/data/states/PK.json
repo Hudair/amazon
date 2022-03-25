@@ -1,0 +1,34 @@
+[
+  {
+    "iso_code": "IS",
+    "name": "Islamabad"
+  },
+  {
+    "iso_code": "GB",
+    "name": "Gilgit-Baltistan"
+  },
+  {
+    "iso_code": "JK",
+    "name": "Azad Kashmir"
+  },
+  {
+    "iso_code": "BA",
+    "name": "Baluchistan"
+  },
+  {
+    "iso_code": "KP",
+    "name": "Khyber Pakhtunkhwa"
+  },
+  {
+    "iso_code": "PB",
+    "name": "Punjab"
+  },
+  {
+    "iso_code": "SD",
+    "name": "Sind"
+  },
+  {
+    "iso_code": "TA",
+    "name": "Federally Administered Tribal Area"
+  }
+]

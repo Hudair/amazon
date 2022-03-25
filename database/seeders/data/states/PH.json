@@ -1,0 +1,322 @@
+[
+  {
+    "iso_code": "ABR",
+    "name": "Abra"
+  },
+  {
+    "iso_code": "AGN",
+    "name": "Agusan del Norte"
+  },
+  {
+    "iso_code": "AGS",
+    "name": "Agusan del Sur"
+  },
+  {
+    "iso_code": "AKL",
+    "name": "Aklan"
+  },
+  {
+    "iso_code": "ALB",
+    "name": "Albay"
+  },
+  {
+    "iso_code": "ANT",
+    "name": "Antique"
+  },
+  {
+    "iso_code": "APA",
+    "name": "Apayao"
+  },
+  {
+    "iso_code": "AUR",
+    "name": "Aurora"
+  },
+  {
+    "iso_code": "BAN",
+    "name": "Bataan"
+  },
+  {
+    "iso_code": "BAS",
+    "name": "Basilan"
+  },
+  {
+    "iso_code": "BEN",
+    "name": "Benguet"
+  },
+  {
+    "iso_code": "BIL",
+    "name": "Biliran"
+  },
+  {
+    "iso_code": "BOH",
+    "name": "Bohol"
+  },
+  {
+    "iso_code": "BTG",
+    "name": "Batangas"
+  },
+  {
+    "iso_code": "BTN",
+    "name": "Batanes"
+  },
+  {
+    "iso_code": "BUK",
+    "name": "Bukidnon"
+  },
+  {
+    "iso_code": "BUL",
+    "name": "Bulacan"
+  },
+  {
+    "iso_code": "CAG",
+    "name": "Cagayan"
+  },
+  {
+    "iso_code": "CAM",
+    "name": "Camiguin"
+  },
+  {
+    "iso_code": "CAN",
+    "name": "Camarines Norte"
+  },
+  {
+    "iso_code": "CAP",
+    "name": "Capiz"
+  },
+  {
+    "iso_code": "CAS",
+    "name": "Camarines Sur"
+  },
+  {
+    "iso_code": "CAT",
+    "name": "Catanduanes"
+  },
+  {
+    "iso_code": "CAV",
+    "name": "Cavite"
+  },
+  {
+    "iso_code": "CEB",
+    "name": "Cebu"
+  },
+  {
+    "iso_code": "COM",
+    "name": "Compostela Valley"
+  },
+  {
+    "iso_code": "DAO",
+    "name": "Davao Oriental"
+  },
+  {
+    "iso_code": "DAS",
+    "name": "Davao del Sur"
+  },
+  {
+    "iso_code": "DAV",
+    "name": "Davao"
+  },
+  {
+    "iso_code": "DIN",
+    "name": "Dinagat Islands"
+  },
+  {
+    "iso_code": "EAS",
+    "name": "Eastern Samar"
+  },
+  {
+    "iso_code": "GUI",
+    "name": "Guimaras"
+  },
+  {
+    "iso_code": "IFU",
+    "name": "Ifugao"
+  },
+  {
+    "iso_code": "ILI",
+    "name": "Iloilo"
+  },
+  {
+    "iso_code": "ILN",
+    "name": "Ilocos Norte"
+  },
+  {
+    "iso_code": "ILS",
+    "name": "Ilocoq Sur"
+  },
+  {
+    "iso_code": "ISA",
+    "name": "Isabela"
+  },
+  {
+    "iso_code": "KAL",
+    "name": "Kalinga-Apayao"
+  },
+  {
+    "iso_code": "LAG",
+    "name": "Laguna"
+  },
+  {
+    "iso_code": "LAN",
+    "name": "Lanao del Norte"
+  },
+  {
+    "iso_code": "LAS",
+    "name": "Lanao del Sur"
+  },
+  {
+    "iso_code": "LEY",
+    "name": "Leyte"
+  },
+  {
+    "iso_code": "LUN",
+    "name": "La Union"
+  },
+  {
+    "iso_code": "MAD",
+    "name": "Marinduque"
+  },
+  {
+    "iso_code": "MAG",
+    "name": "Maguindanao"
+  },
+  {
+    "iso_code": "MAS",
+    "name": "Masbate"
+  },
+  {
+    "iso_code": "MDC",
+    "name": "Mindoro Occidental"
+  },
+  {
+    "iso_code": "MDR",
+    "name": "Mindoro Oriental"
+  },
+  {
+    "iso_code": "MOU",
+    "name": "Mountain"
+  },
+  {
+    "iso_code": "MSC",
+    "name": "Misamis Occidental"
+  },
+  {
+    "iso_code": "MSR",
+    "name": "Misamis Oriental"
+  },
+  {
+    "iso_code": "NCO",
+    "name": "North Cotabato"
+  },
+  {
+    "iso_code": "NEC",
+    "name": "Negros occidental"
+  },
+  {
+    "iso_code": "NER",
+    "name": "Negros oriental"
+  },
+  {
+    "iso_code": "NSA",
+    "name": "Northern Samar"
+  },
+  {
+    "iso_code": "NUE",
+    "name": "Nueva Ecija"
+  },
+  {
+    "iso_code": "NUV",
+    "name": "Nueva Vizcaya"
+  },
+  {
+    "iso_code": "PAM",
+    "name": "Pampanga"
+  },
+  {
+    "iso_code": "PAN",
+    "name": "Pangasinan"
+  },
+  {
+    "iso_code": "PLW",
+    "name": "Palawan"
+  },
+  {
+    "iso_code": "QUE",
+    "name": "Quezon"
+  },
+  {
+    "iso_code": "QUI",
+    "name": "Quirino"
+  },
+  {
+    "iso_code": "RIZ",
+    "name": "Rizal"
+  },
+  {
+    "iso_code": "ROM",
+    "name": "Romblon"
+  },
+  {
+    "iso_code": "SAR",
+    "name": "Sarangani"
+  },
+  {
+    "iso_code": "SCO",
+    "name": "South Cotabato"
+  },
+  {
+    "iso_code": "SIG",
+    "name": "Siquijor"
+  },
+  {
+    "iso_code": "SLE",
+    "name": "Southern Leyte"
+  },
+  {
+    "iso_code": "SLU",
+    "name": "Sulu"
+  },
+  {
+    "iso_code": "SOR",
+    "name": "Sorsogon"
+  },
+  {
+    "iso_code": "SUK",
+    "name": "Sultan Kudarat"
+  },
+  {
+    "iso_code": "SUN",
+    "name": "Surigao del Norte"
+  },
+  {
+    "iso_code": "SUR",
+    "name": "Surigao del Sur"
+  },
+  {
+    "iso_code": "TAR",
+    "name": "Tarlac"
+  },
+  {
+    "iso_code": "TAW",
+    "name": "Tawi-Tawi"
+  },
+  {
+    "iso_code": "WSA",
+    "name": "Western Samar"
+  },
+  {
+    "iso_code": "ZAN",
+    "name": "Zamboanga del Norte"
+  },
+  {
+    "iso_code": "ZAS",
+    "name": "Zamboanga del Sur"
+  },
+  {
+    "iso_code": "ZMB",
+    "name": "Zambales"
+  },
+  {
+    "iso_code": "ZSI",
+    "name": "Zamboanga Sibuguey"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "iso_code": "B",
+    "name": "El Beni"
+  },
+  {
+    "iso_code": "C",
+    "name": "Cochabamba"
+  },
+  {
+    "iso_code": "H",
+    "name": "Chuquisaca"
+  },
+  {
+    "iso_code": "L",
+    "name": "La Paz"
+  },
+  {
+    "iso_code": "N",
+    "name": "Pando"
+  },
+  {
+    "iso_code": "O",
+    "name": "Oruro"
+  },
+  {
+    "iso_code": "P",
+    "name": "Potosí"
+  },
+  {
+    "iso_code": "S",
+    "name": "Santa Cruz"
+  },
+  {
+    "iso_code": "T",
+    "name": "Tarija"
+  }
+]

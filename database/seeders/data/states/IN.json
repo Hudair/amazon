@@ -1,0 +1,146 @@
+[
+  {
+    "iso_code": "AP",
+    "name": "Andhra Pradesh"
+  },
+  {
+    "iso_code": "AR",
+    "name": "Arunachal Pradesh"
+  },
+  {
+    "iso_code": "AS",
+    "name": "Assam"
+  },
+  {
+    "iso_code": "BR",
+    "name": "Bihar"
+  },
+  {
+    "iso_code": "CT",
+    "name": "Chhattisgarh"
+  },
+  {
+    "iso_code": "GA",
+    "name": "Goa"
+  },
+  {
+    "iso_code": "GJ",
+    "name": "Gujarat"
+  },
+  {
+    "iso_code": "HR",
+    "name": "Haryana"
+  },
+  {
+    "iso_code": "HP",
+    "name": "Himachal Pradesh"
+  },
+  {
+    "iso_code": "JK",
+    "name": "Jammu and Kashmir"
+  },
+  {
+    "iso_code": "JH",
+    "name": "Jharkhand"
+  },
+  {
+    "iso_code": "KA",
+    "name": "Karnataka"
+  },
+  {
+    "iso_code": "KL",
+    "name": "Kerala"
+  },
+  {
+    "iso_code": "MP",
+    "name": "Madhya Pradesh"
+  },
+  {
+    "iso_code": "MH",
+    "name": "Maharashtra"
+  },
+  {
+    "iso_code": "MN",
+    "name": "Manipur"
+  },
+  {
+    "iso_code": "ML",
+    "name": "Meghalaya"
+  },
+  {
+    "iso_code": "MZ",
+    "name": "Mizoram"
+  },
+  {
+    "iso_code": "NL",
+    "name": "Nagaland"
+  },
+  {
+    "iso_code": "OR",
+    "name": "Odisha"
+  },
+  {
+    "iso_code": "PB",
+    "name": "Punjab"
+  },
+  {
+    "iso_code": "RJ",
+    "name": "Rajasthan"
+  },
+  {
+    "iso_code": "SK",
+    "name": "Sikkim"
+  },
+  {
+    "iso_code": "TN",
+    "name": "Tamil Nadu"
+  },
+  {
+    "iso_code": "TG",
+    "name": "Telangana"
+  },
+  {
+    "iso_code": "TR",
+    "name": "Tripura"
+  },
+  {
+    "iso_code": "UP",
+    "name": "Uttar Pradesh"
+  },
+  {
+    "iso_code": "UT",
+    "name": "Uttarakhand"
+  },
+  {
+    "iso_code": "WB",
+    "name": "West Bengal"
+  },
+  {
+    "iso_code": "AN",
+    "name": "Andaman and Nicobar Islands"
+  },
+  {
+    "iso_code": "CH",
+    "name": "Chandigarh"
+  },
+  {
+    "iso_code": "DN",
+    "name": "Dadra and Nagar Haveli"
+  },
+  {
+    "iso_code": "DD",
+    "name": "Daman and Diu"
+  },
+  {
+    "iso_code": "LD",
+    "name": "Lakshadweep"
+  },
+  {
+    "iso_code": "DL",
+    "name": "National Capital Territory of Delhi"
+  },
+  {
+    "iso_code": "PY",
+    "name": "Puducherry"
+  }
+]

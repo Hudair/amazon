@@ -1,0 +1,138 @@
+[
+  {
+    "name": "重庆",
+    "iso_code": "渝"
+  },
+  {
+    "name": "黑龙江",
+    "iso_code": "黑"
+  },
+  {
+    "name": "吉林",
+    "iso_code": "吉"
+  },
+  {
+    "name": "海南",
+    "iso_code": "琼"
+  },
+  {
+    "name": "北京",
+    "iso_code": "京"
+  },
+  {
+    "name": "辽宁",
+    "iso_code": "辽"
+  },
+  {
+    "name": "内蒙古",
+    "iso_code": "蒙"
+  },
+  {
+    "name": "西藏",
+    "iso_code": "藏"
+  },
+  {
+    "name": "青海",
+    "iso_code": "青"
+  },
+  {
+    "name": "宁夏",
+    "iso_code": "宁"
+  },
+  {
+    "name": "新疆",
+    "iso_code": "新"
+  },
+  {
+    "name": "甘肃",
+    "iso_code": "甘"
+  },
+  {
+    "name": "河北",
+    "iso_code": "冀"
+  },
+  {
+    "name": "河南",
+    "iso_code": "豫"
+  },
+  {
+    "name": "湖北",
+    "iso_code": "鄂"
+  },
+  {
+    "name": "湖南",
+    "iso_code": "湘"
+  },
+  {
+    "name": "山东",
+    "iso_code": "鲁"
+  },
+  {
+    "name": "江苏",
+    "iso_code": "苏"
+  },
+  {
+    "name": "安徽",
+    "iso_code": "皖"
+  },
+  {
+    "name": "山西",
+    "iso_code": "晋"
+  },
+  {
+    "name": "陕西",
+    "iso_code": "陕"
+  },
+  {
+    "name": "四川",
+    "iso_code": "川"
+  },
+  {
+    "name": "云南",
+    "iso_code": "滇"
+  },
+  {
+    "name": "贵州",
+    "iso_code": "黔"
+  },
+  {
+    "name": "浙江",
+    "iso_code": "浙"
+  },
+  {
+    "name": "福建",
+    "iso_code": "闽"
+  },
+  {
+    "name": "广西",
+    "iso_code": "桂"
+  },
+  {
+    "name": "上海",
+    "iso_code": "沪"
+  },
+  {
+    "name": "天津",
+    "iso_code": "津"
+  },
+  {
+    "name": "香港",
+    "iso_code": "港"
+  },
+  {
+    "name": "澳门",
+    "iso_code": "澳"
+  },
+  {
+    "name": "台湾",
+    "iso_code": "台"
+  },
+  {
+    "name": "江西",
+    "iso_code": "赣"
+  },
+  {
+    "name": "广东",
+    "iso_code": "粤"
+  }
+]

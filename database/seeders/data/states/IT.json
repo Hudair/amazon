@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Abruzzo",
+    "iso_code": "65"
+  },
+  {
+    "name": "Basilicata",
+    "iso_code": "77"
+  },
+  {
+    "name": "Calabria",
+    "iso_code": "78"
+  },
+  {
+    "name": "Campania",
+    "iso_code": "72"
+  },
+  {
+    "name": "Emilia-Romagna",
+    "iso_code": "45"
+  },
+  {
+    "name": "Lazio",
+    "iso_code": "62"
+  },
+  {
+    "name": "Liguria",
+    "iso_code": "42"
+  },
+  {
+    "name": "Lombardy",
+    "iso_code": "25"
+  },
+  {
+    "name": "Marche",
+    "iso_code": "57"
+  },
+  {
+    "name": "Molise",
+    "iso_code": "67"
+  },
+  {
+    "name": "Piedmont",
+    "iso_code": "21"
+  },
+  {
+    "name": "Apulia",
+    "iso_code": "75"
+  },
+  {
+    "name": "Tuscany",
+    "iso_code": "52"
+  },
+  {
+    "name": "Umbria",
+    "iso_code": "55"
+  },
+  {
+    "name": "Veneto",
+    "iso_code": "34"
+  },
+  {
+    "name": "Friuli Venezia Giulia",
+    "iso_code": "36"
+  },
+  {
+    "name": "Sardinia",
+    "iso_code": "88"
+  },
+  {
+    "name": "Sicily",
+    "iso_code": "82"
+  },
+  {
+    "name": "Trentino-South Tyrol",
+    "iso_code": "32"
+  },
+  {
+    "name": "Aosta Valley",
+    "iso_code": "23"
+  }
+]

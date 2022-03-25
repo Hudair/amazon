@@ -1,0 +1,266 @@
+[
+  {
+    "iso_code": "CT",
+    "name": "Can Tho"
+  },
+  {
+    "iso_code": "DN",
+    "name": "Da Nang"
+  },
+  {
+    "iso_code": "HN",
+    "name": "Ha Noi"
+  },
+  {
+    "iso_code": "HP",
+    "name": "Hai Phong"
+  },
+  {
+    "iso_code": "SG",
+    "name": "Ho Chi Minh"
+  },
+  {
+    "iso_code": "1",
+    "name": "Lai Chau"
+  },
+  {
+    "iso_code": "2",
+    "name": "Lao Cai"
+  },
+  {
+    "iso_code": "3",
+    "name": "Ha Giang"
+  },
+  {
+    "iso_code": "4",
+    "name": "Cao Bang"
+  },
+  {
+    "iso_code": "5",
+    "name": "Son La"
+  },
+  {
+    "iso_code": "6",
+    "name": "Yen Bai"
+  },
+  {
+    "iso_code": "7",
+    "name": "Tuyen Quang"
+  },
+  {
+    "iso_code": "9",
+    "name": "Lang Son"
+  },
+  {
+    "iso_code": "13",
+    "name": "Quang Ninh"
+  },
+  {
+    "iso_code": "14",
+    "name": "Hoa Binh"
+  },
+  {
+    "iso_code": "15",
+    "name": "Ha Tay"
+  },
+  {
+    "iso_code": "18",
+    "name": "Ninh Binh"
+  },
+  {
+    "iso_code": "20",
+    "name": "Thai Binh"
+  },
+  {
+    "iso_code": "21",
+    "name": "Thanh Hoa"
+  },
+  {
+    "iso_code": "22",
+    "name": "Nghe An"
+  },
+  {
+    "iso_code": "23",
+    "name": "Ha Tinh"
+  },
+  {
+    "iso_code": "24",
+    "name": "Quang Binh"
+  },
+  {
+    "iso_code": "25",
+    "name": "Quang Tri"
+  },
+  {
+    "iso_code": "26",
+    "name": "Thua Thien-Hue"
+  },
+  {
+    "iso_code": "27",
+    "name": "Quang Nam"
+  },
+  {
+    "iso_code": "28",
+    "name": "Kon Tum"
+  },
+  {
+    "iso_code": "29",
+    "name": "Quang Ngai"
+  },
+  {
+    "iso_code": "30",
+    "name": "Gia Lai"
+  },
+  {
+    "iso_code": "31",
+    "name": "Binh Dinh"
+  },
+  {
+    "iso_code": "32",
+    "name": "Phu Yen"
+  },
+  {
+    "iso_code": "33",
+    "name": "Dac Lac"
+  },
+  {
+    "iso_code": "34",
+    "name": "Khanh Hoa"
+  },
+  {
+    "iso_code": "35",
+    "name": "Lam Dong"
+  },
+  {
+    "iso_code": "36",
+    "name": "Ninh Thuan"
+  },
+  {
+    "iso_code": "37",
+    "name": "Tay Ninh"
+  },
+  {
+    "iso_code": "39",
+    "name": "Dong Nai"
+  },
+  {
+    "iso_code": "40",
+    "name": "Binh Thuan"
+  },
+  {
+    "iso_code": "41",
+    "name": "Long An"
+  },
+  {
+    "iso_code": "43",
+    "name": "Ba Ria - Vung Tau"
+  },
+  {
+    "iso_code": "44",
+    "name": "An Giang"
+  },
+  {
+    "iso_code": "45",
+    "name": "Dong Thap"
+  },
+  {
+    "iso_code": "46",
+    "name": "Tien Giang"
+  },
+  {
+    "iso_code": "47",
+    "name": "Kien Giang"
+  },
+  {
+    "iso_code": "49",
+    "name": "Vinh Long"
+  },
+  {
+    "iso_code": "50",
+    "name": "Ben Tre"
+  },
+  {
+    "iso_code": "51",
+    "name": "Tra Vinh"
+  },
+  {
+    "iso_code": "52",
+    "name": "Soc Trang"
+  },
+  {
+    "iso_code": "53",
+    "name": "Bac Can"
+  },
+  {
+    "iso_code": "54",
+    "name": "Bac Giang"
+  },
+  {
+    "iso_code": "55",
+    "name": "Bac Lieu"
+  },
+  {
+    "iso_code": "56",
+    "name": "Bac Ninh"
+  },
+  {
+    "iso_code": "57",
+    "name": "Binh Duong"
+  },
+  {
+    "iso_code": "58",
+    "name": "Binh Phuoc"
+  },
+  {
+    "iso_code": "59",
+    "name": "Ca Mau"
+  },
+  {
+    "iso_code": "60",
+    "name": "Da Nang, thanh pho"
+  },
+  {
+    "iso_code": "61",
+    "name": "Hai Duong"
+  },
+  {
+    "iso_code": "62",
+    "name": "Hai Phong, thanh pho"
+  },
+  {
+    "iso_code": "63",
+    "name": "Ha Nam"
+  },
+  {
+    "iso_code": "66",
+    "name": "Hung Yen"
+  },
+  {
+    "iso_code": "67",
+    "name": "Nam Dinh"
+  },
+  {
+    "iso_code": "68",
+    "name": "Phu Tho"
+  },
+  {
+    "iso_code": "69",
+    "name": "Thai Nguyen"
+  },
+  {
+    "iso_code": "70",
+    "name": "Vinh Yen"
+  },
+  {
+    "iso_code": "71",
+    "name": "Dien Bien"
+  },
+  {
+    "iso_code": "72",
+    "name": "Dak Nong"
+  },
+  {
+    "iso_code": "73",
+    "name": "Hau Giang"
+  }
+]

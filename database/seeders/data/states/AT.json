@@ -1,0 +1,38 @@
+[
+  {
+    "iso_code": "1",
+    "name": "Burgenland"
+  },
+  {
+    "iso_code": "2",
+    "name": "Kärnten"
+  },
+  {
+    "iso_code": "3",
+    "name": "Niederösterreich"
+  },
+  {
+    "iso_code": "4",
+    "name": "Oberösterreich"
+  },
+  {
+    "iso_code": "5",
+    "name": "Salzburg"
+  },
+  {
+    "iso_code": "6",
+    "name": "Steiermark"
+  },
+  {
+    "iso_code": "7",
+    "name": "Tirol"
+  },
+  {
+    "iso_code": "8",
+    "name": "Vorarlberg"
+  },
+  {
+    "iso_code": "9",
+    "name": "Wien"
+  }
+]

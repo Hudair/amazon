@@ -1,0 +1,72 @@
+[
+  {
+    "iso_code": "DR",
+    "name": "Drenthe"
+  },
+  {
+    "iso_code": "FL",
+    "name": "Flevoland"
+  },
+  {
+    "iso_code": "FR",
+    "name": "Friesland"
+  },
+  {
+    "iso_code": "GD",
+    "name": "Gelderland"
+  },
+  {
+    "iso_code": "GR",
+    "name": "Groningen"
+  },
+  {
+    "iso_code": "LB",
+    "name": "Limburg"
+  },
+  {
+    "iso_code": "NB",
+    "name": "Noord-Brabant"
+  },
+  {
+    "iso_code": "NH",
+    "name": "Noord-Holland"
+  },
+  {
+    "iso_code": "OV",
+    "name": "Overijssel"
+  },
+  {
+    "iso_code": "UT",
+    "name": "Utrecht"
+  },
+  {
+    "iso_code": "ZH",
+    "name": "Zuid-Holland"
+  },
+  {
+    "iso_code": "ZL",
+    "name": "Zeeland"
+  },
+  {
+    "iso_code": "AW",
+    "name": "Aruba"
+  },
+  {
+    "iso_code": "BQ",
+    "name": "Bonaire"
+  },
+  {
+    "name": "Saba"
+  },
+  {
+    "name": "Sint Eustatius"
+  },
+  {
+    "iso_code": "CW",
+    "name": "Curaçao"
+  },
+  {
+    "iso_code": "SX",
+    "name": "Sint Maarten"
+  }
+]

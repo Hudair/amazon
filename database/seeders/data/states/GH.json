@@ -1,0 +1,42 @@
+[
+  {
+    "iso_code": "AA",
+    "name": "Greater Accra"
+  },
+  {
+    "iso_code": "AH",
+    "name": "Ashanti"
+  },
+  {
+    "iso_code": "BA",
+    "name": "Brong-Ahafo"
+  },
+  {
+    "iso_code": "CP",
+    "name": "Central"
+  },
+  {
+    "iso_code": "EP",
+    "name": "Eastern"
+  },
+  {
+    "iso_code": "NP",
+    "name": "Northern"
+  },
+  {
+    "iso_code": "TV",
+    "name": "Volta"
+  },
+  {
+    "iso_code": "UE",
+    "name": "Upper East"
+  },
+  {
+    "iso_code": "UW",
+    "name": "Upper West"
+  },
+  {
+    "iso_code": "WP",
+    "name": "Western"
+  }
+]

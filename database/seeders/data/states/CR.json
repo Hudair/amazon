@@ -1,0 +1,30 @@
+[
+  {
+    "iso_code": "A",
+    "name": "Alajuela Province"
+  },
+  {
+    "iso_code": "C",
+    "name": "Cartago Province"
+  },
+  {
+    "iso_code": "G",
+    "name": "Guanacaste Province"
+  },
+  {
+    "iso_code": "H",
+    "name": "Heredia Province"
+  },
+  {
+    "iso_code": "L",
+    "name": "Limón Province"
+  },
+  {
+    "iso_code": "P",
+    "name": "Puntarenas Province"
+  },
+  {
+    "iso_code": "SJ",
+    "name": "San José"
+  }
+]

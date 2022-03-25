@@ -1,0 +1,78 @@
+[
+  {
+    "iso_code": "1",
+    "name": "Madhyamanchal"
+  },
+  {
+    "iso_code": "2",
+    "name": "Madhya Pashchimanchal"
+  },
+  {
+    "iso_code": "3",
+    "name": "Pashchimanchal"
+  },
+  {
+    "iso_code": "4",
+    "name": "Purwanchal"
+  },
+  {
+    "iso_code": "5",
+    "name": "Sudur Pashchimanchal"
+  },
+  {
+    "iso_code": "BA",
+    "name": "Bagmati"
+  },
+  {
+    "iso_code": "BH",
+    "name": "Bheri"
+  },
+  {
+    "iso_code": "DH",
+    "name": "Dhawalagiri"
+  },
+  {
+    "iso_code": "GA",
+    "name": "Gandaki"
+  },
+  {
+    "iso_code": "JA",
+    "name": "Janakpur"
+  },
+  {
+    "iso_code": "KA",
+    "name": "Karnali"
+  },
+  {
+    "iso_code": "KO",
+    "name": "Kosi [Koshi]"
+  },
+  {
+    "iso_code": "LU",
+    "name": "Lumbini"
+  },
+  {
+    "iso_code": "MA",
+    "name": "Mahakali"
+  },
+  {
+    "iso_code": "ME",
+    "name": "Mechi"
+  },
+  {
+    "iso_code": "NA",
+    "name": "Narayani"
+  },
+  {
+    "iso_code": "RA",
+    "name": "Rapti"
+  },
+  {
+    "iso_code": "SA",
+    "name": "Sagarmatha"
+  },
+  {
+    "iso_code": "SE",
+    "name": "Seti"
+  }
+]

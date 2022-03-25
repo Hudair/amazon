@@ -1,0 +1,926 @@
+[
+  {
+    "iso_code": "ABD",
+    "name": "Aberdeenshire"
+  },
+  {
+    "iso_code": "ABE",
+    "name": "Aberdeen City"
+  },
+  {
+    "iso_code": "AGB",
+    "name": "Argyll and Bute"
+  },
+  {
+    "iso_code": "AGY",
+    "name": "Isle of Anglesey [Sir Ynys Môn GB-YNM]"
+  },
+  {
+    "iso_code": "ANS",
+    "name": "Angus"
+  },
+  {
+    "iso_code": "ANT",
+    "name": "Antrim"
+  },
+  {
+    "iso_code": "ARD",
+    "name": "Ards"
+  },
+  {
+    "iso_code": "ARM",
+    "name": "Armagh"
+  },
+  {
+    "iso_code": "BAS",
+    "name": "Bath and North East Somerset"
+  },
+  {
+    "iso_code": "BBD",
+    "name": "Blackburn with Darwen"
+  },
+  {
+    "iso_code": "BDF",
+    "name": "Bedfordshire"
+  },
+  {
+    "iso_code": "BDG",
+    "name": "Barking and Dagenham"
+  },
+  {
+    "iso_code": "BEN",
+    "name": "Brent"
+  },
+  {
+    "iso_code": "BEX",
+    "name": "Bexley"
+  },
+  {
+    "iso_code": "BFS",
+    "name": "Belfast"
+  },
+  {
+    "iso_code": "BGE",
+    "name": "Bridgend [Pen-y-bont ar Ogwr GB-POG]"
+  },
+  {
+    "iso_code": "BGW",
+    "name": "Blaenau Gwent"
+  },
+  {
+    "iso_code": "BIR",
+    "name": "Birmingham"
+  },
+  {
+    "iso_code": "BKM",
+    "name": "Buckinghamshire"
+  },
+  {
+    "iso_code": "BLA",
+    "name": "Ballymena"
+  },
+  {
+    "iso_code": "BLY",
+    "name": "Ballymoney"
+  },
+  {
+    "iso_code": "BMH",
+    "name": "Bournemouth"
+  },
+  {
+    "iso_code": "BNB",
+    "name": "Banbridge"
+  },
+  {
+    "iso_code": "BNE",
+    "name": "Barnet"
+  },
+  {
+    "iso_code": "BNH",
+    "name": "Brighton and Hove"
+  },
+  {
+    "iso_code": "BNS",
+    "name": "Barnsley"
+  },
+  {
+    "iso_code": "BOL",
+    "name": "Bolton"
+  },
+  {
+    "iso_code": "BPL",
+    "name": "Blackpool"
+  },
+  {
+    "iso_code": "BRC",
+    "name": "Bracknell Forest"
+  },
+  {
+    "iso_code": "BRD",
+    "name": "Bradford"
+  },
+  {
+    "iso_code": "BRY",
+    "name": "Bromley"
+  },
+  {
+    "iso_code": "BST",
+    "name": "Bristol, City of"
+  },
+  {
+    "iso_code": "BUR",
+    "name": "Bury"
+  },
+  {
+    "iso_code": "CAM",
+    "name": "Cambridgeshire"
+  },
+  {
+    "iso_code": "CAY",
+    "name": "Caerphilly [Caerffili GB-CAF]"
+  },
+  {
+    "iso_code": "CBF",
+    "name": "Central Bedfordshire"
+  },
+  {
+    "iso_code": "CGN",
+    "name": "Ceredigion [Sir Ceredigion]"
+  },
+  {
+    "iso_code": "CGV",
+    "name": "Craigavon"
+  },
+  {
+    "iso_code": "CHE",
+    "name": "Cheshire East"
+  },
+  {
+    "iso_code": "CHW",
+    "name": "Cheshire West and Chester"
+  },
+  {
+    "iso_code": "CKF",
+    "name": "Carrickfergus"
+  },
+  {
+    "iso_code": "CKT",
+    "name": "Cookstown"
+  },
+  {
+    "iso_code": "CLD",
+    "name": "Calderdale"
+  },
+  {
+    "iso_code": "CLK",
+    "name": "Clackmannanshire"
+  },
+  {
+    "iso_code": "CLR",
+    "name": "Coleraine"
+  },
+  {
+    "iso_code": "CMA",
+    "name": "Cumbria"
+  },
+  {
+    "iso_code": "CMD",
+    "name": "Camden"
+  },
+  {
+    "iso_code": "CMN",
+    "name": "Carmarthenshire [Sir Gaerfyrddin GB-GFY]"
+  },
+  {
+    "iso_code": "CON",
+    "name": "Cornwall"
+  },
+  {
+    "iso_code": "COV",
+    "name": "Coventry"
+  },
+  {
+    "iso_code": "CRF",
+    "name": "Cardiff [Caerdydd GB-CRD]"
+  },
+  {
+    "iso_code": "CRY",
+    "name": "Croydon"
+  },
+  {
+    "iso_code": "CSR",
+    "name": "Castlereagh"
+  },
+  {
+    "iso_code": "CWY",
+    "name": "Conwy"
+  },
+  {
+    "iso_code": "DAL",
+    "name": "Darlington"
+  },
+  {
+    "iso_code": "DBY",
+    "name": "Derbyshire"
+  },
+  {
+    "iso_code": "DEN",
+    "name": "Denbighshire [Sir Ddinbych GB-DDB]"
+  },
+  {
+    "iso_code": "DER",
+    "name": "Derby"
+  },
+  {
+    "iso_code": "DEV",
+    "name": "Devon"
+  },
+  {
+    "iso_code": "DGN",
+    "name": "Dungannon"
+  },
+  {
+    "iso_code": "DGY",
+    "name": "Dumfries and Galloway"
+  },
+  {
+    "iso_code": "DNC",
+    "name": "Doncaster"
+  },
+  {
+    "iso_code": "DND",
+    "name": "Dundee City"
+  },
+  {
+    "iso_code": "DOR",
+    "name": "Dorset"
+  },
+  {
+    "iso_code": "DOW",
+    "name": "Down"
+  },
+  {
+    "iso_code": "DRY",
+    "name": "Derry"
+  },
+  {
+    "iso_code": "DUD",
+    "name": "Dudley"
+  },
+  {
+    "iso_code": "DUR",
+    "name": "Durham"
+  },
+  {
+    "iso_code": "EAL",
+    "name": "Ealing"
+  },
+  {
+    "iso_code": "EAY",
+    "name": "East Ayrshire"
+  },
+  {
+    "iso_code": "EDH",
+    "name": "Edinburgh, City of"
+  },
+  {
+    "iso_code": "EDU",
+    "name": "East Dunbartonshire"
+  },
+  {
+    "iso_code": "ELN",
+    "name": "East Lothian"
+  },
+  {
+    "iso_code": "ELS",
+    "name": "Eilean Siar"
+  },
+  {
+    "iso_code": "ENF",
+    "name": "Enfield"
+  },
+  {
+    "iso_code": "ERW",
+    "name": "East Renfrewshire"
+  },
+  {
+    "iso_code": "ERY",
+    "name": "East Riding of Yorkshire"
+  },
+  {
+    "iso_code": "ESS",
+    "name": "Essex"
+  },
+  {
+    "iso_code": "ESX",
+    "name": "East Sussex"
+  },
+  {
+    "iso_code": "FAL",
+    "name": "Falkirk"
+  },
+  {
+    "iso_code": "FER",
+    "name": "Fermanagh"
+  },
+  {
+    "iso_code": "FIF",
+    "name": "Fife"
+  },
+  {
+    "iso_code": "FLN",
+    "name": "Flintshire [Sir y Fflint GB-FFL]"
+  },
+  {
+    "iso_code": "GAT",
+    "name": "Gateshead"
+  },
+  {
+    "iso_code": "GLG",
+    "name": "Glasgow City"
+  },
+  {
+    "iso_code": "GLS",
+    "name": "Gloucestershire"
+  },
+  {
+    "iso_code": "GRE",
+    "name": "Greenwich"
+  },
+  {
+    "iso_code": "GWN",
+    "name": "Gwynedd"
+  },
+  {
+    "iso_code": "HAL",
+    "name": "Halton"
+  },
+  {
+    "iso_code": "HAM",
+    "name": "Hampshire"
+  },
+  {
+    "iso_code": "HAV",
+    "name": "Havering"
+  },
+  {
+    "iso_code": "HCK",
+    "name": "Hackney"
+  },
+  {
+    "iso_code": "HEF",
+    "name": "Herefordshire, County of"
+  },
+  {
+    "iso_code": "HIL",
+    "name": "Hillingdon"
+  },
+  {
+    "iso_code": "HLD",
+    "name": "Highland"
+  },
+  {
+    "iso_code": "HMF",
+    "name": "Hammersmith and Fulham"
+  },
+  {
+    "iso_code": "HNS",
+    "name": "Hounslow"
+  },
+  {
+    "iso_code": "HPL",
+    "name": "Hartlepool"
+  },
+  {
+    "iso_code": "HRT",
+    "name": "Hertfordshire"
+  },
+  {
+    "iso_code": "HRW",
+    "name": "Harrow"
+  },
+  {
+    "iso_code": "HRY",
+    "name": "Haringey"
+  },
+  {
+    "iso_code": "IOW",
+    "name": "Isle of Wight"
+  },
+  {
+    "iso_code": "ISL",
+    "name": "Islington"
+  },
+  {
+    "iso_code": "IVC",
+    "name": "Inverclyde"
+  },
+  {
+    "iso_code": "KEC",
+    "name": "Kensington and Chelsea"
+  },
+  {
+    "iso_code": "KEN",
+    "name": "Kent"
+  },
+  {
+    "iso_code": "KHL",
+    "name": "Kingston upon Hull, City of"
+  },
+  {
+    "iso_code": "KIR",
+    "name": "Kirklees"
+  },
+  {
+    "iso_code": "KTT",
+    "name": "Kingston upon Thames"
+  },
+  {
+    "iso_code": "KWL",
+    "name": "Knowsley"
+  },
+  {
+    "iso_code": "LAN",
+    "name": "Lancashire"
+  },
+  {
+    "iso_code": "LBH",
+    "name": "Lambeth"
+  },
+  {
+    "iso_code": "LCE",
+    "name": "Leicester"
+  },
+  {
+    "iso_code": "LDS",
+    "name": "Leeds"
+  },
+  {
+    "iso_code": "LEC",
+    "name": "Leicestershire"
+  },
+  {
+    "iso_code": "LEW",
+    "name": "Lewisham"
+  },
+  {
+    "iso_code": "LIN",
+    "name": "Lincolnshire"
+  },
+  {
+    "iso_code": "LIV",
+    "name": "Liverpool"
+  },
+  {
+    "iso_code": "LMV",
+    "name": "Limavady"
+  },
+  {
+    "iso_code": "LND",
+    "name": "London, City of"
+  },
+  {
+    "iso_code": "LRN",
+    "name": "Larne"
+  },
+  {
+    "iso_code": "LSB",
+    "name": "Lisburn"
+  },
+  {
+    "iso_code": "LUT",
+    "name": "Luton"
+  },
+  {
+    "iso_code": "MAN",
+    "name": "Manchester"
+  },
+  {
+    "iso_code": "MDB",
+    "name": "Middlesbrough"
+  },
+  {
+    "iso_code": "MDW",
+    "name": "Medway"
+  },
+  {
+    "iso_code": "MFT",
+    "name": "Magherafelt"
+  },
+  {
+    "iso_code": "MIK",
+    "name": "Milton Keynes"
+  },
+  {
+    "iso_code": "MLN",
+    "name": "Midlothian"
+  },
+  {
+    "iso_code": "MON",
+    "name": "Monmouthshire [Sir Fynwy GB-FYN]"
+  },
+  {
+    "iso_code": "MRT",
+    "name": "Merton"
+  },
+  {
+    "iso_code": "MRY",
+    "name": "Moray"
+  },
+  {
+    "iso_code": "MTY",
+    "name": "Merthyr Tydfil [Merthyr Tudful GB-MTU]"
+  },
+  {
+    "iso_code": "MYL",
+    "name": "Moyle"
+  },
+  {
+    "iso_code": "NAY",
+    "name": "North Ayrshire"
+  },
+  {
+    "iso_code": "NBL",
+    "name": "Northumberland"
+  },
+  {
+    "iso_code": "NDN",
+    "name": "North Down"
+  },
+  {
+    "iso_code": "NEL",
+    "name": "North East Lincolnshire"
+  },
+  {
+    "iso_code": "NET",
+    "name": "Newcastle upon Tyne"
+  },
+  {
+    "iso_code": "NFK",
+    "name": "Norfolk"
+  },
+  {
+    "iso_code": "NGM",
+    "name": "Nottingham"
+  },
+  {
+    "iso_code": "NLK",
+    "name": "North Lanarkshire"
+  },
+  {
+    "iso_code": "NLN",
+    "name": "North Lincolnshire"
+  },
+  {
+    "iso_code": "NSM",
+    "name": "North Somerset"
+  },
+  {
+    "iso_code": "NTA",
+    "name": "Newtownabbey"
+  },
+  {
+    "iso_code": "NTH",
+    "name": "Northamptonshire"
+  },
+  {
+    "iso_code": "NTL",
+    "name": "Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]"
+  },
+  {
+    "iso_code": "NTT",
+    "name": "Nottinghamshire"
+  },
+  {
+    "iso_code": "NTY",
+    "name": "North Tyneside"
+  },
+  {
+    "iso_code": "NWM",
+    "name": "Newham"
+  },
+  {
+    "iso_code": "NWP",
+    "name": "Newport [Casnewydd GB-CNW]"
+  },
+  {
+    "iso_code": "NYK",
+    "name": "North Yorkshire"
+  },
+  {
+    "iso_code": "NYM",
+    "name": "Newry and Mourne"
+  },
+  {
+    "iso_code": "OLD",
+    "name": "Oldham"
+  },
+  {
+    "iso_code": "OMH",
+    "name": "Omagh"
+  },
+  {
+    "iso_code": "ORK",
+    "name": "Orkney Islands"
+  },
+  {
+    "iso_code": "OXF",
+    "name": "Oxfordshire"
+  },
+  {
+    "iso_code": "PEM",
+    "name": "Pembrokeshire [Sir Benfro GB-BNF]"
+  },
+  {
+    "iso_code": "PKN",
+    "name": "Perth and Kinross"
+  },
+  {
+    "iso_code": "PLY",
+    "name": "Plymouth"
+  },
+  {
+    "iso_code": "POL",
+    "name": "Poole"
+  },
+  {
+    "iso_code": "POR",
+    "name": "Portsmouth"
+  },
+  {
+    "iso_code": "POW",
+    "name": "Powys"
+  },
+  {
+    "iso_code": "PTE",
+    "name": "Peterborough"
+  },
+  {
+    "iso_code": "RCC",
+    "name": "Redcar and Cleveland"
+  },
+  {
+    "iso_code": "RCH",
+    "name": "Rochdale"
+  },
+  {
+    "iso_code": "RCT",
+    "name": "Rhondda, Cynon, Taff [Rhondda, Cynon,Taf]"
+  },
+  {
+    "iso_code": "RDB",
+    "name": "Redbridge"
+  },
+  {
+    "iso_code": "RDG",
+    "name": "Reading"
+  },
+  {
+    "iso_code": "RFW",
+    "name": "Renfrewshire"
+  },
+  {
+    "iso_code": "RIC",
+    "name": "Richmond upon Thames"
+  },
+  {
+    "iso_code": "ROT",
+    "name": "Rotherham"
+  },
+  {
+    "iso_code": "RUT",
+    "name": "Rutland"
+  },
+  {
+    "iso_code": "SAW",
+    "name": "Sandwell"
+  },
+  {
+    "iso_code": "SAY",
+    "name": "South Ayrshire"
+  },
+  {
+    "iso_code": "SCB",
+    "name": "Scottish Borders, The"
+  },
+  {
+    "iso_code": "SFK",
+    "name": "Suffolk"
+  },
+  {
+    "iso_code": "SFT",
+    "name": "Sefton"
+  },
+  {
+    "iso_code": "SGC",
+    "name": "South Gloucestershire"
+  },
+  {
+    "iso_code": "SHF",
+    "name": "Sheffield"
+  },
+  {
+    "iso_code": "SHN",
+    "name": "St. Helens"
+  },
+  {
+    "iso_code": "SHR",
+    "name": "Shropshire"
+  },
+  {
+    "iso_code": "SKP",
+    "name": "Stockport"
+  },
+  {
+    "iso_code": "SLF",
+    "name": "Salford"
+  },
+  {
+    "iso_code": "SLG",
+    "name": "Slough"
+  },
+  {
+    "iso_code": "SLK",
+    "name": "South Lanarkshire"
+  },
+  {
+    "iso_code": "SND",
+    "name": "Sunderland"
+  },
+  {
+    "iso_code": "SOL",
+    "name": "Solihull"
+  },
+  {
+    "iso_code": "SOM",
+    "name": "Somerset"
+  },
+  {
+    "iso_code": "SOS",
+    "name": "Southend-on-Sea"
+  },
+  {
+    "iso_code": "SRY",
+    "name": "Surrey"
+  },
+  {
+    "iso_code": "STB",
+    "name": "Strabane"
+  },
+  {
+    "iso_code": "STE",
+    "name": "Stoke-on-Trent"
+  },
+  {
+    "iso_code": "STG",
+    "name": "Stirling"
+  },
+  {
+    "iso_code": "STH",
+    "name": "Southampton"
+  },
+  {
+    "iso_code": "STN",
+    "name": "Sutton"
+  },
+  {
+    "iso_code": "STS",
+    "name": "Staffordshire"
+  },
+  {
+    "iso_code": "STT",
+    "name": "Stockton-on-Tees"
+  },
+  {
+    "iso_code": "STY",
+    "name": "South Tyneside"
+  },
+  {
+    "iso_code": "SWA",
+    "name": "Swansea [Abertawe GB-ATA]"
+  },
+  {
+    "iso_code": "SWD",
+    "name": "Swindon"
+  },
+  {
+    "iso_code": "SWK",
+    "name": "Southwark"
+  },
+  {
+    "iso_code": "TAM",
+    "name": "Tameside"
+  },
+  {
+    "iso_code": "TFW",
+    "name": "Telford and Wrekin"
+  },
+  {
+    "iso_code": "THR",
+    "name": "Thurrock"
+  },
+  {
+    "iso_code": "TOB",
+    "name": "Torbay"
+  },
+  {
+    "iso_code": "TOF",
+    "name": "Torfaen [Tor-faen]"
+  },
+  {
+    "iso_code": "TRF",
+    "name": "Trafford"
+  },
+  {
+    "iso_code": "TWH",
+    "name": "Tower Hamlets"
+  },
+  {
+    "iso_code": "VGL",
+    "name": "Vale of Glamorgan, The [Bro Morgannwg GB-BMG]"
+  },
+  {
+    "iso_code": "WAR",
+    "name": "Warwickshire"
+  },
+  {
+    "iso_code": "WBK",
+    "name": "West Berkshire"
+  },
+  {
+    "iso_code": "WDU",
+    "name": "West Dunbartonshire"
+  },
+  {
+    "iso_code": "WFT",
+    "name": "Waltham Forest"
+  },
+  {
+    "iso_code": "WGN",
+    "name": "Wigan"
+  },
+  {
+    "iso_code": "WIL",
+    "name": "Wiltshire"
+  },
+  {
+    "iso_code": "WKF",
+    "name": "Wakefield"
+  },
+  {
+    "iso_code": "WLL",
+    "name": "Walsall"
+  },
+  {
+    "iso_code": "WLN",
+    "name": "West Lothian"
+  },
+  {
+    "iso_code": "WLV",
+    "name": "Wolverhampton"
+  },
+  {
+    "iso_code": "WND",
+    "name": "Wandsworth"
+  },
+  {
+    "iso_code": "WNM",
+    "name": "Windsor and Maidenhead"
+  },
+  {
+    "iso_code": "WOK",
+    "name": "Wokingham"
+  },
+  {
+    "iso_code": "WOR",
+    "name": "Worcestershire"
+  },
+  {
+    "iso_code": "WRL",
+    "name": "Wirral"
+  },
+  {
+    "iso_code": "WRT",
+    "name": "Warrington"
+  },
+  {
+    "iso_code": "WRX",
+    "name": "Wrexham [Wrecsam GB-WRC]"
+  },
+  {
+    "iso_code": "WSM",
+    "name": "Westminster"
+  },
+  {
+    "iso_code": "WSX",
+    "name": "West Sussex"
+  },
+  {
+    "iso_code": "YOR",
+    "name": "York"
+  },
+  {
+    "iso_code": "ZET",
+    "name": "Shetland Islands"
+  }
+]

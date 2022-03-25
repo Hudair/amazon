@@ -1,0 +1,66 @@
+[
+  {
+    "iso_code": "BW",
+    "name": "Baden-Württemberg"
+  },
+  {
+    "iso_code": "BY",
+    "name": "Bayern"
+  },
+  {
+    "iso_code": "BE",
+    "name": "Berlin"
+  },
+  {
+    "iso_code": "BB",
+    "name": "Brandenburg"
+  },
+  {
+    "iso_code": "HB",
+    "name": "Bremen"
+  },
+  {
+    "iso_code": "HH",
+    "name": "Hamburg"
+  },
+  {
+    "iso_code": "HE",
+    "name": "Hessen"
+  },
+  {
+    "iso_code": "MV",
+    "name": "Mecklenburg-Vorpommern"
+  },
+  {
+    "iso_code": "NI",
+    "name": "Niedersachsen"
+  },
+  {
+    "iso_code": "NW",
+    "name": "Nordrhein-Westfalen"
+  },
+  {
+    "iso_code": "RP",
+    "name": "Rheinland-Pfalz"
+  },
+  {
+    "iso_code": "SL",
+    "name": "Saarland"
+  },
+  {
+    "iso_code": "SN",
+    "name": "Sachsen"
+  },
+  {
+    "iso_code": "ST",
+    "name": "Sachsen-Anhalt"
+  },
+  {
+    "iso_code": "SH",
+    "name": "Schleswig-Holstein"
+  },
+  {
+    "iso_code": "TH",
+    "name": "Thüringen"
+  }
+]

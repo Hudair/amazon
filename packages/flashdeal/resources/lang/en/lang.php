@@ -1,0 +1,20 @@
+<?php
+return [
+    'flashdeal' => 'Flash deal',
+    'flashdeals' => 'Flash deals',
+    'listings' => 'listings',
+    'start_time' => 'Start Time',
+    'end_time' => 'End Time',
+    'starting_time' => 'Starting time',
+    'ending_time' => 'Ending time',
+    'featured' => 'Featured Products',
+    'created' => 'Flash deal has been created successfully',
+    'updated' => 'Flash deal has been updated successfully',
+    'failed' => 'Something wrong with your input',
+    'deal_schedule' => 'Deal schedule',
+    'help_deal_schedule' => 'Set the starting and ending time schedule of the deal.',
+    'help_deal_items' => 'Choose listings for the flash deals. These listings will be shown on the flash deal section on the home page.',
+    'help_featured_items' => 'Choose listings as featured deals. These listings will be highlighted.',
+    'hints_deal_items' => 'Search for listings. Choose 6-20 items.',
+    'hints_featured_items' => 'Choose 2 or 4 items. Even number will look better',
+];

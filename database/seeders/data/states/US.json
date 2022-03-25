@@ -1,0 +1,238 @@
+[
+  {
+    "name": "Alabama",
+    "iso_code": "AL"
+  },
+  {
+    "name": "Alaska",
+    "iso_code": "AK"
+  },
+  {
+    "name": "American Samoa",
+    "iso_code": "AS"
+  },
+  {
+    "name": "Arizona",
+    "iso_code": "AZ"
+  },
+  {
+    "name": "Arkansas",
+    "iso_code": "AR"
+  },
+  {
+    "name": "California",
+    "iso_code": "CA"
+  },
+  {
+    "name": "Colorado",
+    "iso_code": "CO"
+  },
+  {
+    "name": "Connecticut",
+    "iso_code": "CT"
+  },
+  {
+    "name": "Delaware",
+    "iso_code": "DE"
+  },
+  {
+    "name": "District Of Columbia",
+    "iso_code": "DC"
+  },
+  {
+    "name": "Federated States Of Micronesia",
+    "iso_code": "FM"
+  },
+  {
+    "name": "Florida",
+    "iso_code": "FL"
+  },
+  {
+    "name": "Georgia",
+    "iso_code": "GA"
+  },
+  {
+    "name": "Guam",
+    "iso_code": "GU"
+  },
+  {
+    "name": "Hawaii",
+    "iso_code": "HI"
+  },
+  {
+    "name": "Idaho",
+    "iso_code": "ID"
+  },
+  {
+    "name": "Illinois",
+    "iso_code": "IL"
+  },
+  {
+    "name": "Indiana",
+    "iso_code": "IN"
+  },
+  {
+    "name": "Iowa",
+    "iso_code": "IA"
+  },
+  {
+    "name": "Kansas",
+    "iso_code": "KS"
+  },
+  {
+    "name": "Kentucky",
+    "iso_code": "KY"
+  },
+  {
+    "name": "Louisiana",
+    "iso_code": "LA"
+  },
+  {
+    "name": "Maine",
+    "iso_code": "ME"
+  },
+  {
+    "name": "Marshall Islands",
+    "iso_code": "MH"
+  },
+  {
+    "name": "Maryland",
+    "iso_code": "MD"
+  },
+  {
+    "name": "Massachusetts",
+    "iso_code": "MA"
+  },
+  {
+    "name": "Michigan",
+    "iso_code": "MI"
+  },
+  {
+    "name": "Minnesota",
+    "iso_code": "MN"
+  },
+  {
+    "name": "Mississippi",
+    "iso_code": "MS"
+  },
+  {
+    "name": "Missouri",
+    "iso_code": "MO"
+  },
+  {
+    "name": "Montana",
+    "iso_code": "MT"
+  },
+  {
+    "name": "Nebraska",
+    "iso_code": "NE"
+  },
+  {
+    "name": "Nevada",
+    "iso_code": "NV"
+  },
+  {
+    "name": "New Hampshire",
+    "iso_code": "NH"
+  },
+  {
+    "name": "New Jersey",
+    "iso_code": "NJ"
+  },
+  {
+    "name": "New Mexico",
+    "iso_code": "NM"
+  },
+  {
+    "name": "New York",
+    "iso_code": "NY"
+  },
+  {
+    "name": "North Carolina",
+    "iso_code": "NC"
+  },
+  {
+    "name": "North Dakota",
+    "iso_code": "ND"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "iso_code": "MP"
+  },
+  {
+    "name": "Ohio",
+    "iso_code": "OH"
+  },
+  {
+    "name": "Oklahoma",
+    "iso_code": "OK"
+  },
+  {
+    "name": "Oregon",
+    "iso_code": "OR"
+  },
+  {
+    "name": "Palau",
+    "iso_code": "PW"
+  },
+  {
+    "name": "Pennsylvania",
+    "iso_code": "PA"
+  },
+  {
+    "name": "Puerto Rico",
+    "iso_code": "PR"
+  },
+  {
+    "name": "Rhode Island",
+    "iso_code": "RI"
+  },
+  {
+    "name": "South Carolina",
+    "iso_code": "SC"
+  },
+  {
+    "name": "South Dakota",
+    "iso_code": "SD"
+  },
+  {
+    "name": "Tennessee",
+    "iso_code": "TN"
+  },
+  {
+    "name": "Texas",
+    "iso_code": "TX"
+  },
+  {
+    "name": "Utah",
+    "iso_code": "UT"
+  },
+  {
+    "name": "Vermont",
+    "iso_code": "VT"
+  },
+  {
+    "name": "Virgin Islands",
+    "iso_code": "VI"
+  },
+  {
+    "name": "Virginia",
+    "iso_code": "VA"
+  },
+  {
+    "name": "Washington",
+    "iso_code": "WA"
+  },
+  {
+    "name": "West Virginia",
+    "iso_code": "WV"
+  },
+  {
+    "name": "Wisconsin",
+    "iso_code": "WI"
+  },
+  {
+    "name": "Wyoming",
+    "iso_code": "WY"
+  }
+]

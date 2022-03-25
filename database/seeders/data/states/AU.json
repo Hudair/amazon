@@ -1,0 +1,50 @@
+[
+  {
+    "iso_code": "ACT",
+    "name": "Australian Capital Territory"
+  },
+  {
+    "iso_code": "CX",
+    "name": "Christmas Island"
+  },
+  {
+    "iso_code": "CC",
+    "name": "Cocos Islands"
+  },
+  {
+    "iso_code": "HM",
+    "name": "Heard Island and McDonald Islands"
+  },
+  {
+    "iso_code": "NSW",
+    "name": "New South Wales"
+  },
+  {
+    "iso_code": "NF",
+    "name": "Norfolk Island"
+  },
+  {
+    "iso_code": "NT",
+    "name": "Northern Territory"
+  },
+  {
+    "iso_code": "QLD",
+    "name": "Queensland"
+  },
+  {
+    "iso_code": "SA",
+    "name": "South Australia"
+  },
+  {
+    "iso_code": "TAS",
+    "name": "Tasmania"
+  },
+  {
+    "iso_code": "VIC",
+    "name": "Victoria"
+  },
+  {
+    "iso_code": "WA",
+    "name": "Western Australia"
+  }
+]

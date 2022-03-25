@@ -1,0 +1,34 @@
+[
+  {
+    "iso_code": "110",
+    "name": "Nairobi"
+  },
+  {
+    "iso_code": "200",
+    "name": "Central"
+  },
+  {
+    "iso_code": "300",
+    "name": "Coast"
+  },
+  {
+    "iso_code": "400",
+    "name": "Eastern"
+  },
+  {
+    "iso_code": "500",
+    "name": "North-Eastern"
+  },
+  {
+    "iso_code": "600",
+    "name": "Nyanza"
+  },
+  {
+    "iso_code": "700",
+    "name": "Rift Valley"
+  },
+  {
+    "iso_code": "800",
+    "name": "Western"
+  }
+]

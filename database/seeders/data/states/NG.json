@@ -1,0 +1,150 @@
+[
+  {
+    "iso_code": "AB",
+    "name": "Abia"
+  },
+  {
+    "iso_code": "AD",
+    "name": "Adamawa"
+  },
+  {
+    "iso_code": "AK",
+    "name": "Akwa Ibom"
+  },
+  {
+    "iso_code": "AN",
+    "name": "Anambra"
+  },
+  {
+    "iso_code": "BA",
+    "name": "Bauchi"
+  },
+  {
+    "iso_code": "BE",
+    "name": "Benue"
+  },
+  {
+    "iso_code": "BO",
+    "name": "Borno"
+  },
+  {
+    "iso_code": "BY",
+    "name": "Bayelsa"
+  },
+  {
+    "iso_code": "CR",
+    "name": "Cross River"
+  },
+  {
+    "iso_code": "DE",
+    "name": "Delta"
+  },
+  {
+    "iso_code": "EB",
+    "name": "Ebonyi"
+  },
+  {
+    "iso_code": "ED",
+    "name": "Edo"
+  },
+  {
+    "iso_code": "EK",
+    "name": "Ekiti"
+  },
+  {
+    "iso_code": "EN",
+    "name": "Enugu"
+  },
+  {
+    "iso_code": "FC",
+    "name": "Abuja Capital Territory"
+  },
+  {
+    "iso_code": "GO",
+    "name": "Gombe"
+  },
+  {
+    "iso_code": "IM",
+    "name": "Imo"
+  },
+  {
+    "iso_code": "JI",
+    "name": "Jigawa"
+  },
+  {
+    "iso_code": "KD",
+    "name": "Kaduna"
+  },
+  {
+    "iso_code": "KE",
+    "name": "Kebbi"
+  },
+  {
+    "iso_code": "KN",
+    "name": "Kano"
+  },
+  {
+    "iso_code": "KO",
+    "name": "Kogi"
+  },
+  {
+    "iso_code": "KT",
+    "name": "Katsina"
+  },
+  {
+    "iso_code": "KW",
+    "name": "Kwara"
+  },
+  {
+    "iso_code": "LA",
+    "name": "Lagos"
+  },
+  {
+    "iso_code": "NA",
+    "name": "Nassarawa"
+  },
+  {
+    "iso_code": "NI",
+    "name": "Niger"
+  },
+  {
+    "iso_code": "OG",
+    "name": "Ogun"
+  },
+  {
+    "iso_code": "ON",
+    "name": "Ondo"
+  },
+  {
+    "iso_code": "OS",
+    "name": "Osun"
+  },
+  {
+    "iso_code": "OY",
+    "name": "Oyo"
+  },
+  {
+    "iso_code": "PL",
+    "name": "Plateau"
+  },
+  {
+    "iso_code": "RI",
+    "name": "Rivers"
+  },
+  {
+    "iso_code": "SO",
+    "name": "Sokoto"
+  },
+  {
+    "iso_code": "TA",
+    "name": "Taraba"
+  },
+  {
+    "iso_code": "YO",
+    "name": "Yobe"
+  },
+  {
+    "iso_code": "ZA",
+    "name": "Zamfara"
+  }
+]

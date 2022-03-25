@@ -1,0 +1,186 @@
+[
+  {
+    "name": "La Coruña",
+    "iso_code": "C"
+  },
+  {
+    "name": "Lugo",
+    "iso_code": "LU"
+  },
+  {
+    "name": "Vizcaya",
+    "iso_code": "BI"
+  },
+  {
+    "name": "Guipúzcoa",
+    "iso_code": "SS"
+  },
+  {
+    "name": "Huesca",
+    "iso_code": "HU"
+  },
+  {
+    "name": "Lérida",
+    "iso_code": "L"
+  },
+  {
+    "name": "Gerona",
+    "iso_code": "GI"
+  },
+  {
+    "name": "Barcelona",
+    "iso_code": "B"
+  },
+  {
+    "name": "Tarragona",
+    "iso_code": "T"
+  },
+  {
+    "name": "Castellón",
+    "iso_code": "CS"
+  },
+  {
+    "name": "Valencia",
+    "iso_code": "V"
+  },
+  {
+    "name": "Alicante",
+    "iso_code": "A"
+  },
+  {
+    "name": "Murcia",
+    "iso_code": "MU"
+  },
+  {
+    "name": "Zaragoza",
+    "iso_code": "Z"
+  },
+  {
+    "name": "Teruel",
+    "iso_code": "TE"
+  },
+  {
+    "name": "Cuenca",
+    "iso_code": "CU"
+  },
+  {
+    "name": "Albacete",
+    "iso_code": "AB"
+  },
+  {
+    "name": "Almeria",
+    "iso_code": "AL"
+  },
+  {
+    "name": "Granada",
+    "iso_code": "GR"
+  },
+  {
+    "name": "Málaga",
+    "iso_code": "MA"
+  },
+  {
+    "name": "Tenerife",
+    "iso_code": "TF"
+  },
+  {
+    "name": "Cádiz",
+    "iso_code": "CA"
+  },
+  {
+    "name": "Sevilla",
+    "iso_code": "SE"
+  },
+  {
+    "name": "Huelva",
+    "iso_code": "H"
+  },
+  {
+    "name": "Las Palmas",
+    "iso_code": "GC"
+  },
+  {
+    "name": "Madrid",
+    "iso_code": "M"
+  },
+  {
+    "name": "Badajoz",
+    "iso_code": "BA"
+  },
+  {
+    "name": "Cáceres",
+    "iso_code": "CC"
+  },
+  {
+    "name": "Toledo",
+    "iso_code": "TO"
+  },
+  {
+    "name": "Ciudad Real",
+    "iso_code": "CR"
+  },
+  {
+    "name": "Salamanca",
+    "iso_code": "SA"
+  },
+  {
+    "name": "Córdoba",
+    "iso_code": "CO"
+  },
+  {
+    "name": "Jaén",
+    "iso_code": "J"
+  },
+  {
+    "name": "Ávila",
+    "iso_code": "AV"
+  },
+  {
+    "name": "Valladolid",
+    "iso_code": "VA"
+  },
+  {
+    "name": "Zamora",
+    "iso_code": "ZA"
+  },
+  {
+    "name": "Álava",
+    "iso_code": "VI"
+  },
+  {
+    "name": "Segovia",
+    "iso_code": "SG"
+  },
+  {
+    "name": "Burgos",
+    "iso_code": "BU"
+  },
+  {
+    "name": "Pontevedra",
+    "iso_code": "PO"
+  },
+  {
+    "name": "León",
+    "iso_code": "LE"
+  },
+  {
+    "name": "Orense",
+    "iso_code": "OU"
+  },
+  {
+    "name": "Palencia",
+    "iso_code": "P"
+  },
+  {
+    "name": "La Rioja",
+    "iso_code": "LO"
+  },
+  {
+    "name": "Soria",
+    "iso_code": "SO"
+  },
+  {
+    "name": "Guadalajara",
+    "iso_code": "GU"
+  }
+]

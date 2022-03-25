@@ -1,0 +1,16 @@
+{
+	"id": 5,
+	"slug": "inspector",
+	"name": "Inspector",
+	"description": "A Package to block prohibited contents based on keywords",
+	"icon" : "user-secret",
+	"author": "Incevio Team",
+	"email": "help@incevio.com",
+	"uri": "https://incevio.com",
+	"license": "Copyright reserved to the Incevio",
+	"dependency": "",
+	"active": false,
+    "provider": "Inspector\\InspectorServiceProvider",
+	"compatible": "2.0.1",
+	"version": "1.0.0"
+}

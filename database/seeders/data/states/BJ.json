@@ -1,0 +1,50 @@
+[
+  {
+    "iso_code": "AK",
+    "name": "Atakora"
+  },
+  {
+    "iso_code": "AL",
+    "name": "Alibori"
+  },
+  {
+    "iso_code": "AQ",
+    "name": "Atlantique"
+  },
+  {
+    "iso_code": "BO",
+    "name": "Borgou"
+  },
+  {
+    "iso_code": "CO",
+    "name": "Collines"
+  },
+  {
+    "iso_code": "DO",
+    "name": "Donga"
+  },
+  {
+    "iso_code": "KO",
+    "name": "Kouffo"
+  },
+  {
+    "iso_code": "LI",
+    "name": "Littoral"
+  },
+  {
+    "iso_code": "MO",
+    "name": "Mono"
+  },
+  {
+    "iso_code": "OU",
+    "name": "Ouémé"
+  },
+  {
+    "iso_code": "PL",
+    "name": "Plateau"
+  },
+  {
+    "iso_code": "ZO",
+    "name": "Zou"
+  }
+]

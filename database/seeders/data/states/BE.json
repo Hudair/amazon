@@ -1,0 +1,33 @@
+[
+  {
+    "iso_code": "VAN",
+    "name": "Antwerpen"
+  },{
+    "iso_code": "WBR",
+    "name": "Brabant wallon"
+  },{
+    "iso_code": "WHT",
+    "name": "Hainaut"
+  },{
+    "iso_code": "WLG",
+    "name": "Luik"
+  },{
+    "iso_code": "VLI",
+    "name": "Limburg"
+  },{
+    "iso_code": "WLX",
+    "name": "Luxemburg"
+  },{
+    "iso_code": "WNA",
+    "name": "Namur"
+  },{
+    "iso_code": "VOV",
+    "name": "Oost-Vlaanderen"
+  },{
+    "iso_code": "VBR",
+    "name": "Vlaams-Brabant"
+  },{
+    "iso_code": "VWV",
+    "name": "West-Vlaanderen"
+  }
+]

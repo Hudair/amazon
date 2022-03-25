@@ -1,0 +1,62 @@
+[
+  {
+    "iso_code": "AI",
+    "name": "Aisén del General Carlos Ibáñez del Campo"
+  },
+  {
+    "iso_code": "AN",
+    "name": "Antofagasta"
+  },
+  {
+    "iso_code": "AP",
+    "name": "Arica y Parinacota"
+  },
+  {
+    "iso_code": "AR",
+    "name": "Araucanía"
+  },
+  {
+    "iso_code": "AT",
+    "name": "Atacama"
+  },
+  {
+    "iso_code": "BI",
+    "name": "Bío-Bío"
+  },
+  {
+    "iso_code": "CO",
+    "name": "Coquimbo"
+  },
+  {
+    "iso_code": "LI",
+    "name": "Libertador General Bernardo O'Higgins"
+  },
+  {
+    "iso_code": "LL",
+    "name": "Los Lagos"
+  },
+  {
+    "iso_code": "LR",
+    "name": "Los Ríos"
+  },
+  {
+    "iso_code": "MA",
+    "name": "Magallanes"
+  },
+  {
+    "iso_code": "ML",
+    "name": "Maule"
+  },
+  {
+    "iso_code": "RM",
+    "name": "Región Metropolitana de Santiago"
+  },
+  {
+    "iso_code": "TA",
+    "name": "Tarapacá"
+  },
+  {
+    "iso_code": "VS",
+    "name": "Valparaíso"
+  }
+]

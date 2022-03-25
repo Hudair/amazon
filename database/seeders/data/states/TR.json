@@ -1,0 +1,326 @@
+[
+  {
+    "iso_code": "1",
+    "name": "Adana"
+  },
+  {
+    "iso_code": "2",
+    "name": "Adiyaman"
+  },
+  {
+    "iso_code": "3",
+    "name": "Afyon"
+  },
+  {
+    "iso_code": "4",
+    "name": "Ağrı"
+  },
+  {
+    "iso_code": "5",
+    "name": "Amasya"
+  },
+  {
+    "iso_code": "6",
+    "name": "Ankara"
+  },
+  {
+    "iso_code": "7",
+    "name": "Antalya"
+  },
+  {
+    "iso_code": "8",
+    "name": "Artvin"
+  },
+  {
+    "iso_code": "9",
+    "name": "Aydin"
+  },
+  {
+    "iso_code": "10",
+    "name": "Balikesir"
+  },
+  {
+    "iso_code": "11",
+    "name": "Bilecik"
+  },
+  {
+    "iso_code": "12",
+    "name": "Bingöl"
+  },
+  {
+    "iso_code": "13",
+    "name": "Bitlis"
+  },
+  {
+    "iso_code": "14",
+    "name": "Bolu"
+  },
+  {
+    "iso_code": "15",
+    "name": "Burdur"
+  },
+  {
+    "iso_code": "16",
+    "name": "Bursa"
+  },
+  {
+    "iso_code": "17",
+    "name": "Çanakkale"
+  },
+  {
+    "iso_code": "18",
+    "name": "Çankırı"
+  },
+  {
+    "iso_code": "19",
+    "name": "Çorum"
+  },
+  {
+    "iso_code": "20",
+    "name": "Denizli"
+  },
+  {
+    "iso_code": "21",
+    "name": "Diyarbakir"
+  },
+  {
+    "iso_code": "22",
+    "name": "Edirne"
+  },
+  {
+    "iso_code": "23",
+    "name": "Elazığ"
+  },
+  {
+    "iso_code": "24",
+    "name": "Erzincan"
+  },
+  {
+    "iso_code": "25",
+    "name": "Erzurum"
+  },
+  {
+    "iso_code": "26",
+    "name": "Eskişehir"
+  },
+  {
+    "iso_code": "27",
+    "name": "Gaziantep"
+  },
+  {
+    "iso_code": "28",
+    "name": "Giresun"
+  },
+  {
+    "iso_code": "29",
+    "name": "Gümüşhane"
+  },
+  {
+    "iso_code": "30",
+    "name": "Hakkâri"
+  },
+  {
+    "iso_code": "31",
+    "name": "Hatay"
+  },
+  {
+    "iso_code": "32",
+    "name": "Isparta"
+  },
+  {
+    "iso_code": "33",
+    "name": "Icel"
+  },
+  {
+    "iso_code": "34",
+    "name": "Istanbul"
+  },
+  {
+    "iso_code": "35",
+    "name": "Izmir"
+  },
+  {
+    "iso_code": "36",
+    "name": "Kars"
+  },
+  {
+    "iso_code": "37",
+    "name": "Kastamonu"
+  },
+  {
+    "iso_code": "38",
+    "name": "Kayseri"
+  },
+  {
+    "iso_code": "39",
+    "name": "Kirklareli"
+  },
+  {
+    "iso_code": "40",
+    "name": "Kırşehir"
+  },
+  {
+    "iso_code": "41",
+    "name": "Kocaeli"
+  },
+  {
+    "iso_code": "42",
+    "name": "Konya"
+  },
+  {
+    "iso_code": "43",
+    "name": "Kütahya"
+  },
+  {
+    "iso_code": "44",
+    "name": "Malatya"
+  },
+  {
+    "iso_code": "45",
+    "name": "Manisa"
+  },
+  {
+    "iso_code": "46",
+    "name": "Kahramanmaraş"
+  },
+  {
+    "iso_code": "47",
+    "name": "Mardin"
+  },
+  {
+    "iso_code": "48",
+    "name": "Muğla"
+  },
+  {
+    "iso_code": "49",
+    "name": "Muş"
+  },
+  {
+    "iso_code": "50",
+    "name": "Nevşehir"
+  },
+  {
+    "iso_code": "51",
+    "name": "Niğde"
+  },
+  {
+    "iso_code": "52",
+    "name": "Ordu"
+  },
+  {
+    "iso_code": "53",
+    "name": "Rize"
+  },
+  {
+    "iso_code": "54",
+    "name": "Sakarya"
+  },
+  {
+    "iso_code": "55",
+    "name": "Samsun"
+  },
+  {
+    "iso_code": "56",
+    "name": "Siirt"
+  },
+  {
+    "iso_code": "57",
+    "name": "Sinop"
+  },
+  {
+    "iso_code": "58",
+    "name": "Sivas"
+  },
+  {
+    "iso_code": "59",
+    "name": "Tekirdağ"
+  },
+  {
+    "iso_code": "60",
+    "name": "Tokat"
+  },
+  {
+    "iso_code": "61",
+    "name": "Trabzon"
+  },
+  {
+    "iso_code": "62",
+    "name": "Tunceli"
+  },
+  {
+    "iso_code": "63",
+    "name": "Şanlıurfa"
+  },
+  {
+    "iso_code": "64",
+    "name": "Uşak"
+  },
+  {
+    "iso_code": "65",
+    "name": "Van"
+  },
+  {
+    "iso_code": "66",
+    "name": "Yozgat"
+  },
+  {
+    "iso_code": "67",
+    "name": "Zonguldak"
+  },
+  {
+    "iso_code": "68",
+    "name": "Aksaray"
+  },
+  {
+    "iso_code": "69",
+    "name": "Bayburt"
+  },
+  {
+    "iso_code": "70",
+    "name": "Karaman"
+  },
+  {
+    "iso_code": "71",
+    "name": "Kirkkale"
+  },
+  {
+    "iso_code": "72",
+    "name": "Batman"
+  },
+  {
+    "iso_code": "73",
+    "name": "Şırnak"
+  },
+  {
+    "iso_code": "74",
+    "name": "Bartin"
+  },
+  {
+    "iso_code": "75",
+    "name": "Ardahan"
+  },
+  {
+    "iso_code": "76",
+    "name": "Iğdır"
+  },
+  {
+    "iso_code": "77",
+    "name": "Yalova"
+  },
+  {
+    "iso_code": "78",
+    "name": "Karabük"
+  },
+  {
+    "iso_code": "79",
+    "name": "Kilis"
+  },
+  {
+    "iso_code": "80",
+    "name": "Osmaniye"
+  },
+  {
+    "iso_code": "81",
+    "name": "Düzce"
+  }
+]

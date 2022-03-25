@@ -1,0 +1,22 @@
+[
+  {
+    "iso_code": "01",
+    "name": "Central Singapore"
+  },
+  {
+    "iso_code": "02",
+    "name": "North East"
+  },
+  {
+    "iso_code": "03",
+    "name": "North West"
+  },
+  {
+    "iso_code": "04",
+    "name": "South East"
+  },
+  {
+    "iso_code": "05",
+    "name": "South West"
+  }
+]

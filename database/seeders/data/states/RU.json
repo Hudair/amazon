@@ -1,0 +1,250 @@
+[
+  {
+    "iso_code": "AMU",
+    "name": "Amurskaya oblast'"
+  },
+  {
+    "iso_code": "ARK",
+    "name": "Arkhangel'skaya oblast"
+  },
+  {
+    "iso_code": "AST",
+    "name": "Astrakhanskaya oblast'"
+  },
+  {
+    "iso_code": "BEL",
+    "name": "Belgorodskaya oblast'"
+  },
+  {
+    "iso_code": "BRY",
+    "name": "Bryanskaya oblast'"
+  },
+  {
+    "iso_code": "CHE",
+    "name": "Chelyabinskaya oblast'"
+  },
+  {
+    "iso_code": "IRK",
+    "name": "Irkutskaya oblast'"
+  },
+  {
+    "iso_code": "IVA",
+    "name": "Ivanovskaya oblast'"
+  },
+  {
+    "iso_code": "KEM",
+    "name": "Kemerovskaya oblast'"
+  },
+  {
+    "iso_code": "KGD",
+    "name": "Kaliningradskaya oblast"
+  },
+  {
+    "iso_code": "KGN",
+    "name": "Kurganskaya oblast'"
+  },
+  {
+    "iso_code": "KIR",
+    "name": "Kirovskaya oblast'"
+  },
+  {
+    "iso_code": "KLU",
+    "name": "Kaluzhskaya oblast'"
+  },
+  {
+    "iso_code": "KOS",
+    "name": "Kostromskaya oblast'"
+  },
+  {
+    "iso_code": "KRS",
+    "name": "Kurskaya oblast'"
+  },
+  {
+    "iso_code": "LEN",
+    "name": "Leningradskaya oblast'"
+  },
+  {
+    "iso_code": "LIP",
+    "name": "Lipetskaya oblast'"
+  },
+  {
+    "iso_code": "MAG",
+    "name": "Magadanskaya oblast'"
+  },
+  {
+    "iso_code": "MOS",
+    "name": "Moskovskaya oblast'"
+  },
+  {
+    "iso_code": "MUR",
+    "name": "Murmanskaya oblast'"
+  },
+  {
+    "iso_code": "NGR",
+    "name": "Novgorodskaya oblast'"
+  },
+  {
+    "iso_code": "NIZ",
+    "name": "Nizbegorodskaya oblast"
+  },
+  {
+    "iso_code": "NVS",
+    "name": "Novosibirskaya oblast'"
+  },
+  {
+    "iso_code": "OMS",
+    "name": "Omskaya oblast'"
+  },
+  {
+    "iso_code": "ORE",
+    "name": "Orenburgskaya oblast'"
+  },
+  {
+    "iso_code": "ORL",
+    "name": "Orlovskaya oblast'"
+  },
+  {
+    "iso_code": "PNZ",
+    "name": "Penzenskaya oblast'"
+  },
+  {
+    "iso_code": "PSK",
+    "name": "Pskovskaya oblast'"
+  },
+  {
+    "iso_code": "ROS",
+    "name": "Rostovskaya oblast'"
+  },
+  {
+    "iso_code": "RYA",
+    "name": "Ryazanskaya oblast'"
+  },
+  {
+    "iso_code": "SAK",
+    "name": "Sakhalinskaya oblast'"
+  },
+  {
+    "iso_code": "SAM",
+    "name": "Samarskaya oblast'"
+  },
+  {
+    "iso_code": "SAR",
+    "name": "Saratovskaya oblast'"
+  },
+  {
+    "iso_code": "SMO",
+    "name": "Smolenskaya oblast'"
+  },
+  {
+    "iso_code": "SVE",
+    "name": "Sverdlovskaya oblast'"
+  },
+  {
+    "iso_code": "TAM",
+    "name": "Tambovskaya oblast'"
+  },
+  {
+    "iso_code": "TOM",
+    "name": "Tomskaya oblast'"
+  },
+  {
+    "iso_code": "TUL",
+    "name": "Tul'skaya oblast'"
+  },
+  {
+    "iso_code": "TVE",
+    "name": "Tverskaya oblast'"
+  },
+  {
+    "iso_code": "TYU",
+    "name": "Tyumenskaya oblast'"
+  },
+  {
+    "iso_code": "ULY",
+    "name": "Ul'yanovskaya oblast'"
+  },
+  {
+    "iso_code": "VGG",
+    "name": "Volgogradskaya oblast'"
+  },
+  {
+    "iso_code": "VLA",
+    "name": "Vladimirskaya oblast'"
+  },
+  {
+    "iso_code": "VLG",
+    "name": "Vologodskaya oblast'"
+  },
+  {
+    "iso_code": "VOR",
+    "name": "Voronezhskaya oblast'"
+  },
+  {
+    "iso_code": "YAR",
+    "name": "Yaroslavskaya oblast'"
+  },
+  {
+    "iso_code": "ALT",
+    "name": "Altayskiy kray"
+  },
+  {
+    "iso_code": "KAM",
+    "name": "Kamchatskiy kray"
+  },
+  {
+    "iso_code": "KDA",
+    "name": "Krasnodarskiy kray"
+  },
+  {
+    "iso_code": "KHA",
+    "name": "Khabarovskiy kray"
+  },
+  {
+    "iso_code": "KYA",
+    "name": "Krasnoyarskiy kray"
+  },
+  {
+    "iso_code": "PER",
+    "name": "Permskiy kray"
+  },
+  {
+    "iso_code": "PRI",
+    "name": "Primorskiy kray"
+  },
+  {
+    "iso_code": "STA",
+    "name": "Stavropol'skiy kray"
+  },
+  {
+    "iso_code": "ZAB",
+    "name": "Zabaykal'skiy kray"
+  },
+  {
+    "iso_code": "MOW",
+    "name": "Moskva"
+  },
+  {
+    "iso_code": "SPE",
+    "name": "Sankt-Peterburg"
+  },
+  {
+    "iso_code": "CHU",
+    "name": "Chukotskiy avtonomnyy okrug"
+  },
+  {
+    "iso_code": "KHM",
+    "name": "Khanty-Mansiyskiy avtonomnyy okrug-Yugra"
+  },
+  {
+    "iso_code": "NEN",
+    "name": "Nenetskiy avtonomnyy okrug"
+  },
+  {
+    "iso_code": "YAN",
+    "name": "Yamalo-Nenetskiy avtonomnyy okrug"
+  },
+  {
+    "iso_code": "YEV",
+    "name": "Yevreyskaya avtonomnaya oblast'ug"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "iso_code": "01",
+    "name": "Johor"
+  },
+  {
+    "iso_code": "02",
+    "name": "Kedah"
+  },
+  {
+    "iso_code": "03",
+    "name": "Kelantan"
+  },
+  {
+    "iso_code": "04",
+    "name": "Melaka"
+  },
+  {
+    "iso_code": "05",
+    "name": "Negeri Sembilan"
+  },
+  {
+    "iso_code": "06",
+    "name": "Pahang"
+  },
+  {
+    "iso_code": "07",
+    "name": "Pulau Pinang"
+  },
+  {
+    "iso_code": "08",
+    "name": "Perak"
+  },
+  {
+    "iso_code": "09",
+    "name": "Perlis"
+  },
+  {
+    "iso_code": "10",
+    "name": "Selangor"
+  },
+  {
+    "iso_code": "11",
+    "name": "Terengganu"
+  },
+  {
+    "iso_code": "12",
+    "name": "Sabah"
+  },
+  {
+    "iso_code": "13",
+    "name": "Sarawak"
+  },
+  {
+    "iso_code": "14",
+    "name": "Wilayah Persekutuan Kuala Lumpur"
+  },
+  {
+    "iso_code": "15",
+    "name": "Wilayah Persekutuan Labuan"
+  },
+  {
+    "iso_code": "16",
+    "name": "Wilayah Persekutuan Putrajaya"
+  }
+]

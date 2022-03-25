@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Aguascalientes",
+    "iso_code": "AG"
+  },
+  {
+    "name": "Baja California",
+    "iso_code": "BC"
+  },
+  {
+    "name": "Baja California Sur",
+    "iso_code": "BS"
+  },
+  {
+    "name": "Campeche",
+    "iso_code": "CM"
+  },
+  {
+    "name": "Chiapas",
+    "iso_code": "CS"
+  },
+  {
+    "name": "Chihuahua",
+    "iso_code": "CH"
+  },
+  {
+    "name": "Coahuila",
+    "iso_code": "MX"
+  },
+  {
+    "name": "Colima",
+    "iso_code": "CL"
+  },
+  {
+    "name": "Federal District",
+    "iso_code": "DF"
+  },
+  {
+    "name": "Durango",
+    "iso_code": "DG"
+  },
+  {
+    "name": "Guanajuato",
+    "iso_code": "GT"
+  },
+  {
+    "name": "Guerrero",
+    "iso_code": "GR"
+  },
+  {
+    "name": "Hidalgo",
+    "iso_code": "HG"
+  },
+  {
+    "name": "Jalisco",
+    "iso_code": "JA"
+  },
+  {
+    "name": "Mexico",
+    "iso_code": "ME"
+  },
+  {
+    "name": "Michoacán",
+    "iso_code": "MI"
+  },
+  {
+    "name": "Morelos",
+    "iso_code": "MO"
+  },
+  {
+    "name": "Nayarit",
+    "iso_code": "NA"
+  },
+  {
+    "name": "Nuevo León",
+    "iso_code": "NL"
+  },
+  {
+    "name": "Oaxaca",
+    "iso_code": "OA"
+  },
+  {
+    "name": "Puebla",
+    "iso_code": "PU"
+  },
+  {
+    "name": "Querétaro",
+    "iso_code": "QE"
+  },
+  {
+    "name": "Quintana Roo",
+    "iso_code": "QR"
+  },
+  {
+    "name": "San Luis Potosí",
+    "iso_code": "SL"
+  },
+  {
+    "name": "Sinaloa",
+    "iso_code": "SI"
+  },
+  {
+    "name": "Sonora",
+    "iso_code": "SO"
+  },
+  {
+    "name": "Tabasco",
+    "iso_code": "TB"
+  },
+  {
+    "name": "Tamaulipas",
+    "iso_code": "TM"
+  },
+  {
+    "name": "Tlaxcala",
+    "iso_code": "TL"
+  },
+  {
+    "name": "Veracruz",
+    "iso_code": "VE"
+  },
+  {
+    "name": "Yucatán",
+    "iso_code": "YU"
+  },
+  {
+    "name": "Zacatecas",
+    "iso_code": "ZA"
+  }
+]

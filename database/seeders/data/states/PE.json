@@ -1,0 +1,106 @@
+[
+  {
+    "iso_code": "LMA",
+    "name": "Municipalidad Metropolitana de Lima"
+  },
+  {
+    "iso_code": "AMA",
+    "name": "Amazonas"
+  },
+  {
+    "iso_code": "ANC",
+    "name": "Ancash"
+  },
+  {
+    "iso_code": "APU",
+    "name": "Apurímac"
+  },
+  {
+    "iso_code": "ARE",
+    "name": "Arequipa"
+  },
+  {
+    "iso_code": "AYA",
+    "name": "Ayacucho"
+  },
+  {
+    "iso_code": "CAJ",
+    "name": "Cajamarca"
+  },
+  {
+    "iso_code": "CUS",
+    "name": "Cusco"
+  },
+  {
+    "iso_code": "CAL",
+    "name": "El Callao"
+  },
+  {
+    "iso_code": "HUV",
+    "name": "Huancavelica"
+  },
+  {
+    "iso_code": "HUC",
+    "name": "Huánuco"
+  },
+  {
+    "iso_code": "ICA",
+    "name": "Ica"
+  },
+  {
+    "iso_code": "JUN",
+    "name": "Junín"
+  },
+  {
+    "iso_code": "LAL",
+    "name": "La Libertad"
+  },
+  {
+    "iso_code": "LAM",
+    "name": "Lambayeque"
+  },
+  {
+    "iso_code": "LIM",
+    "name": "Lima"
+  },
+  {
+    "iso_code": "LOR",
+    "name": "Loreto"
+  },
+  {
+    "iso_code": "MDD",
+    "name": "Madre de Dios"
+  },
+  {
+    "iso_code": "MOQ",
+    "name": "Moquegua"
+  },
+  {
+    "iso_code": "PAS",
+    "name": "Pasco"
+  },
+  {
+    "iso_code": "PIU",
+    "name": "Piura"
+  },
+  {
+    "iso_code": "PUN",
+    "name": "Puno"
+  },
+  {
+    "iso_code": "SAM",
+    "name": "San Martín"
+  },
+  {
+    "iso_code": "TAC",
+    "name": "Tacna"
+  },
+  {
+    "iso_code": "TUM",
+    "name": "Tumbes"
+  },
+  {
+    "iso_code": "UCA",
+    "name": "Ucayali"
+  }
+]

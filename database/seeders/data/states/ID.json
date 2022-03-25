@@ -1,0 +1,138 @@
+[
+  {
+    "iso_code": "AC",
+    "name": "Special Region of Aceh"
+  },
+  {
+    "iso_code": "BA",
+    "name": "Bali"
+  },
+  {
+    "iso_code": "BB",
+    "name": "Bangka–Belitung Islands"
+  },
+  {
+    "iso_code": "BT",
+    "name": "Banten"
+  },
+  {
+    "iso_code": "BE",
+    "name": "Bengkulu"
+  },
+  {
+    "iso_code": "JT",
+    "name": "Central Java"
+  },
+  {
+    "iso_code": "KT",
+    "name": "Central Kalimantan"
+  },
+  {
+    "iso_code": "ST",
+    "name": "Central Sulawesi"
+  },
+  {
+    "iso_code": "JI",
+    "name": "East Java"
+  },
+  {
+    "iso_code": "KI",
+    "name": "East Kalimantan"
+  },
+  {
+    "iso_code": "NT",
+    "name": "East Nusa Tenggara"
+  },
+  {
+    "iso_code": "GO",
+    "name": "Gorontalo"
+  },
+  {
+    "iso_code": "JK",
+    "name": "Jakarta Special Capital Region"
+  },
+  {
+    "iso_code": "JA",
+    "name": "Jambi"
+  },
+  {
+    "iso_code": "LA",
+    "name": "Lampung"
+  },
+  {
+    "iso_code": "MA",
+    "name": "Maluku"
+  },
+  {
+    "iso_code": "KU",
+    "name": "North Kalimantan"
+  },
+  {
+    "iso_code": "MU",
+    "name": "North Maluku"
+  },
+  {
+    "iso_code": "SA",
+    "name": "North Sulawesi"
+  },
+  {
+    "iso_code": "SU",
+    "name": "North Sumatra"
+  },
+  {
+    "iso_code": "PA",
+    "name": "Special Region of Papua"
+  },
+  {
+    "iso_code": "RI",
+    "name": "Riau"
+  },
+  {
+    "iso_code": "KR",
+    "name": "Riau Islands"
+  },
+  {
+    "iso_code": "SG",
+    "name": "Southeast Sulawesi"
+  },
+  {
+    "iso_code": "KS",
+    "name": "South Kalimantan"
+  },
+  {
+    "iso_code": "SN",
+    "name": "South Sulawesi"
+  },
+  {
+    "iso_code": "SS",
+    "name": "South Sumatra"
+  },
+  {
+    "iso_code": "JB",
+    "name": "West Java"
+  },
+  {
+    "iso_code": "KB",
+    "name": "West Kalimantan"
+  },
+  {
+    "iso_code": "NB",
+    "name": "West Nusa Tenggara"
+  },
+  {
+    "iso_code": "PB",
+    "name": "Special Region of West Papua"
+  },
+  {
+    "iso_code": "SR",
+    "name": "West Sulawesi"
+  },
+  {
+    "iso_code": "SB",
+    "name": "West Sumatra"
+  },
+  {
+    "iso_code": "YO",
+    "name": "Yogyakarta"
+  }
+]

@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'invoice' => 'Invoice',
+    'number'   => 'Reference',
+    'date'     => 'Billing date',
+    'time'     => 'Billing time',
+    'due'      => 'Due date',
+    'to'       => 'Billing to',
+    'from'     => 'Billing from',
+    'description'  => 'Description',
+    'qty'      => 'Qty',
+    'price'    => 'Price',
+    'discount' => 'Discount',
+    'taxes'    => 'Taxes',
+    'total'    => 'Total',
+    'grand_total' => 'Grand Total',
+    'handling' => 'Handling',
+    'shipping' => 'Shipping',
+    'packaging' => 'Packaging',
+    'page'     => 'Page',
+    'page_of'  => 'of',
+    'message' => 'Message',
+    'footer_note' => 'This is a computer generated invoice and requires no signature.',
+];

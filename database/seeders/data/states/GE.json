@@ -1,0 +1,50 @@
+[
+  {
+    "iso_code": "AB",
+    "name": "Abkhazia"
+  },
+  {
+    "iso_code": "AJ",
+    "name": "Ajaria"
+  },
+  {
+    "iso_code": "GU",
+    "name": "Guria"
+  },
+  {
+    "iso_code": "IM",
+    "name": "Imeret'i"
+  },
+  {
+    "iso_code": "KA",
+    "name": "Kakhet'i"
+  },
+  {
+    "iso_code": "KK",
+    "name": "K'vemo K'art'li"
+  },
+  {
+    "iso_code": "MM",
+    "name": "Mts'khet'a-Mt'ianet'i"
+  },
+  {
+    "iso_code": "RL",
+    "name": "Racha-Lech'khumi-K'vemo Svanet'i"
+  },
+  {
+    "iso_code": "SJ",
+    "name": "Samts'khe-Javakhet'i"
+  },
+  {
+    "iso_code": "SK",
+    "name": "Shida K'art'li"
+  },
+  {
+    "iso_code": "SZ",
+    "name": "Samegrelo-Zemo Svanet'i"
+  },
+  {
+    "iso_code": "TB",
+    "name": "T'bilisi"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "iso_code": "1",
+    "name": "Agadez"
+  },
+  {
+    "iso_code": "2",
+    "name": "Diffa"
+  },
+  {
+    "iso_code": "3",
+    "name": "Dosso"
+  },
+  {
+    "iso_code": "4",
+    "name": "Maradi"
+  },
+  {
+    "iso_code": "5",
+    "name": "Tahoua"
+  },
+  {
+    "iso_code": "6",
+    "name": "Tillabéri"
+  },
+  {
+    "iso_code": "7",
+    "name": "Zinder"
+  },
+  {
+    "iso_code": "8",
+    "name": "Niamey"
+  }
+]

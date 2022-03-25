@@ -1,0 +1,70 @@
+[
+  {
+    "iso_code": "AUK",
+    "name": "Auckland"
+  },
+  {
+    "iso_code": "BOP",
+    "name": "Bay of Plenty"
+  },
+  {
+    "iso_code": "CAN",
+    "name": "Canterbury"
+  },
+  {
+    "iso_code": "CIT",
+    "name": "Chatham Islands Territory"
+  },
+  {
+    "iso_code": "GIS",
+    "name": "Gisborne District"
+  },
+  {
+    "iso_code": "HKB",
+    "name": "Hawkes's Bay"
+  },
+  {
+    "iso_code": "MBH",
+    "name": "Marlborough District"
+  },
+  {
+    "iso_code": "MWT",
+    "name": "Manawatu-Wanganui"
+  },
+  {
+    "iso_code": "NSN",
+    "name": "Nelson City"
+  },
+  {
+    "iso_code": "NTL",
+    "name": "Northland"
+  },
+  {
+    "iso_code": "OTA",
+    "name": "Otago"
+  },
+  {
+    "iso_code": "STL",
+    "name": "Southland"
+  },
+  {
+    "iso_code": "TAS",
+    "name": "Tasman District"
+  },
+  {
+    "iso_code": "TKI",
+    "name": "Taranaki"
+  },
+  {
+    "iso_code": "WGN",
+    "name": "Wellington"
+  },
+  {
+    "iso_code": "WKO",
+    "name": "Waikato"
+  },
+  {
+    "iso_code": "WTC",
+    "name": "West Coast"
+  }
+]

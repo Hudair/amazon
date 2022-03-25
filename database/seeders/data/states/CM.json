@@ -1,0 +1,42 @@
+[
+  {
+    "iso_code": "AD",
+    "name": "Adamaoua"
+  },
+  {
+    "iso_code": "CE",
+    "name": "Centre"
+  },
+  {
+    "iso_code": "EN",
+    "name": "Far North"
+  },
+  {
+    "iso_code": "ES",
+    "name": "East"
+  },
+  {
+    "iso_code": "LT",
+    "name": "Littoral"
+  },
+  {
+    "iso_code": "NO",
+    "name": "North"
+  },
+  {
+    "iso_code": "NW",
+    "name": "North-West"
+  },
+  {
+    "iso_code": "OU",
+    "name": "West"
+  },
+  {
+    "iso_code": "SU",
+    "name": "South"
+  },
+  {
+    "iso_code": "SW",
+    "name": "South-West"
+  }
+]

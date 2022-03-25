@@ -1,0 +1,110 @@
+[
+  {
+    "iso_code": "AC",
+    "name": "Acre"
+  },
+  {
+    "iso_code": "AL",
+    "name": "Alagoas"
+  },
+  {
+    "iso_code": "AP",
+    "name": "Amapá"
+  },
+  {
+    "iso_code": "AM",
+    "name": "Amazonas"
+  },
+  {
+    "iso_code": "BA",
+    "name": "Bahia"
+  },
+  {
+    "iso_code": "CE",
+    "name": "Ceará"
+  },
+  {
+    "iso_code": "DF",
+    "name": "Distrito Federal"
+  },
+  {
+    "iso_code": "ES",
+    "name": "Espírito Santo"
+  },
+  {
+    "iso_code": "GO",
+    "name": "Goiás"
+  },
+  {
+    "iso_code": "MA",
+    "name": "Maranhão"
+  },
+  {
+    "iso_code": "MT",
+    "name": "Mato Grosso"
+  },
+  {
+    "iso_code": "MS",
+    "name": "Mato Grosso do Sul"
+  },
+  {
+    "iso_code": "MG",
+    "name": "Minas Gerais"
+  },
+  {
+    "iso_code": "PA",
+    "name": "Pará"
+  },
+  {
+    "iso_code": "PB",
+    "name": "Paraíba"
+  },
+  {
+    "iso_code": "PR",
+    "name": "Paraná"
+  },
+  {
+    "iso_code": "PE",
+    "name": "Pernambuco"
+  },
+  {
+    "iso_code": "PI",
+    "name": "Piauí"
+  },
+  {
+    "iso_code": "RJ",
+    "name": "Rio de Janeiro"
+  },
+  {
+    "iso_code": "RN",
+    "name": "Rio Grande do Norte"
+  },
+  {
+    "iso_code": "RS",
+    "name": "Rio Grande do Sul"
+  },
+  {
+    "iso_code": "RO",
+    "name": "Rondônia"
+  },
+  {
+    "iso_code": "RR",
+    "name": "Roraima"
+  },
+  {
+    "iso_code": "SC",
+    "name": "Santa Catarina"
+  },
+  {
+    "iso_code": "SP",
+    "name": "São Paulo"
+  },
+  {
+    "iso_code": "SE",
+    "name": "Sergipe"
+  },
+  {
+    "iso_code": "TO",
+    "name": "Tocantins"
+  }
+]
